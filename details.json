@@ -1,0 +1,2156 @@
+{
+  "startTime": 1701721302544,
+  "crawlType": "Website",
+  "requestUrl": "https://www.uvmhealth.org/",
+  "endTime": 1701722142075,
+  "urlsCrawled": {
+    "toScan": [],
+    "scanned": [
+      {
+        "url": "https://www.uvmhealth.org/",
+        "pageTitle": "Home | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/for-medical-professionals",
+        "pageTitle": "For Medical Professionals"
+      },
+      {
+        "url": "https://www.uvmhealth.org/for-network-employees",
+        "pageTitle": "For Network Employees"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/",
+        "pageTitle": "The University of Vermont Health Network - Login Page",
+        "actualUrl": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?"
+      },
+      {
+        "url": "https://www.uvmhealth.org/doctors",
+        "pageTitle": "Doctors and Specialists"
+      },
+      {
+        "url": "https://www.uvmhealth.org/network-locations",
+        "pageTitle": "Our Locations"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/online-tools-and-information",
+        "pageTitle": "Interactive Tools"
+      },
+      {
+        "url": "https://www.uvmhealth.org/research-and-education",
+        "pageTitle": "Research and Education"
+      },
+      {
+        "url": "https://www.uvmhealth.org/about-uvm-health-network",
+        "pageTitle": "About The UVM Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/careers",
+        "pageTitle": "Careers - The University of Vermont Health Network",
+        "actualUrl": "https://www.uvmhealthnetworkcareers.org/"
+      },
+      {
+        "url": "https://www.uvmhealth.org/health-wellness",
+        "pageTitle": "Health and Wellness | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/health-wellness/flu-prevention",
+        "pageTitle": "Flu Prevention | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://uvmhealth.org/violence",
+        "pageTitle": "Violence | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-cardiology",
+        "pageTitle": "Pediatric Cardiology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter",
+        "pageTitle": "Medical Center | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-genetics",
+        "pageTitle": "Pediatric Genetics"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-gastroenterology-and-nutrition",
+        "pageTitle": "Pediatric Gastroenterology & Nutrition"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-intensive-care",
+        "pageTitle": "Pediatric Intensive Care"
+      },
+      {
+        "url": "https://www.uvmhealth.org/price-transparency",
+        "pageTitle": "Price Transparency | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital",
+        "pageTitle": "Children's Hospital | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/department-vermont-health-access-and-uvm-health-network-partner-make-innovative-chronic-pain-care",
+        "pageTitle": "Department of Vermont Health Access and UVM Health Network Partner to Make Innovative Chronic Pain Care Accessible to More Vermonters | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/a-call-peace-middle-east-and-home",
+        "pageTitle": "A Call for Peace, in the Middle East and at Home | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/medcenter/uvm-medical-center-president-and-coo-dr-stephen-leffler-named-vizient-amc-ceo-executive-advisory",
+        "pageTitle": "UVM Medical Center President and COO Dr. Stephen Leffler Named to Vizient AMC CEO Executive Advisory Council | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/about-the-uvm-health-network/medical-group",
+        "pageTitle": "Medical Group"
+      },
+      {
+        "url": "https://www.uvmhealth.org/site-map",
+        "pageTitle": "Site Map"
+      },
+      {
+        "url": "https://www.uvmhealth.org/contact-us",
+        "pageTitle": "Contact Us"
+      },
+      {
+        "url": "https://www.uvmhealth.org/privacy-policy",
+        "pageTitle": "Privacy Policy"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/our-commitment-patients-and-communities-we-serve",
+        "pageTitle": "Our commitment to the patients and communities we serve - YouTube",
+        "actualUrl": "https://www.youtube.com/watch?v=2idfm2TXeWY"
+      },
+      {
+        "url": "http://www.uvmhealth.org/CVPHMyChart",
+        "pageTitle": "UVM Health Network - CVPH - MyChart",
+        "actualUrl": "https://www.cvph.org/Patients-and-Visitors/Patients/MyChart"
+      },
+      {
+        "url": "https://www.uvmhealth.org/mychart",
+        "pageTitle": "MyChart | The University of Vermont Health Network"
+      },
+      {
+        "url": "http://www.uvmhealth.org/CVMC/mychart",
+        "pageTitle": "Meet MyChart | Central Vermont Medical Center",
+        "actualUrl": "https://www.cvmc.org/patient-portals/meet-mychart"
+      },
+      {
+        "url": "https://www.uvmhealth.org/mychart/faqs",
+        "pageTitle": "Frequently Asked Questions | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/coronavirus/for-medical-professionals",
+        "pageTitle": "Coronavirus | The University of Vermont Health Network",
+        "actualUrl": "https://www.uvmhealth.org/coronavirus"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/recoverlogin.asp",
+        "pageTitle": "The University of Vermont Health Network - Login Recovery Page"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/for-employees",
+        "pageTitle": "For Employees"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/passwordreset.asp",
+        "pageTitle": "The University of Vermont Health Network - Password Reset page"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/for-medical-professionals",
+        "pageTitle": "For Medical Professionals"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/accesscheck.asp",
+        "pageTitle": "The University of Vermont Health Network - signup page"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/Help/Cookies",
+        "pageTitle": "The University of Vermont Health Network - Help - Enabling Browser Cookies"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart//GuestEstimates",
+        "pageTitle": "The University of Vermont Health Network - Patient Estimates"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart//billing/GuestPay",
+        "pageTitle": "The University of Vermont Health Network - Pay as Guest"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?mode=stdfile&option=hlthprivacy",
+        "pageTitle": "The University of Vermont Health Network - Login Page"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?mode=stdfile&option=epiccopyright",
+        "pageTitle": "The University of Vermont Health Network - Login Page"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?mode=stdfile&option=termsandconditions",
+        "pageTitle": "The University of Vermont Health Network - Login Page"
+      },
+      {
+        "url": "https://www.uvmhealth.org/doctors/for-medical-professionals",
+        "pageTitle": "For Medical Professionals"
+      },
+      {
+        "url": "https://www.uvmhealth.org/network-locations/walk-care-locations",
+        "pageTitle": "Walk-In Care Locations | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/find-medical-providers",
+        "pageTitle": "Find Medical Providers | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/volunteer",
+        "pageTitle": "Volunteer"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center",
+        "pageTitle": "About UVM Medical Center"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors/billing-insurance-and-registration",
+        "pageTitle": "Billing & Financial Assistance"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/contact-us",
+        "pageTitle": "Contact UVM Medical Center"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs",
+        "pageTitle": "Departments & Programs"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/foundation",
+        "pageTitle": "Foundation | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments",
+        "pageTitle": "Conditions & Treatments"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors",
+        "pageTitle": "Patients & Visitors | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/cancer-medical-professionals",
+        "pageTitle": "For Medical Professionals"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?mode=stdfile&option=faq",
+        "pageTitle": "The University of Vermont Health Network - Login Page"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/radiology",
+        "pageTitle": "Radiology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/orthopedic-care",
+        "pageTitle": "Orthopedic Care"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/primary-care",
+        "pageTitle": "Primary Care | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources",
+        "pageTitle": "Wellness Resources"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/surgical-services",
+        "pageTitle": "Surgical Services"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/heart-and-vascular",
+        "pageTitle": "Heart and Vascular"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/womens-health",
+        "pageTitle": "Womens Health"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/ehealth",
+        "pageTitle": "eHealth"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center",
+        "pageTitle": "Cancer Center"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1042",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/echocardiography",
+        "pageTitle": "Echocardiography"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/diabetes",
+        "pageTitle": "Diabetes"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/knee-pain",
+        "pageTitle": "Knee Pain"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/breast-cancer",
+        "pageTitle": "Breast Cancer"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/colonoscopy",
+        "pageTitle": "Colonoscopy"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/osteoarthritis",
+        "pageTitle": "Osteoarthritis"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/gastroesophageal-reflux-disease-gerd",
+        "pageTitle": "Gastroesophageal Reflux Disease (GERD)"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/mammograms",
+        "pageTitle": "Mammograms"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/heart-failure",
+        "pageTitle": "Heart Failure"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/nasal-polyps",
+        "pageTitle": "Nasal Polyps"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/robotic-assisted-surgery",
+        "pageTitle": "Robotic-Assisted Surgery"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/dining-services/menus-and-dining-locations",
+        "pageTitle": "Menus & Dining Locations"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors/patients/medical-records",
+        "pageTitle": "Request Medical Records"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/women-and-heart-disease",
+        "pageTitle": "Women & Heart Disease"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/locations-and-directions/view-maps-of-our-buildings",
+        "pageTitle": "View Maps of Our Buildings"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/peripheral-vascular-disease",
+        "pageTitle": "Peripheral Vascular Disease"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/contact-us/important-phone-numbers",
+        "pageTitle": "Important Phone Numbers"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/mychart",
+        "pageTitle": "MyChart | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/location/uvm-medical-center-main-campus",
+        "pageTitle": "UVM Medical Center - Main Campus | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors/visitors/visiting-hours",
+        "pageTitle": "Visiting Hours"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/stroke-care",
+        "pageTitle": "Stroke Care"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/location/urgent-care",
+        "pageTitle": "Urgent Care | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors/request-appointment",
+        "pageTitle": "Request an Appointment"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/location/1-south-prospect-street",
+        "pageTitle": "1 South Prospect Street | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/locations-and-directions/main-campus-parking",
+        "pageTitle": "Main Campus Parking"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/lung-cancer",
+        "pageTitle": "Lung Cancer"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/location/fanny-allen-campus",
+        "pageTitle": "Fanny Allen Campus | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention",
+        "pageTitle": "Injury Prevention"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/classes-and-events/tobacco-cessation",
+        "pageTitle": "Tobacco Cessation"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/classes-and-events/healthsource-classes",
+        "pageTitle": "HealthSource Classes | The University of Vermont Health Network",
+        "actualUrl": "https://www.uvmhealth.org/health-wellness/healthsource-classes"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/community-health-resource-center",
+        "pageTitle": "Community Health Resources"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/classes-and-events/move-to-lose",
+        "pageTitle": "Move To Lose"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/culinary-medicine",
+        "pageTitle": "Culinary Medicine | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/neurological-care/neurological-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/classes-and-events/healthier-living-workshops",
+        "pageTitle": "My Healthy Vermont Workshops"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/cancer-clinical-trials-and-research",
+        "pageTitle": "Cancer Clinical Trials"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/rehabilitation/rehabilitation-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/support-groups",
+        "pageTitle": "Support Groups"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/events",
+        "pageTitle": "Events & Programs | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/mental-health/mental-health-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/heart-health/heart-health-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/orthopedic-care/orthopedics-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/health-careers/nursing-careers/areas-of-focus/lna-training",
+        "pageTitle": "Nursing Assistant Careers - The University of Vermont Health Network",
+        "actualUrl": "https://lna.uvmmedicalcentercareers.org/"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/for-medical-professionals/refer-a-patient",
+        "pageTitle": "Refer a Patient"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/radiology/radiology-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/for-medical-professionals/provider-resources/simulation-lab",
+        "pageTitle": "Simulation Lab"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/health-careers/physician-careers",
+        "pageTitle": "Physicians | Careers - The University of Vermont Health Network",
+        "actualUrl": "https://www.uvmhealthnetworkcareers.org/physicians.html"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/for-medical-professionals/physicians/cme-and-grand-rounds",
+        "pageTitle": "CMIE & Grand Rounds"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/emergency-room",
+        "pageTitle": "Emergency Room"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/locations",
+        "pageTitle": "Locations | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/surgical-services/surgery-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/for-medical-professionals/nurses",
+        "pageTitle": "Nurses"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/for-medical-professionals/resident-and-fellows",
+        "pageTitle": "Resident & Fellows"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/womens-health/womens-health-clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention/car-seat-safety",
+        "pageTitle": "Car Seat Safety"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention/distracted-driving",
+        "pageTitle": "Distracted Driving"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/safety-programs/fall-prevention",
+        "pageTitle": "Fall Prevention"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention/helmet-safety",
+        "pageTitle": "Helmet Safety"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention/safe-kids-vermont",
+        "pageTitle": "Safe Kids Vermont"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention/safe-sleep",
+        "pageTitle": "Safe Sleep | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/screenings/early-hearing-detection-and-intervention/deaf-hard-hearing-and-deafblind-educational-services-program",
+        "pageTitle": "Deaf, Hard of Hearing and DeafBlind Educational Services Program | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/employer-health-management-programs",
+        "pageTitle": "Employer Health Management"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/screenings/early-hearing-detection-and-intervention",
+        "pageTitle": "Early Hearing Detection & Intervention"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-ministries",
+        "pageTitle": "Health Ministries"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention/trauma-survivors-network",
+        "pageTitle": "Trauma Survivors Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/employer-health-management-programs/employee-wellness-programs",
+        "pageTitle": "Employee Wellness Programs"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/screenings",
+        "pageTitle": "Screenings"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1050",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/tu6657",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/share",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1001",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/injury-prevention/stop-the-bleed",
+        "pageTitle": "Stop The Bleed"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1002",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1004",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1003",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1046",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1006",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1008",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1005",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1007",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1010",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1009",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1013",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1011",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1012",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1048",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1014",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1015",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1020",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1016",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1019",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1018",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1047",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1024",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1023",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1021",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1025",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1027",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1026",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1028",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1029",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1044",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1051",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1045",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "http://www.uvmhealth.org/PMC/mychart",
+        "pageTitle": "Meet MyChart - Porter Medical Center",
+        "actualUrl": "https://www.portermedical.org/patients-visitors/patient-portals/meet-mychart/"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1030",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1031",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart//GuestEstimates",
+        "pageTitle": "The University of Vermont Health Network - Patient Estimates"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1032",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1036",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1033",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1043",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1035",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1034",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1037",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1038",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/good-faith-estimate",
+        "pageTitle": "Good Faith Estimate | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1041",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1039",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/balance-billing-notice",
+        "pageTitle": "Balance Billing Notice | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1049",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors/billing-insurance-and-registration/financial-assistance",
+        "pageTitle": "Financial Assistance"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/center1040",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors/billing-insurance-and-registration/bill-pay",
+        "pageTitle": "Pay a Bill"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/food-and-nutrition.html",
+        "pageTitle": "Food and Nutrition | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/environmental-services.html",
+        "pageTitle": "Environmental Services | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://translate.google.com/",
+        "pageTitle": "Google Translate"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/imaging.html",
+        "pageTitle": "Imaging | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://lna.uvmmedicalcentercareers.org/",
+        "pageTitle": "Nursing Assistant Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/nursing.html",
+        "pageTitle": "Nursing | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/medical-office-support.html",
+        "pageTitle": "Medical Office Support | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/life-in-VT-NY.html",
+        "pageTitle": "Life in Vermont & New York | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/employee-referral-program.html",
+        "pageTitle": "The University of Vermont Health Network Employee Referral Program | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/diversity-equity-inclusion.html",
+        "pageTitle": "Diversity, Equity and Inclusion | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmprovidercareers.org/",
+        "pageTitle": "Careers | The University of Vermont Health Network",
+        "actualUrl": "https://www.uvmhnprovidercareers.org/"
+      },
+      {
+        "url": "https://medcenterblog.uvmhealth.org/",
+        "pageTitle": "HealthSource | The University of Vermont Health Network",
+        "actualUrl": "https://www.uvmhealth.org/healthsource"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/benefits.html",
+        "pageTitle": "Benefits | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/workforce-development-pathways.html",
+        "pageTitle": "Workforce Development Pathways | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/uvmmc.html",
+        "pageTitle": "The University of Vermont Medical Center | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/alice-hyde.html",
+        "pageTitle": "Alice Hyde Medical Center | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/hiring-process-overview.html",
+        "pageTitle": "Hiring Process | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/new-to-nursing.html",
+        "pageTitle": "New to Nursing | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/cvph.html",
+        "pageTitle": "Champlain Valley Physicians Hospital | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/cvmc.html",
+        "pageTitle": "Central Vermont Medical Center | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/",
+        "pageTitle": "Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/porter-medical.html",
+        "pageTitle": "Porter Medical Center | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/medical-group.html",
+        "pageTitle": "The UVM Health Network – Home Health & Hospice | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/elizabethtown.html",
+        "pageTitle": "Elizabethtown Community Hospital | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/home-health-hospice.html",
+        "pageTitle": "The UVM Health Network – Home Health & Hospice | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/audiology/",
+        "pageTitle": "Audiology Jobs | The UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/connect-with-a-talent-acquisition-partner.html",
+        "pageTitle": "Connect with a Talent Acquisition Partner | Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/finance-and-accounting/",
+        "pageTitle": "Finance and Accounting Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/hospice-and-homecare/",
+        "pageTitle": "Hospice and Homecare Jobs | UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/r0059247_csbanner",
+        "pageTitle": "Careers - The University of Vermont Health Network",
+        "actualUrl": "https://www.uvmhealthnetworkcareers.org/job/registered-nurse-hospice-mcclure-miller-respite-house-nights-registered-nurse-us-vt-colchester-3113-roosevelt-hwy-r0059247-86/?utm_source=r0059247_csbanner"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/dental/",
+        "pageTitle": "Dental Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/human-resources/",
+        "pageTitle": "Human Resources Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/clinical-technician/",
+        "pageTitle": "Clinical Technician Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/dietitian/",
+        "pageTitle": "Dietitian Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/certified-nurse-aide/",
+        "pageTitle": "Certified Nurse Aide Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/clerk/",
+        "pageTitle": "Clerk Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/medical-billing-coding/",
+        "pageTitle": "Medical Billing & Coding Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/information-technology/",
+        "pageTitle": "Information Technology Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/lpnjobs_csbanner",
+        "pageTitle": "LPN Jobs | The University of Vermont Health Network Careers",
+        "actualUrl": "https://www.uvmhealthnetworkcareers.org/jobs/lpn/?hospital=ahmc-alice-hyde-medical-center&utm_source=lpnjobs_csbanner"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/crna-aa/",
+        "pageTitle": "CRNA/AA Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/licensed-certified-professional/",
+        "pageTitle": "Licensed/Certified Professional Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/case-management/",
+        "pageTitle": "Case Management Jobs | The UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/emergency-technician/",
+        "pageTitle": "Emergency Technician Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/facilities-management/",
+        "pageTitle": "Facilities Management Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/food-service/",
+        "pageTitle": "Food Service Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/environmental-services-housekeeping/",
+        "pageTitle": "Environmental Service Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/leadership/",
+        "pageTitle": "Leadership Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/lna/",
+        "pageTitle": "LNA Jobs | The UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/lpn/",
+        "pageTitle": "LPN Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/cardiology-respiratory-care/",
+        "pageTitle": "Cardiology & Respiratory Care Jobs | The UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/administration/",
+        "pageTitle": "Administration Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/medical-assistant/",
+        "pageTitle": "Medical Assistant Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/clinical-lab-technician/",
+        "pageTitle": "Clinical Lab Technician Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/diagnostic-imaging/",
+        "pageTitle": "Diagnostic Imaging Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/mental-health/",
+        "pageTitle": "Mental Health Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/midwife/",
+        "pageTitle": "APRN/Nurse Practitioner Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/non-licensed-or-entry-level/",
+        "pageTitle": "Non-Licensed &/or Entry Level Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/nurse-practitioner-physician-assistant/",
+        "pageTitle": "Nurse Practitioner Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/public-relations-and-marketing/",
+        "pageTitle": "Public Relations and Marketing Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/security-screening/",
+        "pageTitle": "Security & Screening Jobs | The UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/social-work/",
+        "pageTitle": "Social Work Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/research/",
+        "pageTitle": "Research Jobs | The UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/training-and-education/",
+        "pageTitle": "Training and Education Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/sterile-reprocessing/",
+        "pageTitle": "Sterile Reprocessing Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/purchasing-supply-chain/",
+        "pageTitle": "Purchasing (Supply Chain) Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/transporter/",
+        "pageTitle": "Transporter Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/patient-service-specialist/",
+        "pageTitle": "Patient Service Specialist Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/residency-trainee/",
+        "pageTitle": "Residency & Trainee Jobs | The UVM Health Network | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/surgical-technicians/",
+        "pageTitle": "Surgical Technician Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=uvmhn-uvm-health-network",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://nursing.uvmmedicalcentercareers.org/blog/",
+        "pageTitle": "Careers - University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/job/licensed-practical-nurse-primary-care-lpn-lpn-us-ny-malone-5-clay-st-r0060539-106/",
+        "pageTitle": "LPN Job: Licensed Practical Nurse - Primary Care LPN at The University of Vermont Health Network in AHMC - Malone Medical Practice"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/job/buyer-purchasing-supply-chain-us-vt-berlin-130-fisher-rd-r0060495-1/",
+        "pageTitle": "Purchasing (Supply Chain) Job: Buyer at The University of Vermont Health Network in CVMC - Central Vermont Medical Group Practice"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/job/central-sterile-processing-educator-sterile-reprocessing-us-vt-burlington-111-colchester-ave-r0047747-5/",
+        "pageTitle": "Sterile Reprocessing Job: Central Sterile Processing - Educator at The University of Vermont Health Network in UVMMC - Medical Center - Main Campus"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/pharmacology/",
+        "pageTitle": "Pharmacy Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/uvm-health-network-hospitals-recognized-us-news-world-report",
+        "pageTitle": "UVM Health Network Hospitals Recognized by U.S. News & World Report | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.uvmhealthnetworkcareers.org/",
+        "pageTitle": "Facebook",
+        "actualUrl": "https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.uvmhealthnetworkcareers.org%252F&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_US"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/nursing-leadership/",
+        "pageTitle": "Nursing Leadership jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/talentnetwork/",
+        "pageTitle": "Careers - The University of Vermont Health Network"
+      },
+      {
+        "url": "https://twitter.com/intent/tweet?url=https://www.uvmhealthnetworkcareers.org/",
+        "pageTitle": "",
+        "actualUrl": "https://twitter.com/i/flow/login?redirect_after_login=%2Fintent%2Ftweet%3Furl%3Dhttps%3A%2F%2Fwww.uvmhealthnetworkcareers.org%2F"
+      },
+      {
+        "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://www.uvmhealthnetworkcareers.org/",
+        "pageTitle": "Sign Up | LinkedIn",
+        "actualUrl": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2FshareArticle%2F%3Furl%3Dhttps%3A%2F%2Fwww%2Euvmhealthnetworkcareers%2Eorg%2F&trk=login_reg_redirect"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/physician/",
+        "pageTitle": "Physician jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197",
+        "pageTitle": "RecruitiFi"
+      },
+      {
+        "url": "https://www.linkedin.com/company/8821879",
+        "pageTitle": "LinkedIn Login, Sign in | LinkedIn",
+        "actualUrl": "https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F8821879"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/registered-nurse/",
+        "pageTitle": "Registered Nurse Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/support-services/",
+        "pageTitle": "Support Service Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/rehabilitation-service-therapy/",
+        "pageTitle": "Rehabilitation Service/Therapy Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealth.org/health-wellness/healthsource-classes",
+        "pageTitle": "HealthSource Classes | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/health-wellness/health-assistance-program",
+        "pageTitle": "Health Assistance Program | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/health-wellness/uvm-health-network-community-benefit",
+        "pageTitle": "UVM Health Network Community Benefit"
+      },
+      {
+        "url": "https://www.uvmhealth.org/coronavirus",
+        "pageTitle": "Coronavirus | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/coronavirus/healthsource",
+        "pageTitle": "HealthSource | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ",
+        "pageTitle": "University of Vermont Health Network - YouTube"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=uvmmc-the-university-of-vermont-medical-center",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://twitter.com/uvmhealth",
+        "pageTitle": "Log in to X / X"
+      },
+      {
+        "url": "https://www.uvmhealth.org/health-wellness/support-groups",
+        "pageTitle": "Support Groups | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/health-wellness/mail-order-pharmacy",
+        "pageTitle": "Mail Order Pharmacy | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=ahmc-alice-hyde-medical-center",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=cvmc-central-vermont-medical-center",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=ech-elizabethtown-community-hospital",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=cvph-champlain-valley-physicians-hospital",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=porter-porter-medical-center",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealthnetworkcareers.org/jobs/?hospital=hhh-uvm-health-network-home-health-hospice",
+        "pageTitle": "Jobs | The University of Vermont Health Network Careers"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/its-sick-season-again-now-what",
+        "pageTitle": "It’s Sick Season Again, Now What? | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource",
+        "pageTitle": "HealthSource | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/taxonomy/term/13319",
+        "pageTitle": "COVID-19 | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/what-you-need-know-about-rsv-flu-and-covid-right-now",
+        "pageTitle": "What You Need to Know About RSV, Flu and COVID Right Now | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/top-3-tips-avoid-flu",
+        "pageTitle": "Top 3 Tips to Avoid the Flu | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties",
+        "pageTitle": "Pediatric Specialties"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/patients-visitors",
+        "pageTitle": "Patients & Visitors | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/chldrens-hospital/clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research",
+        "actualUrl": "https://www.uvmhealth.org/childrens-hospital/clinical-trials-and-research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/clinical-trials-and-research",
+        "pageTitle": "Clinical Trials & Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/chldrens-hospital/for-medical-professionals",
+        "pageTitle": "For Medical Professionals",
+        "actualUrl": "https://www.uvmhealth.org/childrens-hospital/for-medical-professionals"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/for-medical-professionals",
+        "pageTitle": "For Medical Professionals"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/contact-us",
+        "pageTitle": "Contact Us | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/about-vermont-childrens-hospital",
+        "pageTitle": "About Us"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/locations-directions",
+        "pageTitle": "Locations & Directions | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/support-vermont-childrens-hospital",
+        "pageTitle": "Support Us | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/taxonomy/term/13406",
+        "pageTitle": "Wellness | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/audrey-dionne-md",
+        "pageTitle": "Audrey Dionne, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/danielle-s-burstein-md",
+        "pageTitle": "Danielle Burstein, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/nancy-a-drucker-md",
+        "pageTitle": "Nancy Drucker, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/jonathan-n-flyer-md",
+        "pageTitle": "Jonathan Flyer, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/brush-it",
+        "pageTitle": "Brush It Off | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/covid-19-vaccination-it-really-safe-my-kids",
+        "pageTitle": "COVID-19 Vaccination: Is it Really Safe for My Kids? | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/no-warning-signs",
+        "pageTitle": "No Warning Signs | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/caitlin-s-haxel-md",
+        "pageTitle": "Caitlin Haxel, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/niels-giddins-md",
+        "pageTitle": "Niels Giddins, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/your-kid-being-bullied",
+        "pageTitle": "Is Your Kid Being Bullied? | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/prostate-cancer-what-you-need-know-now",
+        "pageTitle": "Prostate Cancer: What You Need to Know Now | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/radiology-speed-a-click",
+        "pageTitle": "Radiology at the Speed of a Click | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/unitedhealthcare-commercial-contract-non-renewal",
+        "pageTitle": "UnitedHealthcare Commercial Contract Non-Renewal | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/small-mighty",
+        "pageTitle": "‘Small, But Mighty’ | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/pathology-and-laboratory-medicine/for-patients-and-families/blood-draw-sites-and-hours",
+        "pageTitle": "Blood Draw Sites & Hours"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/find-a-doctor?field_specialties_target_id=8537&field_accepting_new_patients_value=1&field_provider_group_value=uvm_medical_group",
+        "pageTitle": "Find A Doctor | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/search/tags?topic=Children%27s%20Health",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/nord27",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/search/tags?topic=Cancer",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-pulmonology",
+        "pageTitle": "Pediatric Pulmonology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/hw186727",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/pharmacy-services",
+        "pageTitle": "Pharmacy Services"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cardiology",
+        "pageTitle": "Cardiology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/search/tags?topic=Chronic%20Conditions",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/craniofacial-program",
+        "pageTitle": "Craniofacial Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/katherine-j-anderson-md",
+        "pageTitle": "Katherine Anderson, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/hw191398",
+        "pageTitle": "Health Library | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/denise-bonyun-ms",
+        "pageTitle": "Denise Bonyun, MS | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/leanne-f-haskin-leahy-ms",
+        "pageTitle": "Leanne Haskin-Leahy, MS | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-weight-management",
+        "pageTitle": "Pediatric Weight Management"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/leah-w-burke-md",
+        "pageTitle": "Leah Burke, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/pediatric-gastroenterology-and-nutrition/pediatric-gastroenterology-treatments-and-services",
+        "pageTitle": "Treatments & Services"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/robert-s-wildin-md",
+        "pageTitle": "Robert Wildin, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/michael-a-damico-md",
+        "pageTitle": "Michael D'Amico, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/neurology",
+        "pageTitle": "Neurology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/locations?title=pediatric&field_location_type_target_id=All&lat=&lng=&geolocation_geocoder_address=&field_geo_coordinates_proximity=2",
+        "pageTitle": "Locations | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/advisory-uvm-health-network-again-receives-high-rating-price-transparency",
+        "pageTitle": "Advisory: UVM Health Network Again Receives High Rating for Price Transparency | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/nina-l-gluchowski-md",
+        "pageTitle": "Nina Gluchowski, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/rebecca-c-bell-md",
+        "pageTitle": "Rebecca Bell, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/kristin-p-crosby-md",
+        "pageTitle": "Kristin Crosby, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/jillian-s-sullivan-md-msc",
+        "pageTitle": "Jillian Sullivan, MD, MSc | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/amelia-j-hopkins-md",
+        "pageTitle": "Amelia Hopkins, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/iris-toedt-pingel-md",
+        "pageTitle": "Iris Toedt-Pingel, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/provider/elizabeth-d-ulano-md",
+        "pageTitle": "Elizabeth Ulano, MD | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/news",
+        "pageTitle": "News | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/pediatric-emergency-medicine-team-shares-knowledge-across-vermont",
+        "pageTitle": "Pediatric Emergency Medicine Team Shares Knowledge Across Vermont | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-hematology-and-oncology",
+        "pageTitle": "Pediatric Hematology & Oncology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/pediatric-surgery-program",
+        "pageTitle": "Pediatric Surgery Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties/transgender-youth-program",
+        "pageTitle": "Transgender Youth Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/university-vermont-medical-center-thrombosis-and-hemostasis-program-celebrates-20-years-world",
+        "pageTitle": "University of Vermont Medical Center Thrombosis and Hemostasis Program Celebrates 20 Years on World Thrombosis Day | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/uvm-medical-center-porter-medical-center-earn-5-star-cms-quality-ratings",
+        "pageTitle": "UVM Medical Center, Porter Medical Center Earn 5-Star CMS Quality Ratings | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/medcenter/uvm-medical-center-president-speaks-us-house-representatives-joint-subcommittee-hearing-capitol-hill",
+        "pageTitle": "UVM Medical Center President Speaks at U.S. House of Representatives Joint Subcommittee Hearing on Capitol Hill in Washington, D.C. | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/uvm-health-network-recognized-forbes-annual-best-employers-list",
+        "pageTitle": "UVM Health Network Recognized on Forbes’ Annual Best Employers List | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/pmc/tom-thompson-step-away-porter-medical-center-president-and-coo",
+        "pageTitle": "Tom Thompson to Step Away as Porter Medical Center President and COO | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/medcenter/dr-stephen-leffler-president-and-coo-uvm-medical-center-highlighted-national-academic-medical-center",
+        "pageTitle": "Dr. Stephen Leffler, President and COO of UVM Medical Center, Highlighted in National ‘Academic Medical Center CEOs to Know’ List for 2023 | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/medcenter/uvm-medical-center-hosts-summer-science-event",
+        "pageTitle": "UVM Medical Center Hosts Summer of Science Event | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/uvm-health-network-vermont-state-university-community-college-vermont-welcome-students-revitalized",
+        "pageTitle": "UVM Health Network, Vermont State University, Community College of Vermont Welcome Students to Revitalized Respiratory Therapy Training Program | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/uvm-health-network-outlines-plan-improve-mental-health-care-access-reduce-pressure-inpatient",
+        "pageTitle": "UVM Health Network Outlines Plan to Improve Mental Health Care Access, Reduce Pressure on Inpatient Capacity in Region | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/rural-health-care-crisis-discussed-during-live-roundtable-leaders-look-future",
+        "pageTitle": "Rural Health Care Crisis Discussed During Live Roundtable As Leaders Look to Future | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/uvmhn/university-vermont-health-network-dartmouth-health-mainehealth-ceos-discuss-rural-health-care-crisis",
+        "pageTitle": "University of Vermont Health Network, Dartmouth Health, MaineHealth CEOs to Discuss Rural Health Care Crisis During Live Roundtable May 22 | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/medcenter/lyme-disease-prevention-vaccine-trial-begins-recruiting-vermont",
+        "pageTitle": "Lyme Disease Prevention Vaccine Trial Begins Recruiting in Vermont | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/medcenter/uvm-medical-center-unveils-hearts-and-hands-sculpture",
+        "pageTitle": "UVM Medical Center Unveils ‘Hearts and Hands’ Sculpture | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/medcenter/uvm-medical-center-rolls-out-integrated-addiction-treatment-center",
+        "pageTitle": "UVM Medical Center Rolls Out Integrated Addiction Treatment Center | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news/hhh/uvm-health-network-home-health-hospice-announces-christine-werneke-ms-president-and-chief-operating",
+        "pageTitle": "UVM Health Network Home Health & Hospice Announces Christine Werneke, MS, President and Chief Operating Officer | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=0",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=3",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=1",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=2",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=5",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=4",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=6",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/coronavirus/translated-covid-19-guidance",
+        "pageTitle": "Translated COVID-19 Guidance | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/healthsource/story-not-found",
+        "pageTitle": "Story Not Found | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/talkvermont/contact-us",
+        "pageTitle": "Contact Us | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=7",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=8",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/coronavirus/visitor-restrictions",
+        "pageTitle": "Visitor Restrictions | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/news?page=11",
+        "pageTitle": "| The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/mychart/how-sign-up",
+        "pageTitle": "How to Sign Up | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/mychart/features",
+        "pageTitle": "Features | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/for-network-employees/for-network-medical-professionals/wellness-program",
+        "pageTitle": "Wellness Program"
+      },
+      {
+        "url": "https://mychart.uvmhealth.org/MyChart//GuestEstimates",
+        "pageTitle": "The University of Vermont Health Network - Patient Estimates"
+      },
+      {
+        "url": "https://www.uvmhealth.org/coronavirus/covid-19-recovery-program",
+        "pageTitle": "COVID-19 Recovery Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/mychart/mychart-two-step-verification",
+        "pageTitle": "MyChart: Two-step Verification | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/mychart/video-visits",
+        "pageTitle": "Video Visits | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/mychart/proxy",
+        "pageTitle": "Proxy Access"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/acute-care-surgery",
+        "pageTitle": "Acute Care Surgery"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/audiology",
+        "pageTitle": "Audiology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/bariatric-surgery-program/program-criteria",
+        "pageTitle": "Program Criteria"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/movement-disorders/about-frederick-c-binter",
+        "pageTitle": "About Frederick C. Binter"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/bariatric-surgery-program/are-you-a-candidate",
+        "pageTitle": "Are You a Candidate?"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/movement-disorders/for-medical-professionals0108-8515",
+        "pageTitle": "For Medical Professionals"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/aquatic-physical-therapy",
+        "pageTitle": "Aquatic Physical Therapy"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/movement-disorders/clinical%20trials%20and%20research/current-clinical-trials",
+        "pageTitle": "Current Clinical Trials"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/movement-disorders/clinical-trials-and-research0108-8019",
+        "pageTitle": "Movement Disorders Clinical Trials and Research"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/anesthesiology",
+        "pageTitle": "Anesthesiology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/breast-care",
+        "pageTitle": "Breast Care Center"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/bariatric-surgery-program",
+        "pageTitle": "Bariatric Surgery Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/breast-imaging-mammography",
+        "pageTitle": "Breast Imaging & Mammography"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/breast-care/high-risk-breast-program",
+        "pageTitle": "High-Risk Breast Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/movement-disorders",
+        "pageTitle": "Binter Center for Parkinson's Disease & Movement Disorders"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/bariatric-surgery-program/life-after-bariatric-surgery",
+        "pageTitle": "Life After Bariatric Surgery"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/support-cancer-center",
+        "pageTitle": "Support UVM Cancer Center"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/cancer-specialties",
+        "pageTitle": "Cancer Specialties"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/cancer-support-services/cancer-support-groups",
+        "pageTitle": "Cancer Support Groups"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/cancer-support-services",
+        "pageTitle": "Cancer Support Services"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/cancer-support-services/caregiver-resources",
+        "pageTitle": "Caregiver Resources | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/support-us/eleanor-b-daniels-fund",
+        "pageTitle": "Eleanor B. Daniels Fund"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/support-us/victoria-buffum-endowment-fund",
+        "pageTitle": "Victoria Buffum Fund"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/covid-19-vaccination-information-and-faqs-cancer-patients",
+        "pageTitle": "COVID-19 Vaccination Information and FAQs for Cancer Patients"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-genetics-prevention-program",
+        "pageTitle": "Cancer Genetics and Prevention Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/bone-and-soft-tissue-cancer-program",
+        "pageTitle": "Bone & Soft Tissue Cancer Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-center/cancer-support-services/integrative-therapies",
+        "pageTitle": "Integrative Therapies"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-data-registry",
+        "pageTitle": "Cancer Data Registry"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-rehabilitation-program",
+        "pageTitle": "Cancer Rehabilitation"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-rehabilitation-program/steps-to-wellness",
+        "pageTitle": "Steps to Wellness"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cardiac-rehabilitation/cardiac-rehab-lectures",
+        "pageTitle": "Cardiac Rehab Lectures | | GME | UVM Medical Center"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cancer-rehabilitation-program/steps-to-wellness/five-year-celebration-and-reunion-party",
+        "pageTitle": "Five-Year Celebration and Reunion Party"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/case-management-and-social-work",
+        "pageTitle": "Case Management & Social Work"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/clinical-ethics",
+        "pageTitle": "Clinical Ethics"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/clinical-health-psychology",
+        "pageTitle": "Clinical Health Psychology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cardiothoracic-surgery-program",
+        "pageTitle": "Cardiothoracic Surgery Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cardiac-rehabilitation/hear-from-our-patients",
+        "pageTitle": "Hear From Our Patients"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cardiac-rehabilitation/about-cardiac-rehabilitation",
+        "pageTitle": "About Cardiac Rehab"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/community-health-team",
+        "pageTitle": "Community Health Team"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/communications-and-engagement-strategies",
+        "pageTitle": "Communications & Engagement Strategies"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/colon-and-rectal-surgery-program",
+        "pageTitle": "Colon and Rectal Surgery Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/nutrition",
+        "pageTitle": "Clinical Nutrition Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/community-health-improvement",
+        "pageTitle": "Community Health Improvement"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/cardiac-rehabilitation",
+        "pageTitle": "Cardiac Rehabilitation"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/compliance-and-privacy",
+        "pageTitle": "Compliance & Privacy"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/comprehensive-pain-program",
+        "pageTitle": "Comprehensive Pain Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/dental-and-oral-health",
+        "pageTitle": "Dental and Oral Health"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/culinary-medicine/recipe-cards",
+        "pageTitle": "Recipe Cards | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/dermatology",
+        "pageTitle": "Dermatology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/fall-prevention",
+        "pageTitle": "Fall Prevention"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/dining-services/catering-services",
+        "pageTitle": "Catering Services"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/ear-nose-throat-ent",
+        "pageTitle": "Ear, Nose & Throat (ENT) | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/endocrinology",
+        "pageTitle": "Endocrinology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/gastroenterology-and-hepatology",
+        "pageTitle": "Gastroenterology & Hepatology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/dining-services/about-room-service",
+        "pageTitle": "About Room Service"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/dining-services",
+        "pageTitle": "Dining Services"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/diabetes",
+        "pageTitle": "Diabetes | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/driver-rehabilitation",
+        "pageTitle": "Driver Rehabilitation"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/family-medicine",
+        "pageTitle": "Family Medicine"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/endoscopy-clinic",
+        "pageTitle": "Endoscopy Clinic"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/fetal-diagnostic-center",
+        "pageTitle": "Fetal Diagnostic Center"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/foot-and-ankle-program",
+        "pageTitle": "Foot-and-Ankle-Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/genomic-medicine",
+        "pageTitle": "Genomic Medicine"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/general-surgery-program",
+        "pageTitle": "General Surgery Program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/genomic-medicine/genomic-dna-test",
+        "pageTitle": "Genomic Population Health and The Genomic DNA Test | The University of Vermont Health Network"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/geriatric-psychiatry",
+        "pageTitle": "Geriatric Psychiatry"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/geriatric-medicine",
+        "pageTitle": "Geriatric Medicine | The University of Vermont Health Network"
+      }
+    ],
+    "invalid": [
+      {
+        "url": "https://www.uvmhealth.org/medcenter/patients-and-visitors/billing-insurance-and-registration/price-transparency"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/mission-vision-and-values"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/newsroom"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/the-community"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/the-community/needs-assessment"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/overview/non-discrimination-notice"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/childrens-hospital"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/urgent-care"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/site-map"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/privacy-policy"
+      },
+      {
+        "url": "https://www.uvmhealth.org/gme"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/partnerships/alliance-with-university-of-vermont"
+      },
+      {
+        "url": "https://www.uvmhealth.org/about-the-uvm-health-network/the-uvm-health-network-hospitals"
+      },
+      {
+        "url": "https://www.uvmhealth.org/about-the-uvm-health-network/equity-diversity-inclusion"
+      },
+      {
+        "url": "https://www.uvmhealth.org/about-the-uvm-health-network/cardiovascular-network/for-referring-physicians"
+      },
+      {
+        "url": "https://www.uvmhealth.org/about-the-uvm-health-network/critical-care-transport"
+      },
+      {
+        "url": "https://www.uvmhealth.org/about-uvm-health-network/patient-transfers"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/partnerships/uvmhn-board-trustees-bios"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/about-uvm-medical-center/overview/leadership/board-of-trustees"
+      },
+      {
+        "url": "https://www.uvmhealth.org/September%2027,%202023"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/gynecologic-cancer-program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/gynecologic-infectious-disease-clinic"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/gynecology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/hand-surgery-and-rehabilitation"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/gynecology/gynecologic-care-midwives"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/hicolab"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/heart-rhythm-disorder-program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/conditions-and-treatments/cardiac-catheterization"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/hiv-aids-comprehensive-care-clinic"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/location/cardiac-rehabilitation"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/thrombosis-and-hemostasis-program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/vascular-surgery-program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/heart-and-vascular/support-cardiology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/heart-health/heart-medical-professionals"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/hematology-and-oncology"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/hip-and-knee-surgery-program"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/hwsxchk"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/departments-and-programs/hospital-medicine"
+      }
+    ],
+    "scannedRedirects": [
+      {
+        "fromUrl": "https://mychart.uvmhealth.org/",
+        "toUrl": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/careers",
+        "toUrl": "https://www.uvmhealthnetworkcareers.org/"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/healthsource/our-commitment-patients-and-communities-we-serve",
+        "toUrl": "https://www.youtube.com/watch?v=2idfm2TXeWY"
+      },
+      {
+        "fromUrl": "http://www.uvmhealth.org/CVPHMyChart",
+        "toUrl": "https://www.cvph.org/Patients-and-Visitors/Patients/MyChart"
+      },
+      {
+        "fromUrl": "http://www.uvmhealth.org/CVMC/mychart",
+        "toUrl": "https://www.cvmc.org/patient-portals/meet-mychart"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/coronavirus/for-medical-professionals",
+        "toUrl": "https://www.uvmhealth.org/coronavirus"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/medcenter/wellness-resources/classes-and-events/healthsource-classes",
+        "toUrl": "https://www.uvmhealth.org/health-wellness/healthsource-classes"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/medcenter/health-careers/nursing-careers/areas-of-focus/lna-training",
+        "toUrl": "https://lna.uvmmedicalcentercareers.org/"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/medcenter/health-careers/physician-careers",
+        "toUrl": "https://www.uvmhealthnetworkcareers.org/physicians.html"
+      },
+      {
+        "fromUrl": "http://www.uvmhealth.org/PMC/mychart",
+        "toUrl": "https://www.portermedical.org/patients-visitors/patient-portals/meet-mychart/"
+      },
+      {
+        "fromUrl": "https://www.uvmprovidercareers.org/",
+        "toUrl": "https://www.uvmhnprovidercareers.org/"
+      },
+      {
+        "fromUrl": "https://medcenterblog.uvmhealth.org/",
+        "toUrl": "https://www.uvmhealth.org/healthsource"
+      },
+      {
+        "fromUrl": "https://www.uvmhealthnetworkcareers.org/r0059247_csbanner",
+        "toUrl": "https://www.uvmhealthnetworkcareers.org/job/registered-nurse-hospice-mcclure-miller-respite-house-nights-registered-nurse-us-vt-colchester-3113-roosevelt-hwy-r0059247-86/?utm_source=r0059247_csbanner"
+      },
+      {
+        "fromUrl": "https://www.uvmhealthnetworkcareers.org/lpnjobs_csbanner",
+        "toUrl": "https://www.uvmhealthnetworkcareers.org/jobs/lpn/?hospital=ahmc-alice-hyde-medical-center&utm_source=lpnjobs_csbanner"
+      },
+      {
+        "fromUrl": "https://www.facebook.com/sharer/sharer.php?u=https://www.uvmhealthnetworkcareers.org/",
+        "toUrl": "https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.uvmhealthnetworkcareers.org%252F&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_US"
+      },
+      {
+        "fromUrl": "https://twitter.com/intent/tweet?url=https://www.uvmhealthnetworkcareers.org/",
+        "toUrl": "https://twitter.com/i/flow/login?redirect_after_login=%2Fintent%2Ftweet%3Furl%3Dhttps%3A%2F%2Fwww.uvmhealthnetworkcareers.org%2F"
+      },
+      {
+        "fromUrl": "https://www.linkedin.com/sharing/share-offsite/?url=https://www.uvmhealthnetworkcareers.org/",
+        "toUrl": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2FshareArticle%2F%3Furl%3Dhttps%3A%2F%2Fwww%2Euvmhealthnetworkcareers%2Eorg%2F&trk=login_reg_redirect"
+      },
+      {
+        "fromUrl": "https://www.linkedin.com/company/8821879",
+        "toUrl": "https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F8821879"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/chldrens-hospital/clinical-trials-and-research",
+        "toUrl": "https://www.uvmhealth.org/childrens-hospital/clinical-trials-and-research"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/chldrens-hospital/for-medical-professionals",
+        "toUrl": "https://www.uvmhealth.org/childrens-hospital/for-medical-professionals"
+      }
+    ],
+    "notScannedRedirects": [
+      {
+        "fromUrl": "https://mychart.uvmhealth.org/MyChart/",
+        "toUrl": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/medcenter/health-careers",
+        "toUrl": "https://www.uvmhealthnetworkcareers.org/"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/medcenter/wellness-resources/classes-and-events/community-medical-school",
+        "toUrl": "https://www.uvmhealth.org/medcenter/wellness-resources"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/chldrens-hospital/patients-visitors",
+        "toUrl": "https://www.uvmhealth.org/childrens-hospital/patients-visitors"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/chldrens-hospital/locations-directions",
+        "toUrl": "https://www.uvmhealth.org/childrens-hospital/locations-directions"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/medcenter/departments-and-programs/childrens-hospital/pediatric-specialties",
+        "toUrl": "https://www.uvmhealth.org/childrens-hospital/pediatric-specialties"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/careers/lna-careers",
+        "toUrl": "https://lna.uvmmedicalcentercareers.org/"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/coronavirus/covid-19-testing",
+        "toUrl": "https://www.uvmhealth.org/coronavirus"
+      },
+      {
+        "fromUrl": "https://www.uvmhealth.org/coronavirus/staying-healthy",
+        "toUrl": "https://www.uvmhealth.org/healthsource"
+      }
+    ],
+    "outOfDomain": [],
+    "blacklisted": [],
+    "error": [
+      {
+        "url": "http://www.uvmhealth.org/CVPHMyChart"
+      },
+      {
+        "url": "http://www.uvmhealth.org/CVMC/mychart"
+      },
+      {
+        "url": "http://www.uvmhealth.org/PMC/mychart"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/hwsxchk"
+      },
+      {
+        "url": "https://www.uvmprovidercareers.org/"
+      },
+      {
+        "url": "https://www.uvmhealth.org/medcenter/wellness-resources/health-library/hwsxchk"
+      }
+    ],
+    "exceededRequests": [],
+    "forbidden": [],
+    "userExcluded": []
+  }
+}
