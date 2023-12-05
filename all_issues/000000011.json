@@ -1,0 +1,3278 @@
+{
+	"url": "https://www.uvmhealth.org/health-wellness",
+	"pageTitle": "Health and Wellness | The University of Vermont Health Network",
+	"totalItems": 918,
+	"mustFix": {
+		"totalItems": 3,
+		"rules": {
+			"aria-hidden-focus": {
+				"description": "ARIA hidden element must not be focusable or contain focusable elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<button type=\"button\" class=\"btn btn-default gdpr-alert__close\" data-dismiss=\"alert\" aria-hidden=\"true\">Close</button>",
+						"message": "Fix all of the following:\n  Focusable content should be disabled or be removed from the DOM",
+						"screenshotPath": "elemScreenshots/html/health-wellness-mustFix-aria-hidden-focus-0.png",
+						"xpath": ".gdpr-alert__close"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<span>MyChart</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #f4f4f5, background color: #de641f, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/health-wellness-mustFix-color-contrast-0.png",
+						"xpath": "#block-mychart > .field--type-text-with-summary.clearfix.text-formatted > div > .mychart.btn-sm.btn-primary > span:nth-child(1)"
+					},
+					{
+						"html": "<span>LOG IN or JOIN</span>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.21 (foreground color: #f4f4f5, background color: #de641f, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/health-wellness-mustFix-color-contrast-1.png",
+						"xpath": "#block-mychart > .field--type-text-with-summary.clearfix.text-formatted > div > .mychart.btn-sm.btn-primary > span:nth-child(3)"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 5,
+		"rules": {
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \" class=\"js crjs\">",
+						"message": "Fix all of the following:\n  Document does not have a main landmark",
+						"screenshotPath": "elemScreenshots/html/health-wellness-goodToFix-landmark-one-main-0.png",
+						"xpath": "html"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">",
+						"message": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable",
+						"screenshotPath": "elemScreenshots/html/health-wellness-goodToFix-landmark-unique-0.png",
+						"xpath": "#block-mainnavigation-2"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<div class=\"region region-breadcrumb\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/health-wellness-goodToFix-region-0.png",
+						"xpath": ".region-breadcrumb"
+					},
+					{
+						"html": "<div class=\"banner-row\" id=\"banner-row\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/health-wellness-goodToFix-region-1.png",
+						"xpath": "#banner-row"
+					},
+					{
+						"html": "<div class=\"layout__region layout__region--bottom\">",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"screenshotPath": "elemScreenshots/html/health-wellness-goodToFix-region-2.png",
+						"xpath": ".layout__region--bottom"
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 910,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<li class=\"menu-item--active menu-item--collapsed menu-item--active-trail\" aria-current=\"true\" data-gtm-menu-title=\"Health and Wellness\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<div class=\"gdpr-alert fixed-banner-privacy alert\" role=\"alert\" style=\"display: block;\">"
+					},
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mobilemenu-menu\" id=\"block-mobilemenu\" class=\"navbar-collapse visible-xs block container trim-left trim-right block-menu navigation menu--sub-mobile-menu\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<article role=\"article\" about=\"/health-wellness\" class=\"node node--type-landing-page node--view-mode-full\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<li class=\"menu-item--active menu-item--collapsed menu-item--active-trail\" aria-current=\"true\" data-gtm-menu-title=\"Health and Wellness\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 17,
+				"items": [
+					{
+						"html": "<div class=\"gdpr-alert fixed-banner-privacy alert\" role=\"alert\" style=\"display: block;\">"
+					},
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<article role=\"article\" about=\"/health-wellness\" class=\"node node--type-landing-page node--view-mode-full\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"page--node-15093 site--global v4master inner_page path-node page-node-type-landing-page page guest\">"
+					}
+				]
+			},
+			"aria-hidden-focus": {
+				"description": "ARIA hidden element must not be focusable or contain focusable elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<span aria-hidden=\"true\" class=\"glyphicon glyphicon-earphone\">&nbsp;</span>"
+					},
+					{
+						"html": "<i class=\"micon fa-twitter\" aria-hidden=\"true\"></i>"
+					},
+					{
+						"html": "<i class=\"micon fa-youtube\" aria-hidden=\"true\"></i>"
+					},
+					{
+						"html": "<i class=\"micon fa-linkedin-in\" aria-hidden=\"true\"></i>"
+					},
+					{
+						"html": "<i class=\"fa fa-4x fa-angle-up\" aria-hidden=\"true\"></i>"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<li class=\"menu-item--active menu-item--collapsed menu-item--active-trail\" aria-current=\"true\" data-gtm-menu-title=\"Health and Wellness\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 17,
+				"items": [
+					{
+						"html": "<div class=\"gdpr-alert fixed-banner-privacy alert\" role=\"alert\" style=\"display: block;\">"
+					},
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<article role=\"article\" about=\"/health-wellness\" class=\"node node--type-landing-page node--view-mode-full\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 17,
+				"items": [
+					{
+						"html": "<div class=\"gdpr-alert fixed-banner-privacy alert\" role=\"alert\" style=\"display: block;\">"
+					},
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<article role=\"article\" about=\"/health-wellness\" class=\"node node--type-landing-page node--view-mode-full\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<li class=\"menu-item--active menu-item--collapsed menu-item--active-trail\" aria-current=\"true\" data-gtm-menu-title=\"Health and Wellness\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 19,
+				"items": [
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<li class=\"menu-item--active menu-item--collapsed menu-item--active-trail\" aria-current=\"true\" data-gtm-menu-title=\"Health and Wellness\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-hats",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 85,
+				"items": [
+					{
+						"html": "<div class=\"gdpr-alert fixed-banner-privacy alert\" role=\"alert\" style=\"display: block;\">"
+					},
+					{
+						"html": "<div class=\"resizer btn-group pull-right\" style=\"opacity: 1;\">"
+					},
+					{
+						"html": "<option value=\"en|en\" style=\"font-weight:bold;background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;\">English</option>"
+					},
+					{
+						"html": "<option value=\"en|af\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;\">Afrikaans</option>"
+					},
+					{
+						"html": "<option value=\"en|sq\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;\">Albanian</option>"
+					},
+					{
+						"html": "<option value=\"en|ar\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;\">Arabic</option>"
+					},
+					{
+						"html": "<option value=\"en|hy\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;\">Armenian</option>"
+					},
+					{
+						"html": "<option value=\"en|az\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;\">Azerbaijani</option>"
+					},
+					{
+						"html": "<option value=\"en|eu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;\">Basque</option>"
+					},
+					{
+						"html": "<option value=\"en|be\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;\">Belarusian</option>"
+					},
+					{
+						"html": "<option value=\"en|bn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;\">Bengali</option>"
+					},
+					{
+						"html": "<option value=\"en|bs\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;\">Bosnian</option>"
+					},
+					{
+						"html": "<option value=\"en|bg\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;\">Bulgarian</option>"
+					},
+					{
+						"html": "<option value=\"en|ca\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;\">Catalan</option>"
+					},
+					{
+						"html": "<option value=\"en|ceb\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;\">Cebuano</option>"
+					},
+					{
+						"html": "<option value=\"en|zh-CN\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;\">Chinese (Simplified)</option>"
+					},
+					{
+						"html": "<option value=\"en|zh-TW\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;\">Chinese (Traditional)</option>"
+					},
+					{
+						"html": "<option value=\"en|hr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;\">Croatian</option>"
+					},
+					{
+						"html": "<option value=\"en|cs\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;\">Czech</option>"
+					},
+					{
+						"html": "<option value=\"en|da\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;\">Danish</option>"
+					},
+					{
+						"html": "<option value=\"en|nl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;\">Dutch</option>"
+					},
+					{
+						"html": "<option value=\"en|eo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;\">Esperanto</option>"
+					},
+					{
+						"html": "<option value=\"en|et\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;\">Estonian</option>"
+					},
+					{
+						"html": "<option value=\"en|tl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;\">Filipino</option>"
+					},
+					{
+						"html": "<option value=\"en|fi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;\">Finnish</option>"
+					},
+					{
+						"html": "<option value=\"en|fr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;\">French</option>"
+					},
+					{
+						"html": "<option value=\"en|gl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;\">Galician</option>"
+					},
+					{
+						"html": "<option value=\"en|ka\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;\">Georgian</option>"
+					},
+					{
+						"html": "<option value=\"en|de\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;\">German</option>"
+					},
+					{
+						"html": "<option value=\"en|el\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;\">Greek</option>"
+					},
+					{
+						"html": "<option value=\"en|gu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;\">Gujarati</option>"
+					},
+					{
+						"html": "<option value=\"en|ht\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;\">Haitian Creole</option>"
+					},
+					{
+						"html": "<option value=\"en|ha\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;\">Hausa</option>"
+					},
+					{
+						"html": "<option value=\"en|iw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;\">Hebrew</option>"
+					},
+					{
+						"html": "<option value=\"en|hi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;\">Hindi</option>"
+					},
+					{
+						"html": "<option value=\"en|hmn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;\">Hmong</option>"
+					},
+					{
+						"html": "<option value=\"en|hu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;\">Hungarian</option>"
+					},
+					{
+						"html": "<option value=\"en|is\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;\">Icelandic</option>"
+					},
+					{
+						"html": "<option value=\"en|ig\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;\">Igbo</option>"
+					},
+					{
+						"html": "<option value=\"en|id\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;\">Indonesian</option>"
+					},
+					{
+						"html": "<option value=\"en|ga\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;\">Irish</option>"
+					},
+					{
+						"html": "<option value=\"en|it\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;\">Italian</option>"
+					},
+					{
+						"html": "<option value=\"en|ja\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;\">Japanese</option>"
+					},
+					{
+						"html": "<option value=\"en|jw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;\">Javanese</option>"
+					},
+					{
+						"html": "<option value=\"en|kn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;\">Kannada</option>"
+					},
+					{
+						"html": "<option value=\"en|km\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;\">Khmer</option>"
+					},
+					{
+						"html": "<option value=\"en|ko\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;\">Korean</option>"
+					},
+					{
+						"html": "<option value=\"en|lo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;\">Lao</option>"
+					},
+					{
+						"html": "<option value=\"en|la\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;\">Latin</option>"
+					},
+					{
+						"html": "<option value=\"en|lv\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;\">Latvian</option>"
+					},
+					{
+						"html": "<option value=\"en|lt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;\">Lithuanian</option>"
+					},
+					{
+						"html": "<option value=\"en|mk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;\">Macedonian</option>"
+					},
+					{
+						"html": "<option value=\"en|ms\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;\">Malay</option>"
+					},
+					{
+						"html": "<option value=\"en|mt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;\">Maltese</option>"
+					},
+					{
+						"html": "<option value=\"en|mi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;\">Maori</option>"
+					},
+					{
+						"html": "<option value=\"en|mr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;\">Marathi</option>"
+					},
+					{
+						"html": "<option value=\"en|mn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;\">Mongolian</option>"
+					},
+					{
+						"html": "<option value=\"en|ne\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;\">Nepali</option>"
+					},
+					{
+						"html": "<option value=\"en|no\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;\">Norwegian</option>"
+					},
+					{
+						"html": "<option value=\"en|fa\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;\">Persian</option>"
+					},
+					{
+						"html": "<option value=\"en|pl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;\">Polish</option>"
+					},
+					{
+						"html": "<option value=\"en|pt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;\">Portuguese</option>"
+					},
+					{
+						"html": "<option value=\"en|pa\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;\">Punjabi</option>"
+					},
+					{
+						"html": "<option value=\"en|ro\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;\">Romanian</option>"
+					},
+					{
+						"html": "<option value=\"en|ru\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -336px;padding-left:18px;\">Russian</option>"
+					},
+					{
+						"html": "<option value=\"en|sr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;\">Serbian</option>"
+					},
+					{
+						"html": "<option value=\"en|sk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;\">Slovak</option>"
+					},
+					{
+						"html": "<option value=\"en|sl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;\">Slovenian</option>"
+					},
+					{
+						"html": "<option value=\"en|so\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;\">Somali</option>"
+					},
+					{
+						"html": "<option value=\"en|es\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;\">Spanish</option>"
+					},
+					{
+						"html": "<option value=\"en|sw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;\">Swahili</option>"
+					},
+					{
+						"html": "<option value=\"en|sv\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;\">Swedish</option>"
+					},
+					{
+						"html": "<option value=\"en|ta\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;\">Tamil</option>"
+					},
+					{
+						"html": "<option value=\"en|te\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;\">Telugu</option>"
+					},
+					{
+						"html": "<option value=\"en|th\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;\">Thai</option>"
+					},
+					{
+						"html": "<option value=\"en|tr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;\">Turkish</option>"
+					},
+					{
+						"html": "<option value=\"en|uk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -528px;padding-left:18px;\">Ukrainian</option>"
+					},
+					{
+						"html": "<option value=\"en|ur\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;\">Urdu</option>"
+					},
+					{
+						"html": "<option value=\"en|vi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;\">Vietnamese</option>"
+					},
+					{
+						"html": "<option value=\"en|cy\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;\">Welsh</option>"
+					},
+					{
+						"html": "<option value=\"en|yi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;\">Yiddish</option>"
+					},
+					{
+						"html": "<option value=\"en|yo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;\">Yoruba</option>"
+					},
+					{
+						"html": "<option value=\"en|zu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;\">Zulu</option>"
+					},
+					{
+						"html": "<h2 style=\"margin-bottom: 11px;\">Explore Health and Wellness Resources</h2>"
+					},
+					{
+						"html": "<p style=\"margin-bottom:11px\">&nbsp;</p>"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \" class=\"js crjs\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 64,
+				"items": [
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"btn btn-default gdpr-alert__close\" data-dismiss=\"alert\" aria-hidden=\"true\">Close</button>"
+					},
+					{
+						"html": "<a href=\"/for-medical-professionals\" class=\"menu-item\" data-drupal-link-system-path=\"node/12238\">For Medical Professionals</a>"
+					},
+					{
+						"html": "<a href=\"/for-network-employees\" class=\"menu-item\" data-drupal-link-system-path=\"node/12239\">For Network Employees</a>"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<input class=\"custom-search-box form-text\" id=\"search-keywords\" maxlength=\"128\" name=\"keys\" placeholder=\"Search this site...\" size=\"20\" type=\"text\" value=\"\">"
+					},
+					{
+						"html": "<input class=\"form-submit\" name=\"\" type=\"submit\" value=\"\">"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<a href=\"/doctors\" class=\"first menu-item--collapsed\" data-drupal-link-system-path=\"node/12236\">Doctors</a>"
+					},
+					{
+						"html": "<a href=\"/network-locations\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12251\">Locations</a>"
+					},
+					{
+						"html": "<a href=\"/careers\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12234\">Careers</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<a href=\"/research-and-education\" data-drupal-link-system-path=\"node/12254\">Research and Education</a>"
+					},
+					{
+						"html": "<a href=\"/about-uvm-health-network\" class=\"last menu-item--collapsed\" data-drupal-link-system-path=\"node/12233\">About UVM Health Network</a>"
+					},
+					{
+						"html": "<a href=\"/\">The University of Vermont Health Network</a>"
+					},
+					{
+						"html": "<span class=\"active\">Health and Wellness</span>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/healthsource-classes\" class=\"field__item healthsource-classes first\" data-drupal-link-system-path=\"node/15025\">HealthSource Classes</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/support-groups\" class=\"field__item support-groups\" data-drupal-link-system-path=\"node/15092\">Support Groups</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/flu-prevention\" class=\"field__item flu-prevention\" data-drupal-link-system-path=\"node/15095\">Flu Prevention</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/health-assistance-program\" class=\"field__item health-assistance-program\" data-drupal-link-system-path=\"node/20239\">Health Assistance Program</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/mail-order-pharmacy\" class=\"field__item mail-order-pharmacy\" data-drupal-link-system-path=\"node/22056\">Mail Order Pharmacy</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/uvm-health-network-community-benefit\" class=\"field__item uvmhn-community-benefit last\" data-drupal-link-system-path=\"node/18171\">UVMHN Community Benefit</a>"
+					},
+					{
+						"html": "<h2 style=\"margin-bottom: 11px;\">Explore Health and Wellness Resources</h2>"
+					},
+					{
+						"html": "<p>Taking care of yourself – both physically and mentally – is essential in preventing illness and injury. The University of Vermont Health Network provides patients and community members a wide variety of prevention and wellness programs to help you stay healthy.</p>"
+					},
+					{
+						"html": "<h3>HealthSource</h3>"
+					},
+					{
+						"html": "<p>Stay informed on the latest issues that impact your health and wellness. Read stories with insights from experts around the UVM Health Network regarding a variety of topics, ranging from Children's Health and Cancer to Chronic Conditions and Mental Health.&nbsp;</p>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"761d85ee-5e58-4224-9ecf-91ffeac10baf\" href=\"/healthsource\" title=\"HealthSource\">Browse our stories</a>"
+					},
+					{
+						"html": "<h3>Staying Healthy: Stay Informed About COVID-19</h3>"
+					},
+					{
+						"html": "<p>As we adjust to the normal of COVID-19, it’s important that you stay informed and continue to follow best practices for avoiding illness.</p>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"6fbbb9aa-9c1e-4236-8b6b-2dc32eb8cd19\" href=\"/coronavirus\" title=\"Coronavirus\">Learn how to stay healthy and cope with COVID-19</a>"
+					},
+					{
+						"html": "<h3>Health Library</h3>"
+					},
+					{
+						"html": "<p>Use our health library to make better health decisions. Visit our learning center, use our interactive tools or search health-related topics for the latest in medical knowledge.</p>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"86cbbbed-97ad-4a68-a176-ca3ef3ff0a4b\" href=\"/medcenter/wellness-resources/online-tools-and-information\" title=\"Online Tools and Information\">Explore our online tools and learning centers</a>"
+					},
+					{
+						"html": "<h3>Classes and Events</h3>"
+					},
+					{
+						"html": "<p>The Frymoyer Community Health Resource Center offers free educational programs, classes and workshops on healthy lifestyles, safety and wellness. Our Fall Series is being held virtually in response to COVID-19.</p>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"30839cda-791a-46a0-a136-558c23e21369\" href=\"/health-wellness/healthsource-classes\" title=\"HealthSource Classes\">Explore HealthSource classes</a>"
+					},
+					{
+						"html": "<h3>Support Groups</h3>"
+					},
+					{
+						"html": "<p>From diagnosed patients to survivors and family members, we offer support groups both locally and nationally for anyone in need of support. Search our extensive database or visit the links below to find the group that is right for you.</p>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"db29936f-77e7-42e5-88ee-f12385e986c0\" href=\"/health-wellness/support-groups\" title=\"Support Groups\">Explore support groups</a>"
+					},
+					{
+						"html": "<h3>News</h3>"
+					},
+					{
+						"html": "<p>Explore our archive of HealthSource newsletters, for tips and tricks on staying healthy and living well.</p>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8ae90943-6486-496e-a635-f502c285eaf7\" href=\"/coronavirus/healthsource\" title=\"HealthSource\">View newsletter archive</a>"
+					},
+					{
+						"html": "<a href=\"tel:8448864325\"><span aria-hidden=\"true\" class=\"glyphicon glyphicon-earphone\">&nbsp;</span>844-UVM-HEALTH</a>"
+					},
+					{
+						"html": "<a href=\"tel:8448864325\">844-886-4325</a>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<h2>Our Network</h2>"
+					},
+					{
+						"html": "<a href=\"/medcenter\">University of Vermont Medical Center</a>"
+					},
+					{
+						"html": "<a href=\"/about-the-uvm-health-network/medical-group\">UVM Health Network - Medical Group</a>"
+					},
+					{
+						"html": "<a href=\"http://www.cvmc.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.cvph.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.ech.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.alicehyde.com/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.portermedical.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhomehealth.org/\" target=\"_blank\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"/site-map\" data-drupal-link-system-path=\"node/12255\">Site Map</a>"
+					},
+					{
+						"html": "<a href=\"/contact-us\" data-drupal-link-system-path=\"node/12235\">Contact Us</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-policy\" data-drupal-link-system-path=\"node/12253\">Privacy Policy</a>"
+					},
+					{
+						"html": "<span>©&nbsp;2023 The University of Vermont Health Network</span>"
+					},
+					{
+						"html": "<span>462 Shelburne Road</span>"
+					},
+					{
+						"html": "<span>Burlington, Vermont 05401</span>"
+					},
+					{
+						"html": "<span>844-UVM-Health (886-4325)</span>"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \" class=\"js crjs\">"
+					}
+				]
+			},
+			"duplicate-id-aria": {
+				"description": "IDs used in ARIA and labels must be unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/duplicate-id-aria?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<h2 class=\"visually-hidden menu-heading\" id=\"block-mobilemenu-menu\">Mobile Menu</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden menu-heading\" id=\"block-mainnavigation-2-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-mainnavigation-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerfirst-menu\">Footer First</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footermiddle-menu\">Footer Middle</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerbottom-menu\">Footer Bottom</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footer-menu\">Footer</h2>"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 16,
+				"items": [
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-globalmenu-menu\">Global Menu</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden menu-heading\" id=\"block-mainnavigation-2-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<h1 class=\"field field--type-string field--label-hidden field__item\">\n\t  \t  Health and Wellness\n\t  \t  </h1>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-mainnavigation-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<h2 style=\"margin-bottom: 11px;\">Explore Health and Wellness Resources</h2>"
+					},
+					{
+						"html": "<h3>HealthSource</h3>"
+					},
+					{
+						"html": "<h3>Staying Healthy: Stay Informed About COVID-19</h3>"
+					},
+					{
+						"html": "<h3>Health Library</h3>"
+					},
+					{
+						"html": "<h3>Classes and Events</h3>"
+					},
+					{
+						"html": "<h3>Support Groups</h3>"
+					},
+					{
+						"html": "<h3>News</h3>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerfirst-menu\">Footer First</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footermiddle-menu\">Footer Middle</h2>"
+					},
+					{
+						"html": "<h2>Our Network</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerbottom-menu\">Footer Bottom</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footer-menu\">Footer</h2>"
+					}
+				]
+			},
+			"form-field-multiple-labels": {
+				"description": "Form field must not have multiple label elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/form-field-multiple-labels?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag332"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 16,
+				"items": [
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-globalmenu-menu\">Global Menu</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden menu-heading\" id=\"block-mainnavigation-2-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<h1 class=\"field field--type-string field--label-hidden field__item\">\n\t  \t  Health and Wellness\n\t  \t  </h1>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-mainnavigation-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<h2 style=\"margin-bottom: 11px;\">Explore Health and Wellness Resources</h2>"
+					},
+					{
+						"html": "<h3>HealthSource</h3>"
+					},
+					{
+						"html": "<h3>Staying Healthy: Stay Informed About COVID-19</h3>"
+					},
+					{
+						"html": "<h3>Health Library</h3>"
+					},
+					{
+						"html": "<h3>Classes and Events</h3>"
+					},
+					{
+						"html": "<h3>Support Groups</h3>"
+					},
+					{
+						"html": "<h3>News</h3>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerfirst-menu\">Footer First</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footermiddle-menu\">Footer Middle</h2>"
+					},
+					{
+						"html": "<h2>Our Network</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerbottom-menu\">Footer Bottom</h2>"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footer-menu\">Footer</h2>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \" class=\"js crjs\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \" class=\"js crjs\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-11/uvmh-hn-logo.png?VersionId=hgxqzgKFac3RZ.96PucUAny.kYzzThAc\" alt=\"UVM Health Network Logo\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					},
+					{
+						"html": "<img loading=\"lazy\" src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/styles/hero_desktop/s3/2020-10/banner-health-and-wellness.jpg?VersionId=CKjl__BYToZSbNwRwVD6gEQzoYlEuvGG&amp;h=150bf7c0&amp;itok=NqwCP6vr\" alt=\"Older couple out walking and laughing\" typeof=\"foaf:Image\" class=\"image-style-hero-desktop\">"
+					},
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-03/uvmmc-footer-logo.png?VersionId=seZ3Rn5KhGCXYQFMvo4.cu9a92kluku2\" alt=\"University of Vermont Health Network\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-11/uvmh-hn-logo.png?VersionId=hgxqzgKFac3RZ.96PucUAny.kYzzThAc\" alt=\"UVM Health Network Logo\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					},
+					{
+						"html": "<img loading=\"lazy\" src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/styles/hero_desktop/s3/2020-10/banner-health-and-wellness.jpg?VersionId=CKjl__BYToZSbNwRwVD6gEQzoYlEuvGG&amp;h=150bf7c0&amp;itok=NqwCP6vr\" alt=\"Older couple out walking and laughing\" typeof=\"foaf:Image\" class=\"image-style-hero-desktop\">"
+					},
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-03/uvmmc-footer-logo.png?VersionId=seZ3Rn5KhGCXYQFMvo4.cu9a92kluku2\" alt=\"University of Vermont Health Network\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					}
+				]
+			},
+			"label-title-only": {
+				"description": "Form elements should have a visible label",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label-title-only?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					}
+				]
+			},
+			"landmark-banner-is-top-level": {
+				"description": "Banner landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-banner-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					}
+				]
+			},
+			"landmark-contentinfo-is-top-level": {
+				"description": "Contentinfo landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-contentinfo-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<nav>"
+					},
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 40,
+				"items": [
+					{
+						"html": "<a href=\"#content\" class=\"visually-hidden focusable skip-link\">\n      Skip to main content\n    </a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/\">"
+					},
+					{
+						"html": "<a href=\"/for-medical-professionals\" class=\"menu-item\" data-drupal-link-system-path=\"node/12238\">For Medical Professionals</a>"
+					},
+					{
+						"html": "<a href=\"/for-network-employees\" class=\"menu-item\" data-drupal-link-system-path=\"node/12239\">For Network Employees</a>"
+					},
+					{
+						"html": "<a class=\"btn mychart btn-sm btn-primary mychartfixed\" href=\"https://MyChart.UVMHealth.org\" title=\"MyChart\"><span>MyChart</span><br><span>LOG IN or JOIN</span></a>"
+					},
+					{
+						"html": "<a href=\"/doctors\" class=\"first menu-item--collapsed\" data-drupal-link-system-path=\"node/12236\">Doctors</a>"
+					},
+					{
+						"html": "<a href=\"/network-locations\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12251\">Locations</a>"
+					},
+					{
+						"html": "<a href=\"/careers\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12234\">Careers</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<a href=\"/research-and-education\" data-drupal-link-system-path=\"node/12254\">Research and Education</a>"
+					},
+					{
+						"html": "<a href=\"/about-uvm-health-network\" class=\"last menu-item--collapsed\" data-drupal-link-system-path=\"node/12233\">About UVM Health Network</a>"
+					},
+					{
+						"html": "<a href=\"/\">The University of Vermont Health Network</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/healthsource-classes\" class=\"field__item healthsource-classes first\" data-drupal-link-system-path=\"node/15025\">HealthSource Classes</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/support-groups\" class=\"field__item support-groups\" data-drupal-link-system-path=\"node/15092\">Support Groups</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/flu-prevention\" class=\"field__item flu-prevention\" data-drupal-link-system-path=\"node/15095\">Flu Prevention</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/health-assistance-program\" class=\"field__item health-assistance-program\" data-drupal-link-system-path=\"node/20239\">Health Assistance Program</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/mail-order-pharmacy\" class=\"field__item mail-order-pharmacy\" data-drupal-link-system-path=\"node/22056\">Mail Order Pharmacy</a>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/uvm-health-network-community-benefit\" class=\"field__item uvmhn-community-benefit last\" data-drupal-link-system-path=\"node/18171\">UVMHN Community Benefit</a>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"761d85ee-5e58-4224-9ecf-91ffeac10baf\" href=\"/healthsource\" title=\"HealthSource\">Browse our stories</a>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"6fbbb9aa-9c1e-4236-8b6b-2dc32eb8cd19\" href=\"/coronavirus\" title=\"Coronavirus\">Learn how to stay healthy and cope with COVID-19</a>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"86cbbbed-97ad-4a68-a176-ca3ef3ff0a4b\" href=\"/medcenter/wellness-resources/online-tools-and-information\" title=\"Online Tools and Information\">Explore our online tools and learning centers</a>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"30839cda-791a-46a0-a136-558c23e21369\" href=\"/health-wellness/healthsource-classes\" title=\"HealthSource Classes\">Explore HealthSource classes</a>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"db29936f-77e7-42e5-88ee-f12385e986c0\" href=\"/health-wellness/support-groups\" title=\"Support Groups\">Explore support groups</a>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8ae90943-6486-496e-a635-f502c285eaf7\" href=\"/coronavirus/healthsource\" title=\"HealthSource\">View newsletter archive</a>"
+					},
+					{
+						"html": "<a href=\"tel:8448864325\"><span aria-hidden=\"true\" class=\"glyphicon glyphicon-earphone\">&nbsp;</span>844-UVM-HEALTH</a>"
+					},
+					{
+						"html": "<a href=\"tel:8448864325\">844-886-4325</a>"
+					},
+					{
+						"html": "<a class=\"social-media-link-icon--twitter\" href=\"https://www.twitter.com/uvmhealth\">\n          <i class=\"micon fa-twitter\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Twitter</span>\n      </a>"
+					},
+					{
+						"html": "<a class=\"social-media-link-icon--youtube_channel\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\">\n          <i class=\"micon fa-youtube\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Youtube Channel</span>\n      </a>"
+					},
+					{
+						"html": "<a class=\"social-media-link-icon--linkedin\" href=\"https://www.linkedin.com/company/8821879\">\n          <i class=\"micon fa-linkedin-in\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">LinkedIn</span>\n      </a>"
+					},
+					{
+						"html": "<a href=\"/medcenter\">University of Vermont Medical Center</a>"
+					},
+					{
+						"html": "<a href=\"/about-the-uvm-health-network/medical-group\">UVM Health Network - Medical Group</a>"
+					},
+					{
+						"html": "<a href=\"http://www.cvmc.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.cvph.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.ech.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.alicehyde.com/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"http://www.portermedical.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhomehealth.org/\" target=\"_blank\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<a href=\"/site-map\" data-drupal-link-system-path=\"node/12255\">Site Map</a>"
+					},
+					{
+						"html": "<a href=\"/contact-us\" data-drupal-link-system-path=\"node/12235\">Contact Us</a>"
+					},
+					{
+						"html": "<a href=\"/privacy-policy\" data-drupal-link-system-path=\"node/12253\">Privacy Policy</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<ul region=\"header_nav\" class=\"menu\">"
+					},
+					{
+						"html": "<ul class=\"nav_root_wrap\">"
+					},
+					{
+						"html": "<ul class=\"social-media-links--platforms platforms inline horizontal\">"
+					},
+					{
+						"html": "<ul region=\"footer_bottom\" class=\"menu\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 14,
+				"items": [
+					{
+						"html": "<li class=\"menu-item\"><a href=\"/for-medical-professionals\" class=\"menu-item\" data-drupal-link-system-path=\"node/12238\">For Medical Professionals</a></li>"
+					},
+					{
+						"html": "<li class=\"menu-item\"><a href=\"/for-network-employees\" class=\"menu-item\" data-drupal-link-system-path=\"node/12239\">For Network Employees</a></li>"
+					},
+					{
+						"html": "<li class=\"first menu-item--collapsed\" data-gtm-menu-title=\"Doctors\">\n          <a href=\"/doctors\" class=\"first menu-item--collapsed\" data-drupal-link-system-path=\"node/12236\">Doctors</a>\n                    </li>"
+					},
+					{
+						"html": "<li class=\"menu-item--collapsed\" data-gtm-menu-title=\"Locations\">\n          <a href=\"/network-locations\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12251\">Locations</a>\n                    </li>"
+					},
+					{
+						"html": "<li class=\"menu-item--collapsed\" data-gtm-menu-title=\"Careers\">\n          <a href=\"/careers\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12234\">Careers</a>\n                    </li>"
+					},
+					{
+						"html": "<li class=\"menu-item--active menu-item--collapsed menu-item--active-trail\" aria-current=\"true\" data-gtm-menu-title=\"Health and Wellness\">"
+					},
+					{
+						"html": "<li data-gtm-menu-title=\"Research and Education\">\n          <a href=\"/research-and-education\" data-drupal-link-system-path=\"node/12254\">Research and Education</a>\n                    </li>"
+					},
+					{
+						"html": "<li class=\"last menu-item--collapsed\" data-gtm-menu-title=\"About UVM Health Network\">\n          <a href=\"/about-uvm-health-network\" class=\"last menu-item--collapsed\" data-drupal-link-system-path=\"node/12233\">About UVM Health Network</a>\n                    </li>"
+					},
+					{
+						"html": "<li>\n      <a class=\"social-media-link-icon--twitter\" href=\"https://www.twitter.com/uvmhealth\">\n          <i class=\"micon fa-twitter\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Twitter</span>\n      </a>\n    </li>"
+					},
+					{
+						"html": "<li>\n      <a class=\"social-media-link-icon--youtube_channel\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\">\n          <i class=\"micon fa-youtube\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Youtube Channel</span>\n      </a>\n    </li>"
+					},
+					{
+						"html": "<li>\n      <a class=\"social-media-link-icon--linkedin\" href=\"https://www.linkedin.com/company/8821879\">\n          <i class=\"micon fa-linkedin-in\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">LinkedIn</span>\n      </a>\n    </li>"
+					},
+					{
+						"html": "<li class=\"menu-item\">\n        <a href=\"/site-map\" data-drupal-link-system-path=\"node/12255\">Site Map</a>\n              </li>"
+					},
+					{
+						"html": "<li class=\"menu-item\">\n        <a href=\"/contact-us\" data-drupal-link-system-path=\"node/12235\">Contact Us</a>\n              </li>"
+					},
+					{
+						"html": "<li class=\"menu-item\">\n        <a href=\"/privacy-policy\" data-drupal-link-system-path=\"node/12253\">Privacy Policy</a>\n              </li>"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 94,
+				"items": [
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-11/uvmh-hn-logo.png?VersionId=hgxqzgKFac3RZ.96PucUAny.kYzzThAc\" alt=\"UVM Health Network Logo\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<option value=\"\">Select Language</option>"
+					},
+					{
+						"html": "<option value=\"en|en\" style=\"font-weight:bold;background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;\">English</option>"
+					},
+					{
+						"html": "<option value=\"en|af\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;\">Afrikaans</option>"
+					},
+					{
+						"html": "<option value=\"en|sq\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;\">Albanian</option>"
+					},
+					{
+						"html": "<option value=\"en|ar\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;\">Arabic</option>"
+					},
+					{
+						"html": "<option value=\"en|hy\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;\">Armenian</option>"
+					},
+					{
+						"html": "<option value=\"en|az\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;\">Azerbaijani</option>"
+					},
+					{
+						"html": "<option value=\"en|eu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;\">Basque</option>"
+					},
+					{
+						"html": "<option value=\"en|be\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;\">Belarusian</option>"
+					},
+					{
+						"html": "<option value=\"en|bn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;\">Bengali</option>"
+					},
+					{
+						"html": "<option value=\"en|bs\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;\">Bosnian</option>"
+					},
+					{
+						"html": "<option value=\"en|bg\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;\">Bulgarian</option>"
+					},
+					{
+						"html": "<option value=\"en|ca\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;\">Catalan</option>"
+					},
+					{
+						"html": "<option value=\"en|ceb\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;\">Cebuano</option>"
+					},
+					{
+						"html": "<option value=\"en|zh-CN\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;\">Chinese (Simplified)</option>"
+					},
+					{
+						"html": "<option value=\"en|zh-TW\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;\">Chinese (Traditional)</option>"
+					},
+					{
+						"html": "<option value=\"en|hr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;\">Croatian</option>"
+					},
+					{
+						"html": "<option value=\"en|cs\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;\">Czech</option>"
+					},
+					{
+						"html": "<option value=\"en|da\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;\">Danish</option>"
+					},
+					{
+						"html": "<option value=\"en|nl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;\">Dutch</option>"
+					},
+					{
+						"html": "<option value=\"en|eo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;\">Esperanto</option>"
+					},
+					{
+						"html": "<option value=\"en|et\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;\">Estonian</option>"
+					},
+					{
+						"html": "<option value=\"en|tl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;\">Filipino</option>"
+					},
+					{
+						"html": "<option value=\"en|fi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;\">Finnish</option>"
+					},
+					{
+						"html": "<option value=\"en|fr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;\">French</option>"
+					},
+					{
+						"html": "<option value=\"en|gl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;\">Galician</option>"
+					},
+					{
+						"html": "<option value=\"en|ka\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;\">Georgian</option>"
+					},
+					{
+						"html": "<option value=\"en|de\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;\">German</option>"
+					},
+					{
+						"html": "<option value=\"en|el\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;\">Greek</option>"
+					},
+					{
+						"html": "<option value=\"en|gu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;\">Gujarati</option>"
+					},
+					{
+						"html": "<option value=\"en|ht\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;\">Haitian Creole</option>"
+					},
+					{
+						"html": "<option value=\"en|ha\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;\">Hausa</option>"
+					},
+					{
+						"html": "<option value=\"en|iw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;\">Hebrew</option>"
+					},
+					{
+						"html": "<option value=\"en|hi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;\">Hindi</option>"
+					},
+					{
+						"html": "<option value=\"en|hmn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;\">Hmong</option>"
+					},
+					{
+						"html": "<option value=\"en|hu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;\">Hungarian</option>"
+					},
+					{
+						"html": "<option value=\"en|is\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;\">Icelandic</option>"
+					},
+					{
+						"html": "<option value=\"en|ig\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;\">Igbo</option>"
+					},
+					{
+						"html": "<option value=\"en|id\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;\">Indonesian</option>"
+					},
+					{
+						"html": "<option value=\"en|ga\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;\">Irish</option>"
+					},
+					{
+						"html": "<option value=\"en|it\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;\">Italian</option>"
+					},
+					{
+						"html": "<option value=\"en|ja\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;\">Japanese</option>"
+					},
+					{
+						"html": "<option value=\"en|jw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;\">Javanese</option>"
+					},
+					{
+						"html": "<option value=\"en|kn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;\">Kannada</option>"
+					},
+					{
+						"html": "<option value=\"en|km\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;\">Khmer</option>"
+					},
+					{
+						"html": "<option value=\"en|ko\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;\">Korean</option>"
+					},
+					{
+						"html": "<option value=\"en|lo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;\">Lao</option>"
+					},
+					{
+						"html": "<option value=\"en|la\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;\">Latin</option>"
+					},
+					{
+						"html": "<option value=\"en|lv\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;\">Latvian</option>"
+					},
+					{
+						"html": "<option value=\"en|lt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;\">Lithuanian</option>"
+					},
+					{
+						"html": "<option value=\"en|mk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;\">Macedonian</option>"
+					},
+					{
+						"html": "<option value=\"en|ms\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;\">Malay</option>"
+					},
+					{
+						"html": "<option value=\"en|mt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;\">Maltese</option>"
+					},
+					{
+						"html": "<option value=\"en|mi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;\">Maori</option>"
+					},
+					{
+						"html": "<option value=\"en|mr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;\">Marathi</option>"
+					},
+					{
+						"html": "<option value=\"en|mn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;\">Mongolian</option>"
+					},
+					{
+						"html": "<option value=\"en|ne\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;\">Nepali</option>"
+					},
+					{
+						"html": "<option value=\"en|no\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;\">Norwegian</option>"
+					},
+					{
+						"html": "<option value=\"en|fa\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;\">Persian</option>"
+					},
+					{
+						"html": "<option value=\"en|pl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;\">Polish</option>"
+					},
+					{
+						"html": "<option value=\"en|pt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;\">Portuguese</option>"
+					},
+					{
+						"html": "<option value=\"en|pa\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;\">Punjabi</option>"
+					},
+					{
+						"html": "<option value=\"en|ro\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;\">Romanian</option>"
+					},
+					{
+						"html": "<option value=\"en|ru\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -336px;padding-left:18px;\">Russian</option>"
+					},
+					{
+						"html": "<option value=\"en|sr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;\">Serbian</option>"
+					},
+					{
+						"html": "<option value=\"en|sk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;\">Slovak</option>"
+					},
+					{
+						"html": "<option value=\"en|sl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;\">Slovenian</option>"
+					},
+					{
+						"html": "<option value=\"en|so\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;\">Somali</option>"
+					},
+					{
+						"html": "<option value=\"en|es\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;\">Spanish</option>"
+					},
+					{
+						"html": "<option value=\"en|sw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;\">Swahili</option>"
+					},
+					{
+						"html": "<option value=\"en|sv\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;\">Swedish</option>"
+					},
+					{
+						"html": "<option value=\"en|ta\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;\">Tamil</option>"
+					},
+					{
+						"html": "<option value=\"en|te\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;\">Telugu</option>"
+					},
+					{
+						"html": "<option value=\"en|th\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;\">Thai</option>"
+					},
+					{
+						"html": "<option value=\"en|tr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;\">Turkish</option>"
+					},
+					{
+						"html": "<option value=\"en|uk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -528px;padding-left:18px;\">Ukrainian</option>"
+					},
+					{
+						"html": "<option value=\"en|ur\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;\">Urdu</option>"
+					},
+					{
+						"html": "<option value=\"en|vi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;\">Vietnamese</option>"
+					},
+					{
+						"html": "<option value=\"en|cy\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;\">Welsh</option>"
+					},
+					{
+						"html": "<option value=\"en|yi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;\">Yiddish</option>"
+					},
+					{
+						"html": "<option value=\"en|yo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;\">Yoruba</option>"
+					},
+					{
+						"html": "<option value=\"en|zu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;\">Zulu</option>"
+					},
+					{
+						"html": "<img loading=\"lazy\" src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/styles/hero_desktop/s3/2020-10/banner-health-and-wellness.jpg?VersionId=CKjl__BYToZSbNwRwVD6gEQzoYlEuvGG&amp;h=150bf7c0&amp;itok=NqwCP6vr\" alt=\"Older couple out walking and laughing\" typeof=\"foaf:Image\" class=\"image-style-hero-desktop\">"
+					},
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-03/uvmmc-footer-logo.png?VersionId=seZ3Rn5KhGCXYQFMvo4.cu9a92kluku2\" alt=\"University of Vermont Health Network\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" dir=\"ltr\" prefix=\"content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# \" class=\"js crjs\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 362,
+				"items": [
+					{
+						"html": "<div class=\"gdpr-alert fixed-banner-privacy alert\" role=\"alert\" style=\"display: block;\">"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-xs-10\">"
+					},
+					{
+						"html": "<div class=\"alert-copy\">"
+					},
+					{
+						"html": "<div class=\"alert-content\" data-gtm-vis-recent-on-screen30842384_19=\"437\" data-gtm-vis-first-on-screen30842384_19=\"437\" data-gtm-vis-total-visible-time30842384_19=\"100\" data-gtm-vis-has-fired30842384_19=\"1\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<div class=\"col-xs-2 close-container\">\n                            <button type=\"button\" class=\"btn btn-default gdpr-alert__close\" data-dismiss=\"alert\" aria-hidden=\"true\">Close</button>\n                        </div>"
+					},
+					{
+						"html": "<a href=\"#content\" class=\"visually-hidden focusable skip-link\">\n      Skip to main content\n    </a>"
+					},
+					{
+						"html": "<div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas=\"\">"
+					},
+					{
+						"html": "<div class=\"header\">"
+					},
+					{
+						"html": "<header class=\"region region-header header-container\" role=\"banner\">"
+					},
+					{
+						"html": "<div id=\"block-header-nav\" class=\"container block block-blockgroup block-block-groupheader-nav\">"
+					},
+					{
+						"html": "<div id=\"block-headerlogo\" class=\"img-responsive block block-fixed-block-content block-fixed-block-contentheader-logo header-logo\">"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/\">"
+					},
+					{
+						"html": "<div class=\"field field--type-entity-reference field--label-hidden field__item\">"
+					},
+					{
+						"html": "<article class=\"media media--type-image media--view-mode-default\">"
+					},
+					{
+						"html": "<div class=\"field field--type-image field--label-hidden field__item\">\n\t  \t    <img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-11/uvmh-hn-logo.png?VersionId=hgxqzgKFac3RZ.96PucUAny.kYzzThAc\" alt=\"UVM Health Network Logo\" loading=\"lazy\" typeof=\"foaf:Image\">\n\n\n\t  \t  </div>"
+					},
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-11/uvmh-hn-logo.png?VersionId=hgxqzgKFac3RZ.96PucUAny.kYzzThAc\" alt=\"UVM Health Network Logo\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-globalmenu-menu\" id=\"block-globalmenu\" class=\"block block-menu navigation menu--global-menu\">"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-globalmenu-menu\">Global Menu</h2>"
+					},
+					{
+						"html": "<ul region=\"header_nav\" class=\"menu\">"
+					},
+					{
+						"html": "<li class=\"menu-item\"><a href=\"/for-medical-professionals\" class=\"menu-item\" data-drupal-link-system-path=\"node/12238\">For Medical Professionals</a></li>"
+					},
+					{
+						"html": "<a href=\"/for-medical-professionals\" class=\"menu-item\" data-drupal-link-system-path=\"node/12238\">For Medical Professionals</a>"
+					},
+					{
+						"html": "<li class=\"menu-item\"><a href=\"/for-network-employees\" class=\"menu-item\" data-drupal-link-system-path=\"node/12239\">For Network Employees</a></li>"
+					},
+					{
+						"html": "<a href=\"/for-network-employees\" class=\"menu-item\" data-drupal-link-system-path=\"node/12239\">For Network Employees</a>"
+					},
+					{
+						"html": "<div id=\"block-mychart\" class=\"mychart-block block block-fixed-block-content block-fixed-block-contentmy-chart\">"
+					},
+					{
+						"html": "<div class=\"clearfix text-formatted field field--type-text-with-summary field--label-hidden field__item\">\n\t  \t  <div><a class=\"btn mychart btn-sm btn-primary mychartfixed\" href=\"https://MyChart.UVMHealth.org\" title=\"MyChart\"><span>MyChart</span><br><span>LOG IN or JOIN</span></a></div>\n\n\t  \t  </div>"
+					},
+					{
+						"html": "<div><a class=\"btn mychart btn-sm btn-primary mychartfixed\" href=\"https://MyChart.UVMHealth.org\" title=\"MyChart\"><span>MyChart</span><br><span>LOG IN or JOIN</span></a></div>"
+					},
+					{
+						"html": "<a class=\"btn mychart btn-sm btn-primary mychartfixed\" href=\"https://MyChart.UVMHealth.org\" title=\"MyChart\"><span>MyChart</span><br><span>LOG IN or JOIN</span></a>"
+					},
+					{
+						"html": "<span>MyChart</span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<span>LOG IN or JOIN</span>"
+					},
+					{
+						"html": "<div id=\"contentResizer\" class=\"hidden-xs hidden-sm contentResizer\">"
+					},
+					{
+						"html": "<div class=\"resizer btn-group pull-right\" style=\"opacity: 1;\">"
+					},
+					{
+						"html": "<button type=\"button\" aria-label=\"Decrease font-size in content area\" class=\"small btn btn-default\" title=\"Decrease font-size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"medium btn btn-default currentFontSize\" aria-label=\"Reset font-size to default size in content area\" title=\"Reset font-size to default size in content area\">A</button>"
+					},
+					{
+						"html": "<button type=\"button\" class=\"large btn btn-default\" aria-label=\"Increase font-size in content area\" title=\"Increase font-size in content area\">A</button>"
+					},
+					{
+						"html": "<div id=\"block-gtranslate-2\" class=\"block-gtranslate-desktop block block-gtranslate block-gtranslate-block\">"
+					},
+					{
+						"html": "<div class=\"gtranslate\">"
+					},
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					},
+					{
+						"html": "<option value=\"\">Select Language</option>"
+					},
+					{
+						"html": "<option value=\"en|en\" style=\"font-weight:bold;background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;\">English</option>"
+					},
+					{
+						"html": "<option value=\"en|af\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;\">Afrikaans</option>"
+					},
+					{
+						"html": "<option value=\"en|sq\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;\">Albanian</option>"
+					},
+					{
+						"html": "<option value=\"en|ar\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;\">Arabic</option>"
+					},
+					{
+						"html": "<option value=\"en|hy\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;\">Armenian</option>"
+					},
+					{
+						"html": "<option value=\"en|az\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;\">Azerbaijani</option>"
+					},
+					{
+						"html": "<option value=\"en|eu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;\">Basque</option>"
+					},
+					{
+						"html": "<option value=\"en|be\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;\">Belarusian</option>"
+					},
+					{
+						"html": "<option value=\"en|bn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;\">Bengali</option>"
+					},
+					{
+						"html": "<option value=\"en|bs\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;\">Bosnian</option>"
+					},
+					{
+						"html": "<option value=\"en|bg\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;\">Bulgarian</option>"
+					},
+					{
+						"html": "<option value=\"en|ca\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;\">Catalan</option>"
+					},
+					{
+						"html": "<option value=\"en|ceb\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;\">Cebuano</option>"
+					},
+					{
+						"html": "<option value=\"en|zh-CN\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;\">Chinese (Simplified)</option>"
+					},
+					{
+						"html": "<option value=\"en|zh-TW\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;\">Chinese (Traditional)</option>"
+					},
+					{
+						"html": "<option value=\"en|hr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;\">Croatian</option>"
+					},
+					{
+						"html": "<option value=\"en|cs\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;\">Czech</option>"
+					},
+					{
+						"html": "<option value=\"en|da\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;\">Danish</option>"
+					},
+					{
+						"html": "<option value=\"en|nl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;\">Dutch</option>"
+					},
+					{
+						"html": "<option value=\"en|eo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;\">Esperanto</option>"
+					},
+					{
+						"html": "<option value=\"en|et\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;\">Estonian</option>"
+					},
+					{
+						"html": "<option value=\"en|tl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;\">Filipino</option>"
+					},
+					{
+						"html": "<option value=\"en|fi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;\">Finnish</option>"
+					},
+					{
+						"html": "<option value=\"en|fr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;\">French</option>"
+					},
+					{
+						"html": "<option value=\"en|gl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;\">Galician</option>"
+					},
+					{
+						"html": "<option value=\"en|ka\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;\">Georgian</option>"
+					},
+					{
+						"html": "<option value=\"en|de\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;\">German</option>"
+					},
+					{
+						"html": "<option value=\"en|el\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;\">Greek</option>"
+					},
+					{
+						"html": "<option value=\"en|gu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;\">Gujarati</option>"
+					},
+					{
+						"html": "<option value=\"en|ht\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;\">Haitian Creole</option>"
+					},
+					{
+						"html": "<option value=\"en|ha\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;\">Hausa</option>"
+					},
+					{
+						"html": "<option value=\"en|iw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;\">Hebrew</option>"
+					},
+					{
+						"html": "<option value=\"en|hi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;\">Hindi</option>"
+					},
+					{
+						"html": "<option value=\"en|hmn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;\">Hmong</option>"
+					},
+					{
+						"html": "<option value=\"en|hu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;\">Hungarian</option>"
+					},
+					{
+						"html": "<option value=\"en|is\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;\">Icelandic</option>"
+					},
+					{
+						"html": "<option value=\"en|ig\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;\">Igbo</option>"
+					},
+					{
+						"html": "<option value=\"en|id\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;\">Indonesian</option>"
+					},
+					{
+						"html": "<option value=\"en|ga\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;\">Irish</option>"
+					},
+					{
+						"html": "<option value=\"en|it\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;\">Italian</option>"
+					},
+					{
+						"html": "<option value=\"en|ja\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;\">Japanese</option>"
+					},
+					{
+						"html": "<option value=\"en|jw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;\">Javanese</option>"
+					},
+					{
+						"html": "<option value=\"en|kn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;\">Kannada</option>"
+					},
+					{
+						"html": "<option value=\"en|km\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;\">Khmer</option>"
+					},
+					{
+						"html": "<option value=\"en|ko\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;\">Korean</option>"
+					},
+					{
+						"html": "<option value=\"en|lo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;\">Lao</option>"
+					},
+					{
+						"html": "<option value=\"en|la\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;\">Latin</option>"
+					},
+					{
+						"html": "<option value=\"en|lv\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;\">Latvian</option>"
+					},
+					{
+						"html": "<option value=\"en|lt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;\">Lithuanian</option>"
+					},
+					{
+						"html": "<option value=\"en|mk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;\">Macedonian</option>"
+					},
+					{
+						"html": "<option value=\"en|ms\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;\">Malay</option>"
+					},
+					{
+						"html": "<option value=\"en|mt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;\">Maltese</option>"
+					},
+					{
+						"html": "<option value=\"en|mi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;\">Maori</option>"
+					},
+					{
+						"html": "<option value=\"en|mr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;\">Marathi</option>"
+					},
+					{
+						"html": "<option value=\"en|mn\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;\">Mongolian</option>"
+					},
+					{
+						"html": "<option value=\"en|ne\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;\">Nepali</option>"
+					},
+					{
+						"html": "<option value=\"en|no\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;\">Norwegian</option>"
+					},
+					{
+						"html": "<option value=\"en|fa\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;\">Persian</option>"
+					},
+					{
+						"html": "<option value=\"en|pl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;\">Polish</option>"
+					},
+					{
+						"html": "<option value=\"en|pt\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;\">Portuguese</option>"
+					},
+					{
+						"html": "<option value=\"en|pa\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;\">Punjabi</option>"
+					},
+					{
+						"html": "<option value=\"en|ro\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;\">Romanian</option>"
+					},
+					{
+						"html": "<option value=\"en|ru\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -336px;padding-left:18px;\">Russian</option>"
+					},
+					{
+						"html": "<option value=\"en|sr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;\">Serbian</option>"
+					},
+					{
+						"html": "<option value=\"en|sk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;\">Slovak</option>"
+					},
+					{
+						"html": "<option value=\"en|sl\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;\">Slovenian</option>"
+					},
+					{
+						"html": "<option value=\"en|so\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;\">Somali</option>"
+					},
+					{
+						"html": "<option value=\"en|es\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;\">Spanish</option>"
+					},
+					{
+						"html": "<option value=\"en|sw\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;\">Swahili</option>"
+					},
+					{
+						"html": "<option value=\"en|sv\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;\">Swedish</option>"
+					},
+					{
+						"html": "<option value=\"en|ta\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;\">Tamil</option>"
+					},
+					{
+						"html": "<option value=\"en|te\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;\">Telugu</option>"
+					},
+					{
+						"html": "<option value=\"en|th\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;\">Thai</option>"
+					},
+					{
+						"html": "<option value=\"en|tr\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;\">Turkish</option>"
+					},
+					{
+						"html": "<option value=\"en|uk\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -528px;padding-left:18px;\">Ukrainian</option>"
+					},
+					{
+						"html": "<option value=\"en|ur\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;\">Urdu</option>"
+					},
+					{
+						"html": "<option value=\"en|vi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;\">Vietnamese</option>"
+					},
+					{
+						"html": "<option value=\"en|cy\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;\">Welsh</option>"
+					},
+					{
+						"html": "<option value=\"en|yi\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;\">Yiddish</option>"
+					},
+					{
+						"html": "<option value=\"en|yo\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;\">Yoruba</option>"
+					},
+					{
+						"html": "<option value=\"en|zu\" style=\"background:url('/modules/contrib/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;\">Zulu</option>"
+					},
+					{
+						"html": "<div id=\"block-mobilesearch\" class=\"block block-fixed-block-content block-fixed-block-contentmobile-search\">"
+					},
+					{
+						"html": "<div class=\"clearfix text-formatted field field--type-text-with-summary field--label-hidden field__item\">"
+					},
+					{
+						"html": "<div class=\"region region-mobile-nav\">"
+					},
+					{
+						"html": "<div class=\"region region-main-nav\">"
+					},
+					{
+						"html": "<div id=\"Top-Nav-Wrapper\" class=\"hidden-xs\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-2-menu\" id=\"block-mainnavigation-2\" class=\"block container trim-left block-menu navigation menu--sub-main\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"col-md-12 flat\" id=\"topNavContainer\">"
+					},
+					{
+						"html": "<div class=\"root nav_root nav_area_top\">"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden menu-heading\" id=\"block-mainnavigation-2-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<ul class=\"nav_root_wrap\">"
+					},
+					{
+						"html": "<li class=\"first menu-item--collapsed\" data-gtm-menu-title=\"Doctors\">\n          <a href=\"/doctors\" class=\"first menu-item--collapsed\" data-drupal-link-system-path=\"node/12236\">Doctors</a>\n                    </li>"
+					},
+					{
+						"html": "<a href=\"/doctors\" class=\"first menu-item--collapsed\" data-drupal-link-system-path=\"node/12236\">Doctors</a>"
+					},
+					{
+						"html": "<li class=\"menu-item--collapsed\" data-gtm-menu-title=\"Locations\">\n          <a href=\"/network-locations\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12251\">Locations</a>\n                    </li>"
+					},
+					{
+						"html": "<a href=\"/network-locations\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12251\">Locations</a>"
+					},
+					{
+						"html": "<li class=\"menu-item--collapsed\" data-gtm-menu-title=\"Careers\">\n          <a href=\"/careers\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12234\">Careers</a>\n                    </li>"
+					},
+					{
+						"html": "<a href=\"/careers\" class=\"menu-item--collapsed\" data-drupal-link-system-path=\"node/12234\">Careers</a>"
+					},
+					{
+						"html": "<li class=\"menu-item--active menu-item--collapsed menu-item--active-trail\" aria-current=\"true\" data-gtm-menu-title=\"Health and Wellness\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness\" class=\"menu-item--active menu-item--collapsed menu-item--active-trail is-active\" aria-current=\"true\" data-drupal-link-system-path=\"node/15093\">Health and Wellness</a>"
+					},
+					{
+						"html": "<li data-gtm-menu-title=\"Research and Education\">\n          <a href=\"/research-and-education\" data-drupal-link-system-path=\"node/12254\">Research and Education</a>\n                    </li>"
+					},
+					{
+						"html": "<a href=\"/research-and-education\" data-drupal-link-system-path=\"node/12254\">Research and Education</a>"
+					},
+					{
+						"html": "<li class=\"last menu-item--collapsed\" data-gtm-menu-title=\"About UVM Health Network\">\n          <a href=\"/about-uvm-health-network\" class=\"last menu-item--collapsed\" data-drupal-link-system-path=\"node/12233\">About UVM Health Network</a>\n                    </li>"
+					},
+					{
+						"html": "<a href=\"/about-uvm-health-network\" class=\"last menu-item--collapsed\" data-drupal-link-system-path=\"node/12233\">About UVM Health Network</a>"
+					},
+					{
+						"html": "<div class=\"region region-title-banner\">"
+					},
+					{
+						"html": "<div class=\"views-element-container block block-views block-views-blockhero-block-hero\" id=\"block-views-block-hero-block-hero\">"
+					},
+					{
+						"html": "<div region=\"title_banner\"><div class=\"view view-hero view-id-hero view-display-id-block_hero js-view-dom-id-2d8cb0aaeb240654c2c5d040cec797dd7ce8f23f943e1fd8978287d6dea5a738\">\n  \n    \n      \n  \n          </div>\n</div>"
+					},
+					{
+						"html": "<div class=\"view view-hero view-id-hero view-display-id-block_hero js-view-dom-id-2d8cb0aaeb240654c2c5d040cec797dd7ce8f23f943e1fd8978287d6dea5a738\">\n  \n    \n      \n  \n          </div>"
+					},
+					{
+						"html": "<div id=\"block-breadcrumbs\" class=\"block block-system block-system-breadcrumb-block\">"
+					},
+					{
+						"html": "<div class=\"breadcrumb_wrap\">\n\n  <div class=\"container\">\n                  <a href=\"/\">The University of Vermont Health Network</a>\n        <span class=\"sep\"> &gt; </span>\n                        <span class=\"active\">Health and Wellness</span>\n            </div>\n</div>"
+					},
+					{
+						"html": "<div class=\"container\">\n                  <a href=\"/\">The University of Vermont Health Network</a>\n        <span class=\"sep\"> &gt; </span>\n                        <span class=\"active\">Health and Wellness</span>\n            </div>"
+					},
+					{
+						"html": "<a href=\"/\">The University of Vermont Health Network</a>"
+					},
+					{
+						"html": "<span class=\"sep\"> &gt; </span>"
+					},
+					{
+						"html": "<span class=\"active\">Health and Wellness</span>"
+					},
+					{
+						"html": "<div class=\"container\">\n  \n</div>"
+					},
+					{
+						"html": "<div id=\"content\" class=\"container main_content medium\">"
+					},
+					{
+						"html": "<div class=\"region region-content\">"
+					},
+					{
+						"html": "<div id=\"block-uvmh-default-mainpagecontent\" class=\"block block-system block-system-main-block page-content\">"
+					},
+					{
+						"html": "<article role=\"article\" about=\"/health-wellness\" class=\"node node--type-landing-page node--view-mode-full\">"
+					},
+					{
+						"html": "<div class=\"node__content\">"
+					},
+					{
+						"html": "<section class=\"layout layout--twocol-bricks\">"
+					},
+					{
+						"html": "<div class=\"layout__region layout__region--top\">"
+					},
+					{
+						"html": "<div class=\"block block-layout-builder block-field-blocknodelanding-pagefield-hero\">"
+					},
+					{
+						"html": "<div class=\"field field--type-entity-reference-revisions field--label-hidden field__item\">"
+					},
+					{
+						"html": "<div class=\"hero-banner\">"
+					},
+					{
+						"html": "<div id=\"InteriorBanner\">"
+					},
+					{
+						"html": "<div class=\"field field--type-entity-reference field--label-hidden field__items\">"
+					},
+					{
+						"html": "<div class=\"field__item\">"
+					},
+					{
+						"html": "<img loading=\"lazy\" src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/styles/hero_desktop/s3/2020-10/banner-health-and-wellness.jpg?VersionId=CKjl__BYToZSbNwRwVD6gEQzoYlEuvGG&amp;h=150bf7c0&amp;itok=NqwCP6vr\" alt=\"Older couple out walking and laughing\" typeof=\"foaf:Image\" class=\"image-style-hero-desktop\">"
+					},
+					{
+						"html": "<div class=\"banner-card col-12\">"
+					},
+					{
+						"html": "<h1 class=\"field field--type-string field--label-hidden field__item\">\n\t  \t  Health and Wellness\n\t  \t  </h1>"
+					},
+					{
+						"html": "<div class=\"clearfix text-formatted field field--type-text-long field--label-hidden field__item\">\n\t  \t  <p>Stay healthy with our wellness programs and resources.</p>\n\n\t  \t  </div>"
+					},
+					{
+						"html": "<p>Stay healthy with our wellness programs and resources.</p>"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-mainnavigation-menu\" id=\"block-mainnavigation\" class=\"block block-menu navigation menu--main\">"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-mainnavigation-menu\">Main navigation</h2>"
+					},
+					{
+						"html": "<div id=\"page-navigation-wrapper\">"
+					},
+					{
+						"html": "<div class=\"hero_links\">"
+					},
+					{
+						"html": "<nav>"
+					},
+					{
+						"html": "<div class=\"field__items\">"
+					},
+					{
+						"html": "<div class=\"field__item healthsource-classes first\" data-gtm-menu-title=\"HealthSource Classes\">\n          <a href=\"/health-wellness/healthsource-classes\" class=\"field__item healthsource-classes first\" data-drupal-link-system-path=\"node/15025\">HealthSource Classes</a>\n                    </div>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/healthsource-classes\" class=\"field__item healthsource-classes first\" data-drupal-link-system-path=\"node/15025\">HealthSource Classes</a>"
+					},
+					{
+						"html": "<div class=\"field__item support-groups\" data-gtm-menu-title=\"Support Groups\">\n          <a href=\"/health-wellness/support-groups\" class=\"field__item support-groups\" data-drupal-link-system-path=\"node/15092\">Support Groups</a>\n                    </div>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/support-groups\" class=\"field__item support-groups\" data-drupal-link-system-path=\"node/15092\">Support Groups</a>"
+					},
+					{
+						"html": "<div class=\"field__item flu-prevention\" data-gtm-menu-title=\"Flu Prevention\">\n          <a href=\"/health-wellness/flu-prevention\" class=\"field__item flu-prevention\" data-drupal-link-system-path=\"node/15095\">Flu Prevention</a>\n                    </div>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/flu-prevention\" class=\"field__item flu-prevention\" data-drupal-link-system-path=\"node/15095\">Flu Prevention</a>"
+					},
+					{
+						"html": "<div class=\"field__item health-assistance-program\" data-gtm-menu-title=\"Health Assistance Program\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness/health-assistance-program\" class=\"field__item health-assistance-program\" data-drupal-link-system-path=\"node/20239\">Health Assistance Program</a>"
+					},
+					{
+						"html": "<div class=\"field__item mail-order-pharmacy\" data-gtm-menu-title=\"Mail Order Pharmacy\">\n          <a href=\"/health-wellness/mail-order-pharmacy\" class=\"field__item mail-order-pharmacy\" data-drupal-link-system-path=\"node/22056\">Mail Order Pharmacy</a>\n                    </div>"
+					},
+					{
+						"html": "<a href=\"/health-wellness/mail-order-pharmacy\" class=\"field__item mail-order-pharmacy\" data-drupal-link-system-path=\"node/22056\">Mail Order Pharmacy</a>"
+					},
+					{
+						"html": "<div class=\"field__item uvmhn-community-benefit last\" data-gtm-menu-title=\"UVMHN Community Benefit\">"
+					},
+					{
+						"html": "<a href=\"/health-wellness/uvm-health-network-community-benefit\" class=\"field__item uvmhn-community-benefit last\" data-drupal-link-system-path=\"node/18171\">UVMHN Community Benefit</a>"
+					},
+					{
+						"html": "<div class=\"block block-layout-builder block-field-blocknodelanding-pagebody\">"
+					},
+					{
+						"html": "<div class=\"clearfix text-formatted field field--type-text-with-summary field--label-hidden field__item\">"
+					},
+					{
+						"html": "<h2 style=\"margin-bottom: 11px;\">Explore Health and Wellness Resources</h2>"
+					},
+					{
+						"html": "<p>Taking care of yourself – both physically and mentally – is essential in preventing illness and injury. The University of Vermont Health Network provides patients and community members a wide variety of prevention and wellness programs to help you stay healthy.</p>"
+					},
+					{
+						"html": "<h3>HealthSource</h3>"
+					},
+					{
+						"html": "<p>Stay informed on the latest issues that impact your health and wellness. Read stories with insights from experts around the UVM Health Network regarding a variety of topics, ranging from Children's Health and Cancer to Chronic Conditions and Mental Health.&nbsp;</p>"
+					},
+					{
+						"html": "<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"761d85ee-5e58-4224-9ecf-91ffeac10baf\" href=\"/healthsource\" title=\"HealthSource\">Browse our stories</a></strong>.</p>"
+					},
+					{
+						"html": "<strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"761d85ee-5e58-4224-9ecf-91ffeac10baf\" href=\"/healthsource\" title=\"HealthSource\">Browse our stories</a></strong>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"761d85ee-5e58-4224-9ecf-91ffeac10baf\" href=\"/healthsource\" title=\"HealthSource\">Browse our stories</a>"
+					},
+					{
+						"html": "<h3>Staying Healthy: Stay Informed About COVID-19</h3>"
+					},
+					{
+						"html": "<p>As we adjust to the normal of COVID-19, it’s important that you stay informed and continue to follow best practices for avoiding illness.</p>"
+					},
+					{
+						"html": "<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"6fbbb9aa-9c1e-4236-8b6b-2dc32eb8cd19\" href=\"/coronavirus\" title=\"Coronavirus\">Learn how to stay healthy and cope with COVID-19</a></strong>.</p>"
+					},
+					{
+						"html": "<strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"6fbbb9aa-9c1e-4236-8b6b-2dc32eb8cd19\" href=\"/coronavirus\" title=\"Coronavirus\">Learn how to stay healthy and cope with COVID-19</a></strong>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"6fbbb9aa-9c1e-4236-8b6b-2dc32eb8cd19\" href=\"/coronavirus\" title=\"Coronavirus\">Learn how to stay healthy and cope with COVID-19</a>"
+					},
+					{
+						"html": "<h3>Health Library</h3>"
+					},
+					{
+						"html": "<p>Use our health library to make better health decisions. Visit our learning center, use our interactive tools or search health-related topics for the latest in medical knowledge.</p>"
+					},
+					{
+						"html": "<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"86cbbbed-97ad-4a68-a176-ca3ef3ff0a4b\" href=\"/medcenter/wellness-resources/online-tools-and-information\" title=\"Online Tools and Information\">Explore our online tools and learning centers</a></strong>.</p>"
+					},
+					{
+						"html": "<strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"86cbbbed-97ad-4a68-a176-ca3ef3ff0a4b\" href=\"/medcenter/wellness-resources/online-tools-and-information\" title=\"Online Tools and Information\">Explore our online tools and learning centers</a></strong>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"86cbbbed-97ad-4a68-a176-ca3ef3ff0a4b\" href=\"/medcenter/wellness-resources/online-tools-and-information\" title=\"Online Tools and Information\">Explore our online tools and learning centers</a>"
+					},
+					{
+						"html": "<h3>Classes and Events</h3>"
+					},
+					{
+						"html": "<p>The Frymoyer Community Health Resource Center offers free educational programs, classes and workshops on healthy lifestyles, safety and wellness. Our Fall Series is being held virtually in response to COVID-19.</p>"
+					},
+					{
+						"html": "<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"30839cda-791a-46a0-a136-558c23e21369\" href=\"/health-wellness/healthsource-classes\" title=\"HealthSource Classes\">Explore HealthSource classes</a>.</strong></p>"
+					},
+					{
+						"html": "<strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"30839cda-791a-46a0-a136-558c23e21369\" href=\"/health-wellness/healthsource-classes\" title=\"HealthSource Classes\">Explore HealthSource classes</a>.</strong>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"30839cda-791a-46a0-a136-558c23e21369\" href=\"/health-wellness/healthsource-classes\" title=\"HealthSource Classes\">Explore HealthSource classes</a>"
+					},
+					{
+						"html": "<h3>Support Groups</h3>"
+					},
+					{
+						"html": "<p>From diagnosed patients to survivors and family members, we offer support groups both locally and nationally for anyone in need of support. Search our extensive database or visit the links below to find the group that is right for you.</p>"
+					},
+					{
+						"html": "<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"db29936f-77e7-42e5-88ee-f12385e986c0\" href=\"/health-wellness/support-groups\" title=\"Support Groups\">Explore support groups</a></strong>.</p>"
+					},
+					{
+						"html": "<strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"db29936f-77e7-42e5-88ee-f12385e986c0\" href=\"/health-wellness/support-groups\" title=\"Support Groups\">Explore support groups</a></strong>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"db29936f-77e7-42e5-88ee-f12385e986c0\" href=\"/health-wellness/support-groups\" title=\"Support Groups\">Explore support groups</a>"
+					},
+					{
+						"html": "<h3>News</h3>"
+					},
+					{
+						"html": "<p>Explore our archive of HealthSource newsletters, for tips and tricks on staying healthy and living well.</p>"
+					},
+					{
+						"html": "<p><strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8ae90943-6486-496e-a635-f502c285eaf7\" href=\"/coronavirus/healthsource\" title=\"HealthSource\">View newsletter archive</a></strong>.</p>"
+					},
+					{
+						"html": "<strong><a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8ae90943-6486-496e-a635-f502c285eaf7\" href=\"/coronavirus/healthsource\" title=\"HealthSource\">View newsletter archive</a></strong>"
+					},
+					{
+						"html": "<a data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"8ae90943-6486-496e-a635-f502c285eaf7\" href=\"/coronavirus/healthsource\" title=\"HealthSource\">View newsletter archive</a>"
+					},
+					{
+						"html": "<p>&nbsp;</p>"
+					},
+					{
+						"html": "<p style=\"margin-bottom:11px\">&nbsp;</p>"
+					},
+					{
+						"html": "<div class=\"container\">\n  \n</div>"
+					},
+					{
+						"html": "<footer class=\"region region-footer footer-container\" role=\"contentinfo\">"
+					},
+					{
+						"html": "<div class=\"container-fluid\">"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerfirst-menu\" id=\"block-footerfirst\" class=\"gme-footer-contact block navigation menu--footer-first\">"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerfirst-menu\">Footer First</h2>"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div id=\"block-footertopphonenumbers\" class=\"footer-phone-numbers block block-fixed-block-content block-fixed-block-contentfooter-top-phone-numbers\">"
+					},
+					{
+						"html": "<div class=\"clearfix text-formatted field field--type-text-with-summary field--label-hidden field__item\">\n\t  \t  <p><a href=\"tel:8448864325\"><span aria-hidden=\"true\" class=\"glyphicon glyphicon-earphone\">&nbsp;</span>844-UVM-HEALTH</a> <a href=\"tel:8448864325\">844-886-4325</a></p>\n\n\t  \t  </div>"
+					},
+					{
+						"html": "<p><a href=\"tel:8448864325\"><span aria-hidden=\"true\" class=\"glyphicon glyphicon-earphone\">&nbsp;</span>844-UVM-HEALTH</a> <a href=\"tel:8448864325\">844-886-4325</a></p>"
+					},
+					{
+						"html": "<a href=\"tel:8448864325\"><span aria-hidden=\"true\" class=\"glyphicon glyphicon-earphone\">&nbsp;</span>844-UVM-HEALTH</a>"
+					},
+					{
+						"html": "<a href=\"tel:8448864325\">844-886-4325</a>"
+					},
+					{
+						"html": "<div id=\"block-socialmedialinks\" class=\"block-social-media-links block block-social-media-links-block\">"
+					},
+					{
+						"html": "<ul class=\"social-media-links--platforms platforms inline horizontal\">"
+					},
+					{
+						"html": "<li>\n      <a class=\"social-media-link-icon--twitter\" href=\"https://www.twitter.com/uvmhealth\">\n          <i class=\"micon fa-twitter\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Twitter</span>\n      </a>\n    </li>"
+					},
+					{
+						"html": "<a class=\"social-media-link-icon--twitter\" href=\"https://www.twitter.com/uvmhealth\">\n          <i class=\"micon fa-twitter\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Twitter</span>\n      </a>"
+					},
+					{
+						"html": "<span class=\"platform--name visually-hidden\">Twitter</span>"
+					},
+					{
+						"html": "<li>\n      <a class=\"social-media-link-icon--youtube_channel\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\">\n          <i class=\"micon fa-youtube\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Youtube Channel</span>\n      </a>\n    </li>"
+					},
+					{
+						"html": "<a class=\"social-media-link-icon--youtube_channel\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\">\n          <i class=\"micon fa-youtube\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">Youtube Channel</span>\n      </a>"
+					},
+					{
+						"html": "<span class=\"platform--name visually-hidden\">Youtube Channel</span>"
+					},
+					{
+						"html": "<li>\n      <a class=\"social-media-link-icon--linkedin\" href=\"https://www.linkedin.com/company/8821879\">\n          <i class=\"micon fa-linkedin-in\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">LinkedIn</span>\n      </a>\n    </li>"
+					},
+					{
+						"html": "<a class=\"social-media-link-icon--linkedin\" href=\"https://www.linkedin.com/company/8821879\">\n          <i class=\"micon fa-linkedin-in\" aria-hidden=\"true\"></i>\n\n\n        \n        <span class=\"platform--name visually-hidden\">LinkedIn</span>\n      </a>"
+					},
+					{
+						"html": "<span class=\"platform--name visually-hidden\">LinkedIn</span>"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footermiddle-menu\" id=\"block-footermiddle\" class=\"container block navigation menu--footer-middle\">"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footermiddle-menu\">Footer Middle</h2>"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<div id=\"block-footernetworkabout\" class=\"footer-network-about block block-fixed-block-content block-fixed-block-contentfooter-network-about\">"
+					},
+					{
+						"html": "<div class=\"clearfix text-formatted field field--type-text-with-summary field--label-hidden field__item\">"
+					},
+					{
+						"html": "<div data-embed-button=\"media_entity_embed\" data-entity-embed-display=\"view_mode:media.full\" data-entity-embed-display-settings=\"[]\" data-entity-type=\"media\" data-entity-uuid=\"d24c852c-ce6b-4278-9b2f-e96ff7381af0\" data-langcode=\"en\" class=\"embedded-entity\">"
+					},
+					{
+						"html": "<article class=\"media media--type-image media--view-mode-full\">"
+					},
+					{
+						"html": "<div class=\"field field--type-image field--label-hidden field__item\">"
+					},
+					{
+						"html": "<img src=\"https://d2ubrtwy6ww54e.cloudfront.net/www.uvmhealth.org/assets/2020-03/uvmmc-footer-logo.png?VersionId=seZ3Rn5KhGCXYQFMvo4.cu9a92kluku2\" alt=\"University of Vermont Health Network\" loading=\"lazy\" typeof=\"foaf:Image\">"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<div id=\"block-homefootermenu\" class=\"block block-fixed-block-content block-fixed-block-contenthome-footer-menu\">"
+					},
+					{
+						"html": "<h2>Our Network</h2>"
+					},
+					{
+						"html": "<div class=\"field field--type-link field--label-hidden field__items\">"
+					},
+					{
+						"html": "<div class=\"field__item\">\n\t\t\t\t<a href=\"/medcenter\">University of Vermont Medical Center</a>\n\t\t\t\t</div>"
+					},
+					{
+						"html": "<a href=\"/medcenter\">University of Vermont Medical Center</a>"
+					},
+					{
+						"html": "<div class=\"field__item\">\n\t\t\t\t<a href=\"/about-the-uvm-health-network/medical-group\">UVM Health Network - Medical Group</a>\n\t\t\t\t</div>"
+					},
+					{
+						"html": "<a href=\"/about-the-uvm-health-network/medical-group\">UVM Health Network - Medical Group</a>"
+					},
+					{
+						"html": "<div class=\"field__item\">"
+					},
+					{
+						"html": "<a href=\"http://www.cvmc.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<metadata>"
+					},
+					{
+						"html": "<sfw xmlns=\"http://ns.adobe.com/SaveForWeb/1.0/\">"
+					},
+					{
+						"html": "<slicesourcebounds y=\"-8160\" x=\"-8165\" width=\"16389\" height=\"16384\" bottomleftorigin=\"true\"></slicesourcebounds>"
+					},
+					{
+						"html": "<optimizationsettings><targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings></optimizationsettings>"
+					},
+					{
+						"html": "<targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings>"
+					},
+					{
+						"html": "<png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format>"
+					},
+					{
+						"html": "<title>(link is external)</title>"
+					},
+					{
+						"html": "<path d=\"M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z\"></path>"
+					},
+					{
+						"html": "<path d=\"M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z\"></path>"
+					},
+					{
+						"html": "<div class=\"field__item\">"
+					},
+					{
+						"html": "<a href=\"http://www.cvph.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<metadata>"
+					},
+					{
+						"html": "<sfw xmlns=\"http://ns.adobe.com/SaveForWeb/1.0/\">"
+					},
+					{
+						"html": "<slicesourcebounds y=\"-8160\" x=\"-8165\" width=\"16389\" height=\"16384\" bottomleftorigin=\"true\"></slicesourcebounds>"
+					},
+					{
+						"html": "<optimizationsettings><targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings></optimizationsettings>"
+					},
+					{
+						"html": "<targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings>"
+					},
+					{
+						"html": "<png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format>"
+					},
+					{
+						"html": "<title>(link is external)</title>"
+					},
+					{
+						"html": "<path d=\"M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z\"></path>"
+					},
+					{
+						"html": "<path d=\"M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z\"></path>"
+					},
+					{
+						"html": "<div class=\"field__item\">"
+					},
+					{
+						"html": "<a href=\"http://www.ech.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<metadata>"
+					},
+					{
+						"html": "<sfw xmlns=\"http://ns.adobe.com/SaveForWeb/1.0/\">"
+					},
+					{
+						"html": "<slicesourcebounds y=\"-8160\" x=\"-8165\" width=\"16389\" height=\"16384\" bottomleftorigin=\"true\"></slicesourcebounds>"
+					},
+					{
+						"html": "<optimizationsettings><targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings></optimizationsettings>"
+					},
+					{
+						"html": "<targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings>"
+					},
+					{
+						"html": "<png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format>"
+					},
+					{
+						"html": "<title>(link is external)</title>"
+					},
+					{
+						"html": "<path d=\"M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z\"></path>"
+					},
+					{
+						"html": "<path d=\"M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z\"></path>"
+					},
+					{
+						"html": "<div class=\"field__item\">"
+					},
+					{
+						"html": "<a href=\"http://www.alicehyde.com/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<metadata>"
+					},
+					{
+						"html": "<sfw xmlns=\"http://ns.adobe.com/SaveForWeb/1.0/\">"
+					},
+					{
+						"html": "<slicesourcebounds y=\"-8160\" x=\"-8165\" width=\"16389\" height=\"16384\" bottomleftorigin=\"true\"></slicesourcebounds>"
+					},
+					{
+						"html": "<optimizationsettings><targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings></optimizationsettings>"
+					},
+					{
+						"html": "<targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings>"
+					},
+					{
+						"html": "<png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format>"
+					},
+					{
+						"html": "<title>(link is external)</title>"
+					},
+					{
+						"html": "<path d=\"M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z\"></path>"
+					},
+					{
+						"html": "<path d=\"M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z\"></path>"
+					},
+					{
+						"html": "<div class=\"field__item\">"
+					},
+					{
+						"html": "<a href=\"http://www.portermedical.org/\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<metadata>"
+					},
+					{
+						"html": "<sfw xmlns=\"http://ns.adobe.com/SaveForWeb/1.0/\">"
+					},
+					{
+						"html": "<slicesourcebounds y=\"-8160\" x=\"-8165\" width=\"16389\" height=\"16384\" bottomleftorigin=\"true\"></slicesourcebounds>"
+					},
+					{
+						"html": "<optimizationsettings><targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings></optimizationsettings>"
+					},
+					{
+						"html": "<targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings>"
+					},
+					{
+						"html": "<png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format>"
+					},
+					{
+						"html": "<title>(link is external)</title>"
+					},
+					{
+						"html": "<path d=\"M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z\"></path>"
+					},
+					{
+						"html": "<path d=\"M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z\"></path>"
+					},
+					{
+						"html": "<div class=\"field__item\">"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhomehealth.org/\" target=\"_blank\" class=\"ext\" data-extlink=\"\" rel=\"noreferrer\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<metadata>"
+					},
+					{
+						"html": "<sfw xmlns=\"http://ns.adobe.com/SaveForWeb/1.0/\">"
+					},
+					{
+						"html": "<slicesourcebounds y=\"-8160\" x=\"-8165\" width=\"16389\" height=\"16384\" bottomleftorigin=\"true\"></slicesourcebounds>"
+					},
+					{
+						"html": "<optimizationsettings><targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings></optimizationsettings>"
+					},
+					{
+						"html": "<targetsettings targetsettingsid=\"0\" fileformat=\"PNG24Format\"><png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format></targetsettings>"
+					},
+					{
+						"html": "<png24format transparency=\"true\" filtered=\"false\" interlaced=\"false\" nomattecolor=\"false\" mattecolor=\"#FFFFFF\"></png24format>"
+					},
+					{
+						"html": "<title>(link is external)</title>"
+					},
+					{
+						"html": "<path d=\"M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z\"></path>"
+					},
+					{
+						"html": "<path d=\"M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z\"></path>"
+					},
+					{
+						"html": "<div role=\"navigation\" aria-labelledby=\"block-footerbottom-menu\" id=\"block-footerbottom\" class=\"block navigation menu--footer-bottom\">"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footerbottom-menu\">Footer Bottom</h2>"
+					},
+					{
+						"html": "<div class=\"container\">"
+					},
+					{
+						"html": "<nav role=\"navigation\" aria-labelledby=\"block-footer-menu\" id=\"block-footer\" class=\"site-copyrights block block-menu navigation menu--footer-global\">"
+					},
+					{
+						"html": "<h2 class=\"visually-hidden\" id=\"block-footer-menu\">Footer</h2>"
+					},
+					{
+						"html": "<ul region=\"footer_bottom\" class=\"menu\">"
+					},
+					{
+						"html": "<li class=\"menu-item\">\n        <a href=\"/site-map\" data-drupal-link-system-path=\"node/12255\">Site Map</a>\n              </li>"
+					},
+					{
+						"html": "<a href=\"/site-map\" data-drupal-link-system-path=\"node/12255\">Site Map</a>"
+					},
+					{
+						"html": "<li class=\"menu-item\">\n        <a href=\"/contact-us\" data-drupal-link-system-path=\"node/12235\">Contact Us</a>\n              </li>"
+					},
+					{
+						"html": "<a href=\"/contact-us\" data-drupal-link-system-path=\"node/12235\">Contact Us</a>"
+					},
+					{
+						"html": "<li class=\"menu-item\">\n        <a href=\"/privacy-policy\" data-drupal-link-system-path=\"node/12253\">Privacy Policy</a>\n              </li>"
+					},
+					{
+						"html": "<a href=\"/privacy-policy\" data-drupal-link-system-path=\"node/12253\">Privacy Policy</a>"
+					},
+					{
+						"html": "<div id=\"block-footeraddress\" class=\"footer-address block block-fixed-block-content block-fixed-block-contentfooter-address\">"
+					},
+					{
+						"html": "<div class=\"clearfix text-formatted field field--type-text-with-summary field--label-hidden field__item\">"
+					},
+					{
+						"html": "<p><span>©&nbsp;2023 The University of Vermont Health Network</span><br>\n<span>462 Shelburne Road</span><br>\n<span>Burlington, Vermont 05401</span><br>\n<span>844-UVM-Health (886-4325)</span></p>"
+					},
+					{
+						"html": "<span>©&nbsp;2023 The University of Vermont Health Network</span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<span>462 Shelburne Road</span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<span>Burlington, Vermont 05401</span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<span>844-UVM-Health (886-4325)</span>"
+					}
+				]
+			},
+			"select-name": {
+				"description": "Select element must have an accessible name",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/select-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<select onchange=\"doGTranslate(this);\" id=\"gtranslate_selector\" class=\"notranslate\" aria-label=\"Website Language Selector\">"
+					}
+				]
+			},
+			"svg-img-alt": {
+				"description": "<svg> elements with an img role must have an alternative text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/svg-img-alt?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					},
+					{
+						"html": "<svg focusable=\"false\" class=\"ext\" role=\"img\" aria-label=\"(link is external)\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 40\">"
+					}
+				]
+			}
+		}
+	}
+}

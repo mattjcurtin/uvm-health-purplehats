@@ -1,0 +1,1134 @@
+{
+	"url": "https://mychart.uvmhealth.org/",
+	"pageTitle": "The University of Vermont Health Network - Login Page",
+	"totalItems": 216,
+	"mustFix": {
+		"totalItems": 1,
+		"rules": {
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<ul class=\"features row\">",
+						"message": "Fix all of the following:\n  List element has direct children that are not allowed: br",
+						"screenshotPath": "elemScreenshots/html/MyChart-Authentication-Login-mustFix-list-0.png",
+						"xpath": "ul"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 1,
+		"rules": {
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">",
+						"message": "Fix all of the following:\n  Page must have a level-one heading",
+						"screenshotPath": "elemScreenshots/html/MyChart-Authentication-Login-goodToFix-page-has-heading-one-0.png",
+						"xpath": "html"
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 214,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a href=\"/MyChart/\" class=\"logo\" title=\"\" aria-label=\"The University of Vermont Health Network - Your secure online health connection\"></a>"
+					},
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a href=\"#\" target=\"_top\" id=\"noCookiesButton\" role=\"button\" class=\"button\">Sign in to The University of Vermont Health Network</a>"
+					},
+					{
+						"html": "<a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//GuestEstimates\">Get estimates</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//billing/GuestPay\">Pay a bill</a>"
+					},
+					{
+						"html": "<div role=\"alert\" class=\"ajaxspinner defaultajaxoverlay hidden\"><div class=\"loadingmessage\">Loading...<div class=\"loadingHeart\"></div></div></div>"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a href=\"/MyChart/\" class=\"logo\" title=\"\" aria-label=\"The University of Vermont Health Network - Your secure online health connection\"></a>"
+					},
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//GuestEstimates\">Get estimates</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//billing/GuestPay\">Pay a bill</a>"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"loginPage isPrelogin hasNoCommunityLinks color1 md_login_login ready\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a href=\"/MyChart/\" class=\"logo\" title=\"\" aria-label=\"The University of Vermont Health Network - Your secure online health connection\"></a>"
+					},
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//GuestEstimates\">Get estimates</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//billing/GuestPay\">Pay a bill</a>"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//GuestEstimates\">Get estimates</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//billing/GuestPay\">Pay a bill</a>"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a href=\"/MyChart/\" class=\"logo\" title=\"\" aria-label=\"The University of Vermont Health Network - Your secure online health connection\"></a>"
+					},
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<a href=\"/MyChart/\" class=\"logo\" title=\"\" aria-label=\"The University of Vermont Health Network - Your secure online health connection\"></a>"
+					},
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"autocomplete-valid": {
+				"description": "autocomplete attribute must be used correctly",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/autocomplete-valid?application=purple-hats",
+				"conformance": [
+					"wcag21aa",
+					"wcag135"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-hats",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">"
+					},
+					{
+						"html": "<p style=\"color:#00643C; font-size:22px; text-align:center\"><b>Have Questions?</b></p>"
+					},
+					{
+						"html": "<p style=\"color:#00643C; font-size:16px; text-align:center\">Call MyChart Support at 802-847-7500 or toll-free at 1-888-979-1414</p>"
+					},
+					{
+						"html": "<p style=\"color:red\" ;=\"\"><strong>You Are Not Alone.  Get Help Now.</strong></p>"
+					},
+					{
+						"html": "<div id=\"mychart_by_epic_logo_wrapper\" style=\"display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 1rem !important; padding: 0px !important; margin: 0.5rem auto 0px !important; min-width: 6.5rem !important; width: 6.5rem !important; position: static !important; z-index: auto !important;\">"
+					},
+					{
+						"html": "<img id=\"mychart_by_epic_logo\" src=\"/MyChart/en-US/images/MyChartByEpic_inline_dark.svg\" alt=\"MyChart by Epic\" style=\"display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 1rem !important; padding: 0px !important; margin: 0.5rem auto 0px !important; min-width: 6.5rem !important; width: 6.5rem !important; position: static !important; z-index: auto !important;\">"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">"
+					}
+				]
+			},
+			"duplicate-id-aria": {
+				"description": "IDs used in ARIA and labels must be unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/duplicate-id-aria?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<span id=\"errorMessage\"></span>"
+					},
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<h2 class=\"header center\">New User?</h2>"
+					},
+					{
+						"html": "<h2 class=\"header center\">Need a price estimate?</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Communicate with your doctor</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Access your test results</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Request prescription refills</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Manage your appointments</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\"><p style=\"color:red\" ;=\"\"><strong>You Are Not Alone.  Get Help Now.</strong></p></h2>"
+					}
+				]
+			},
+			"form-field-multiple-labels": {
+				"description": "Form field must not have multiple label elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/form-field-multiple-labels?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag332"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<h2 class=\"header center\">New User?</h2>"
+					},
+					{
+						"html": "<h2 class=\"header center\">Need a price estimate?</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Communicate with your doctor</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Access your test results</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Request prescription refills</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\">Manage your appointments</h2>"
+					},
+					{
+						"html": "<h2 class=\"header\"><p style=\"color:red\" ;=\"\"><strong>You Are Not Alone.  Get Help Now.</strong></p></h2>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">"
+					}
+				]
+			},
+			"html-xml-lang-mismatch": {
+				"description": "HTML elements with lang and xml:lang must have the same base language",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-xml-lang-mismatch?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_apple.png\" alt=\"MyChart for iOS\" class=\"badge\">"
+					},
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_android.png\" alt=\"MyChart for Android\" class=\"badge\">"
+					},
+					{
+						"html": "<img id=\"mychart_by_epic_logo\" src=\"/MyChart/en-US/images/MyChartByEpic_inline_dark.svg\" alt=\"MyChart by Epic\" style=\"display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 1rem !important; padding: 0px !important; margin: 0.5rem auto 0px !important; min-width: 6.5rem !important; width: 6.5rem !important; position: static !important; z-index: auto !important;\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_apple.png\" alt=\"MyChart for iOS\" class=\"badge\">"
+					},
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_android.png\" alt=\"MyChart for Android\" class=\"badge\">"
+					},
+					{
+						"html": "<img id=\"mychart_by_epic_logo\" src=\"/MyChart/en-US/images/MyChartByEpic_inline_dark.svg\" alt=\"MyChart by Epic\" style=\"display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 1rem !important; padding: 0px !important; margin: 0.5rem auto 0px !important; min-width: 6.5rem !important; width: 6.5rem !important; position: static !important; z-index: auto !important;\">"
+					}
+				]
+			},
+			"input-button-name": {
+				"description": "Input buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/input-button-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<input class=\"button tall jsreq completeworkflow\" type=\"submit\" name=\"submit\" id=\"submit\" value=\"Sign in\" title=\"\" autocomplete=\"off\">"
+					}
+				]
+			},
+			"label-title-only": {
+				"description": "Form elements should have a visible label",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label-title-only?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"label": {
+				"description": "Form elements must have labels",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					}
+				]
+			},
+			"landmark-complementary-is-top-level": {
+				"description": "Aside should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-complementary-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<aside id=\"sidebar\">"
+					}
+				]
+			},
+			"landmark-contentinfo-is-top-level": {
+				"description": "Contentinfo landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-contentinfo-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer id=\"footer\">"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main id=\"main\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer id=\"footer\">"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main id=\"main\">"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\" dir=\"ltr\" class=\"notile\" style=\"--wp-header-height: 0px; --wp-main-padding-top: 8.66667px; --wp-footer-height: 129.977px;\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<main id=\"main\">"
+					},
+					{
+						"html": "<aside id=\"sidebar\">"
+					},
+					{
+						"html": "<footer id=\"footer\">"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 15,
+				"items": [
+					{
+						"html": "<a href=\"/MyChart/\" class=\"logo\" title=\"\" aria-label=\"The University of Vermont Health Network - Your secure online health connection\"></a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/recoverlogin.asp\">Forgot username?</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/passwordreset.asp\">Forgot password?</a>"
+					},
+					{
+						"html": "<a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//GuestEstimates\">Get estimates</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//billing/GuestPay\">Pay a bill</a>"
+					},
+					{
+						"html": "<a href=\"https://988lifeline.org/talk-to-someone-now/\"><b>click here</b></a>"
+					},
+					{
+						"html": "<a href=\"https://itunes.apple.com/us/app/mychart/id382952264?mt=8\"><img src=\"/MyChart/en-US/images/badge_apple.png\" alt=\"MyChart for iOS\" class=\"badge\"></a>"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=epic.mychart.android&amp;hl=en\"><img src=\"/MyChart/en-US/images/badge_android.png\" alt=\"MyChart for Android\" class=\"badge\"></a>"
+					},
+					{
+						"html": "<a href=\"https://open.epic.com/Tutorial/PatientAuthentication?whereFrom=MyChart\">Interoperability Guide</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=faq\">FAQs</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=hlthprivacy\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=termsandconditions\">Terms and Conditions</a>"
+					},
+					{
+						"html": "<a href=\"#\" class=\"cssSwitcher\" data-csstitle=\"High Contrast\">High Contrast Theme</a>"
+					},
+					{
+						"html": "<a target=\"_top\" href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=epiccopyright\"><span class=\"copystring\">MyChart® licensed from Epic Systems Corporation</span><span class=\"copyyear\">© 1999 - 2023</span></a>"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<li class=\"icon-advice col-6\"><h2 class=\"header\">Communicate with your doctor</h2><span class=\"info\">Get answers to your medical questions from the comfort of your own home</span></li>"
+					},
+					{
+						"html": "<li class=\"icon-testResults col-6\"><h2 class=\"header\">Access your test results</h2><span class=\"info\">No more waiting for a phone call or letter – view your results and your doctor's comments within days</span></li>"
+					},
+					{
+						"html": "<li class=\"icon-medications col-6\"><h2 class=\"header\">Request prescription refills</h2><span class=\"info\">Send a refill request for any of your refillable medications</span></li>"
+					},
+					{
+						"html": "<li class=\"icon-calendar col-6\"><h2 class=\"header\">Manage your appointments</h2><span class=\"info\">Schedule your next appointment, or view details of your past and upcoming appointments</span></li>"
+					},
+					{
+						"html": "<li class=\"bannerhome col-12\">"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"initial-scale=1, width=device-width\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta name=\"viewport\" content=\"initial-scale=1, width=device-width\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 7,
+				"items": [
+					{
+						"html": "<input class=\"button tall jsreq completeworkflow\" type=\"submit\" name=\"submit\" id=\"submit\" value=\"Sign in\" title=\"\" autocomplete=\"off\">"
+					},
+					{
+						"html": "<a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//GuestEstimates\">Get estimates</a>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//billing/GuestPay\">Pay a bill</a>"
+					},
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_apple.png\" alt=\"MyChart for iOS\" class=\"badge\">"
+					},
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_android.png\" alt=\"MyChart for Android\" class=\"badge\">"
+					},
+					{
+						"html": "<img id=\"mychart_by_epic_logo\" src=\"/MyChart/en-US/images/MyChartByEpic_inline_dark.svg\" alt=\"MyChart by Epic\" style=\"display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 1rem !important; padding: 0px !important; margin: 0.5rem auto 0px !important; min-width: 6.5rem !important; width: 6.5rem !important; position: static !important; z-index: auto !important;\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 92,
+				"items": [
+					{
+						"html": "<div id=\"appPopupRoot\" class=\"overlayContainer\"></div>"
+					},
+					{
+						"html": "<div id=\"classicPopupRoot\" class=\"overlayContainer\">\n<div id=\"onboarding-content\" class=\"jqHidden\"></div>\n<div id=\"lightbox\" class=\"lb_content jqHidden\"></div>\n<div id=\"lightbox_overlay\" class=\"lightbox_overlay lb_overlay jqHidden\" csp-guid-click=\"884ef4e9bad74c75b9e6b87d056ad075\"></div>\n</div>"
+					},
+					{
+						"html": "<div id=\"wrap\" data-hide-during-popup=\"true\">"
+					},
+					{
+						"html": "<div id=\"toastWrapper\" class=\"fitme width animToast\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></div>"
+					},
+					{
+						"html": "<div id=\"content\" class=\"hasSidebar\">"
+					},
+					{
+						"html": "<main id=\"main\">"
+					},
+					{
+						"html": "<a name=\"maintop\" id=\"maintop\"></a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/\" class=\"logo\" title=\"\" aria-label=\"The University of Vermont Health Network - Your secure online health connection\"></a>"
+					},
+					{
+						"html": "<div id=\"LoginNoCookies\">"
+					},
+					{
+						"html": "<div class=\"mainLoginContent beforeLoginFields\">\n\t</div>"
+					},
+					{
+						"html": "<div id=\"appRoot\" class=\"section\"></div>"
+					},
+					{
+						"html": "<aside id=\"sidebar\">"
+					},
+					{
+						"html": "<div class=\"loginAlerts\"><div class=\"errorMessage\" id=\"loginErrorMessage\"><span class=\"alert card hidden \"><img id=\"WarningIcon\" alt=\"\" src=\"/MyChart/en-US/images/warning.png\"><span id=\"errorMessage\"></span></span></div></div>"
+					},
+					{
+						"html": "<div class=\"errorMessage\" id=\"loginErrorMessage\"><span class=\"alert card hidden \"><img id=\"WarningIcon\" alt=\"\" src=\"/MyChart/en-US/images/warning.png\"><span id=\"errorMessage\"></span></span></div>"
+					},
+					{
+						"html": "<div class=\"login\">"
+					},
+					{
+						"html": "<form autocomplete=\"off\" method=\"post\" action=\"#\" id=\"loginForm\" target=\"_top\">"
+					},
+					{
+						"html": "<div class=\"formcontents\">"
+					},
+					{
+						"html": "<div class=\"ghostInput compact ghosted\"><label for=\"Login\">MyChart Username</label><input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\"></div>"
+					},
+					{
+						"html": "<label for=\"Login\">MyChart Username</label>"
+					},
+					{
+						"html": "<input data-permissive=\"true\" class=\"jsreq\" type=\"text\" id=\"Login\" name=\"Login\" maxlength=\"128\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<div class=\"ghostInput\"><label for=\"Password\">Password</label><input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\"></div>"
+					},
+					{
+						"html": "<label for=\"Password\">Password</label>"
+					},
+					{
+						"html": "<input class=\"jsreq\" type=\"password\" id=\"Password\" name=\"Password\" autocomplete=\"off\" aria-describedby=\"errorMessage\">"
+					},
+					{
+						"html": "<input class=\"button tall jsreq completeworkflow\" type=\"submit\" name=\"submit\" id=\"submit\" value=\"Sign in\" title=\"\" autocomplete=\"off\">"
+					},
+					{
+						"html": "<div class=\"recovery\"><a href=\"/MyChart/recoverlogin.asp\">Forgot username?</a><a href=\"/MyChart/passwordreset.asp\">Forgot password?</a></div>"
+					},
+					{
+						"html": "<a href=\"/MyChart/recoverlogin.asp\">Forgot username?</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/passwordreset.asp\">Forgot password?</a>"
+					},
+					{
+						"html": "<div id=\"invisibleCaptchaContainer\" class=\"loginCaptcha\"></div>"
+					},
+					{
+						"html": "<div class=\"signup\"><h2 class=\"header center\">New User?</h2><a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a></div>"
+					},
+					{
+						"html": "<h2 class=\"header center\">New User?</h2>"
+					},
+					{
+						"html": "<a class=\"button tall newworkflow\" role=\"button\" href=\"/MyChart/accesscheck.asp\">Sign up now</a>"
+					},
+					{
+						"html": "<p class=\"posttext\"></p>"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<h2 class=\"header center\">Need a price estimate?</h2>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//GuestEstimates\">Get estimates</a>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a class=\"button tall\" role=\"button\" href=\"/MyChart//billing/GuestPay\">Pay a bill</a>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<p style=\"color:#00643C; font-size:22px; text-align:center\"><b>Have Questions?</b></p>"
+					},
+					{
+						"html": "<b>Have Questions?</b>"
+					},
+					{
+						"html": "<p style=\"color:#00643C; font-size:16px; text-align:center\">Call MyChart Support at 802-847-7500 or toll-free at 1-888-979-1414</p>"
+					},
+					{
+						"html": "<p></p>"
+					},
+					{
+						"html": "<div class=\"mainLoginContent afterLoginFields\">"
+					},
+					{
+						"html": "<div class=\"mainLoginContentBody\">"
+					},
+					{
+						"html": "<div class=\"featureGridWrapper grid insulated\">"
+					},
+					{
+						"html": "<ul class=\"features row\">"
+					},
+					{
+						"html": "<li class=\"icon-advice col-6\"><h2 class=\"header\">Communicate with your doctor</h2><span class=\"info\">Get answers to your medical questions from the comfort of your own home</span></li>"
+					},
+					{
+						"html": "<h2 class=\"header\">Communicate with your doctor</h2>"
+					},
+					{
+						"html": "<span class=\"info\">Get answers to your medical questions from the comfort of your own home</span>"
+					},
+					{
+						"html": "<li class=\"icon-testResults col-6\"><h2 class=\"header\">Access your test results</h2><span class=\"info\">No more waiting for a phone call or letter – view your results and your doctor's comments within days</span></li>"
+					},
+					{
+						"html": "<h2 class=\"header\">Access your test results</h2>"
+					},
+					{
+						"html": "<span class=\"info\">No more waiting for a phone call or letter – view your results and your doctor's comments within days</span>"
+					},
+					{
+						"html": "<li class=\"icon-medications col-6\"><h2 class=\"header\">Request prescription refills</h2><span class=\"info\">Send a refill request for any of your refillable medications</span></li>"
+					},
+					{
+						"html": "<h2 class=\"header\">Request prescription refills</h2>"
+					},
+					{
+						"html": "<span class=\"info\">Send a refill request for any of your refillable medications</span>"
+					},
+					{
+						"html": "<li class=\"icon-calendar col-6\"><h2 class=\"header\">Manage your appointments</h2><span class=\"info\">Schedule your next appointment, or view details of your past and upcoming appointments</span></li>"
+					},
+					{
+						"html": "<h2 class=\"header\">Manage your appointments</h2>"
+					},
+					{
+						"html": "<span class=\"info\">Schedule your next appointment, or view details of your past and upcoming appointments</span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<li class=\"bannerhome col-12\">"
+					},
+					{
+						"html": "<h2 class=\"header\"><p style=\"color:red\" ;=\"\"><strong>You Are Not Alone.  Get Help Now.</strong></p></h2>"
+					},
+					{
+						"html": "<p style=\"color:red\" ;=\"\"><strong>You Are Not Alone.  Get Help Now.</strong></p>"
+					},
+					{
+						"html": "<strong>You Are Not Alone.  Get Help Now.</strong>"
+					},
+					{
+						"html": "<span class=\"info blue\"><p>If you are thinking about suicide or need emotional support, contact Lifeline 24/7.  Call or text 988, or <a href=\"https://988lifeline.org/talk-to-someone-now/\"><b>click here</b></a>\t to get help now.  It's confidential and free.</p></span>"
+					},
+					{
+						"html": "<p>If you are thinking about suicide or need emotional support, contact Lifeline 24/7.  Call or text 988, or <a href=\"https://988lifeline.org/talk-to-someone-now/\"><b>click here</b></a>\t to get help now.  It's confidential and free.</p>"
+					},
+					{
+						"html": "<a href=\"https://988lifeline.org/talk-to-someone-now/\"><b>click here</b></a>"
+					},
+					{
+						"html": "<b>click here</b>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<footer id=\"footer\">"
+					},
+					{
+						"html": "<div id=\"mainFooter\" class=\"mainStyle\">"
+					},
+					{
+						"html": "<div class=\"badges sm-alignCenter\">"
+					},
+					{
+						"html": "<a href=\"https://itunes.apple.com/us/app/mychart/id382952264?mt=8\"><img src=\"/MyChart/en-US/images/badge_apple.png\" alt=\"MyChart for iOS\" class=\"badge\"></a>"
+					},
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_apple.png\" alt=\"MyChart for iOS\" class=\"badge\">"
+					},
+					{
+						"html": "<a href=\"https://play.google.com/store/apps/details?id=epic.mychart.android&amp;hl=en\"><img src=\"/MyChart/en-US/images/badge_android.png\" alt=\"MyChart for Android\" class=\"badge\"></a>"
+					},
+					{
+						"html": "<img src=\"/MyChart/en-US/images/badge_android.png\" alt=\"MyChart for Android\" class=\"badge\">"
+					},
+					{
+						"html": "<div class=\"links alignEnd sm-alignCenter\">"
+					},
+					{
+						"html": "<a href=\"https://open.epic.com/Tutorial/PatientAuthentication?whereFrom=MyChart\">Interoperability Guide</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=faq\">FAQs</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=hlthprivacy\">Privacy Policy</a>"
+					},
+					{
+						"html": "<a href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=termsandconditions\">Terms and Conditions</a>"
+					},
+					{
+						"html": "<a href=\"#\" class=\"cssSwitcher\" data-csstitle=\"High Contrast\">High Contrast Theme</a>"
+					},
+					{
+						"html": "<div id=\"Customizable\"></div>"
+					},
+					{
+						"html": "<div id=\"sidebarFooter\" class=\"sidebarStyle\">"
+					},
+					{
+						"html": "<div id=\"mychart_by_epic_logo_wrapper\" style=\"display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 1rem !important; padding: 0px !important; margin: 0.5rem auto 0px !important; min-width: 6.5rem !important; width: 6.5rem !important; position: static !important; z-index: auto !important;\">"
+					},
+					{
+						"html": "<img id=\"mychart_by_epic_logo\" src=\"/MyChart/en-US/images/MyChartByEpic_inline_dark.svg\" alt=\"MyChart by Epic\" style=\"display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 1rem !important; padding: 0px !important; margin: 0.5rem auto 0px !important; min-width: 6.5rem !important; width: 6.5rem !important; position: static !important; z-index: auto !important;\">"
+					},
+					{
+						"html": "<div class=\"copyright\" lang=\"en\"><a target=\"_top\" href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=epiccopyright\"><span class=\"copystring\">MyChart® licensed from Epic Systems Corporation</span><span class=\"copyyear\">© 1999 - 2023</span></a></div>"
+					},
+					{
+						"html": "<a target=\"_top\" href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=epiccopyright\"><span class=\"copystring\">MyChart® licensed from Epic Systems Corporation</span><span class=\"copyyear\">© 1999 - 2023</span></a>"
+					},
+					{
+						"html": "<span class=\"copystring\">MyChart® licensed from Epic Systems Corporation</span>"
+					},
+					{
+						"html": "<span class=\"copyyear\">© 1999 - 2023</span>"
+					},
+					{
+						"html": "<div id=\"_scripts\">"
+					}
+				]
+			},
+			"scrollable-region-focusable": {
+				"description": "Scrollable region must have keyboard access",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/scrollable-region-focusable?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag211"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body class=\"loginPage isPrelogin hasNoCommunityLinks color1 md_login_login ready\">"
+					}
+				]
+			},
+			"valid-lang": {
+				"description": "lang attribute must have a valid value",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/valid-lang?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag312"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div class=\"copyright\" lang=\"en\"><a target=\"_top\" href=\"/MyChart/Authentication/Login?mode=stdfile&amp;option=epiccopyright\"><span class=\"copystring\">MyChart® licensed from Epic Systems Corporation</span><span class=\"copyyear\">© 1999 - 2023</span></a></div>"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://mychart.uvmhealth.org/MyChart/Authentication/Login?"
+}

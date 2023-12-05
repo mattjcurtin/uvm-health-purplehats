@@ -1,0 +1,2702 @@
+{
+	"url": "https://www.uvmhealth.org/careers",
+	"pageTitle": "Careers - The University of Vermont Health Network",
+	"totalItems": 708,
+	"mustFix": {
+		"totalItems": 4,
+		"rules": {
+			"aria-hidden-focus": {
+				"description": "ARIA hidden element must not be focusable or contain focusable elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-focus?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<li role=\"group\" id=\"slide2\" class=\"next slide\" aria-label=\"slide 2 of 5\" aria-hidden=\"true\">",
+						"message": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-mustFix-aria-hidden-focus-0.png",
+						"xpath": "#slide2"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide5\" class=\"prev slide\" aria-label=\"slide 5 of 5\" aria-hidden=\"true\">",
+						"message": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\" or be removed from the DOM",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-mustFix-aria-hidden-focus-1.png",
+						"xpath": "#slide5"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<p>Are you an agency Recruiter? The University of Vermont Health Network’s Talent Acquisition team has partnered with Recruitifi for all salaried, non-executive level candidate submissions. To be a part of our agency community, please apply here:</p>",
+						"message": "Fix any of the following:\n  Element has insufficient color contrast of 3.25 (foreground color: #ffffff, background color: #699d27, font size: 12.5pt (16.64px), font weight: normal). Expected contrast ratio of 4.5:1",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-mustFix-color-contrast-0.png",
+						"xpath": "#recruiter-message > p"
+					}
+				]
+			},
+			"frame-title": {
+				"description": "Frames must have an accessible name",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/frame-title?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<iframe src=\"https://player.vimeo.com/video/822120290?h=1b33d536f6\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+						"message": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\"",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-mustFix-frame-title-0.png",
+						"xpath": "iframe[width=\"640\"]"
+					}
+				]
+			}
+		}
+	},
+	"goodToFix": {
+		"totalItems": 9,
+		"rules": {
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 4,
+				"items": [
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">",
+						"message": "Fix any of the following:\n  ARIA role region is not allowed for given element",
+						"xpath": "#top-slider"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>",
+						"message": "Fix any of the following:\n  ARIA role group is not allowed for given element",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-goodToFix-aria-allowed-role-1.png",
+						"xpath": "#slide1"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">",
+						"message": "Fix any of the following:\n  ARIA role group is not allowed for given element",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-goodToFix-aria-allowed-role-2.png",
+						"xpath": "#slide3"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">",
+						"message": "Fix any of the following:\n  ARIA role group is not allowed for given element",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-goodToFix-aria-allowed-role-3.png",
+						"xpath": "#slide4"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<h4>Case Manager III</h4>",
+						"message": "Fix any of the following:\n  Heading order invalid",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-goodToFix-heading-order-0.png",
+						"xpath": "div:nth-child(1) > a > h4"
+					}
+				]
+			},
+			"page-has-heading-one": {
+				"description": "Page should contain a level-one heading",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/page-has-heading-one?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" style=\"height: 100%;\">",
+						"message": "Fix all of the following:\n  Page must have a level-one heading",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-goodToFix-page-has-heading-one-0.png",
+						"xpath": "html"
+					}
+				]
+			},
+			"presentation-role-conflict": {
+				"description": "Ensure elements marked as presentational are consistently ignored",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/presentation-role-conflict?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">",
+						"message": "Fix all of the following:\n  Element does not have global ARIA attribute",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-goodToFix-presentation-role-conflict-0.png",
+						"xpath": ".controls"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">",
+						"message": "Fix all of the following:\n  Element does not have global ARIA attribute",
+						"screenshotPath": "elemScreenshots/html/www.uvmhealthnetworkcareers.org-goodToFix-presentation-role-conflict-1.png",
+						"xpath": ".slidenav"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<div class=\"skip-to-content\">\n\t<a href=\"#main-intro\">\n\t\tSkip to Page Content <span class=\"sr-only\">(will bypass menus and search fields)</span>\n\t</a>\n</div>",
+						"message": "Fix any of the following:\n  Some page content is not contained by landmarks",
+						"xpath": ".skip-to-content"
+					}
+				]
+			}
+		}
+	},
+	"passed": {
+		"totalItems": 695,
+		"rules": {
+			"aria-allowed-attr": {
+				"description": "Elements must only use supported ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					},
+					{
+						"html": "<div aria-live=\"polite\" aria-atomic=\"true\" class=\"liveregion sr-only\"></div>"
+					},
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					},
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a>"
+					},
+					{
+						"html": "<a href=\"https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&amp;solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197\" class=\"button\" aria-label=\"Join The University of Vermont Health Network's Agency Community\" target=\"_blank\">"
+					},
+					{
+						"html": "<a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a>"
+					}
+				]
+			},
+			"aria-allowed-role": {
+				"description": "ARIA role should be appropriate for the element",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-allowed-role?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 2,
+				"items": [
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					}
+				]
+			},
+			"aria-conditional-attr": {
+				"description": "ARIA attributes must be used as specified for the element's role",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-conditional-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					},
+					{
+						"html": "<div aria-live=\"polite\" aria-atomic=\"true\" class=\"liveregion sr-only\"></div>"
+					},
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					},
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a>"
+					},
+					{
+						"html": "<a href=\"https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&amp;solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197\" class=\"button\" aria-label=\"Join The University of Vermont Health Network's Agency Community\" target=\"_blank\">"
+					},
+					{
+						"html": "<a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a>"
+					}
+				]
+			},
+			"aria-deprecated-role": {
+				"description": "Deprecated ARIA roles must not be used",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-deprecated-role?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					}
+				]
+			},
+			"aria-hidden-body": {
+				"description": "aria-hidden=\"true\" must not be present on the document body",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-hidden-body?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<body style=\"position: relative; min-height: 100%; top: 0px;\">"
+					}
+				]
+			},
+			"aria-prohibited-attr": {
+				"description": "Elements must only use permitted ARIA attributes",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-prohibited-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					},
+					{
+						"html": "<div aria-live=\"polite\" aria-atomic=\"true\" class=\"liveregion sr-only\"></div>"
+					},
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					},
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a>"
+					},
+					{
+						"html": "<a href=\"https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&amp;solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197\" class=\"button\" aria-label=\"Join The University of Vermont Health Network's Agency Community\" target=\"_blank\">"
+					},
+					{
+						"html": "<a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a>"
+					}
+				]
+			},
+			"aria-required-attr": {
+				"description": "Required ARIA attributes must be provided",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-required-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					}
+				]
+			},
+			"aria-roles": {
+				"description": "ARIA roles used must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-roles?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 6,
+				"items": [
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					}
+				]
+			},
+			"aria-valid-attr-value": {
+				"description": "ARIA attributes must conform to valid values",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr-value?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					},
+					{
+						"html": "<div aria-live=\"polite\" aria-atomic=\"true\" class=\"liveregion sr-only\"></div>"
+					},
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					},
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a>"
+					},
+					{
+						"html": "<a href=\"https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&amp;solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197\" class=\"button\" aria-label=\"Join The University of Vermont Health Network's Agency Community\" target=\"_blank\">"
+					},
+					{
+						"html": "<a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a>"
+					}
+				]
+			},
+			"aria-valid-attr": {
+				"description": "ARIA attributes must conform to valid names",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/aria-valid-attr?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 22,
+				"items": [
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					},
+					{
+						"html": "<div aria-live=\"polite\" aria-atomic=\"true\" class=\"liveregion sr-only\"></div>"
+					},
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					},
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a>"
+					},
+					{
+						"html": "<a href=\"https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&amp;solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197\" class=\"button\" aria-label=\"Join The University of Vermont Health Network's Agency Community\" target=\"_blank\">"
+					},
+					{
+						"html": "<a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a>"
+					}
+				]
+			},
+			"avoid-inline-spacing": {
+				"description": "Inline text spacing must be adjustable with custom stylesheets",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/avoid-inline-spacing?application=purple-hats",
+				"conformance": [
+					"wcag21aa",
+					"wcag1412"
+				],
+				"totalItems": 3,
+				"items": [
+					{
+						"html": "<html lang=\"en\" style=\"height: 100%;\">"
+					},
+					{
+						"html": "<body style=\"position: relative; min-height: 100%; top: 0px;\">"
+					},
+					{
+						"html": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/822120290?h=1b33d536f6\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen=\"\"></iframe></div>"
+					}
+				]
+			},
+			"button-name": {
+				"description": "Buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 10,
+				"items": [
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<button data-action=\"stop\" class=\"stop-button\"><span class=\"sr-only\">Stop Animation</span></button>"
+					},
+					{
+						"html": "<button class=\"current\" data-slide=\"0\"><span class=\"sr-only\">Media Slide 1 (Current Item)</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"1\" class=\"\"><span class=\"sr-only\">Media Slide 2</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"2\" class=\"\"><span class=\"sr-only\">Media Slide 3</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"3\" class=\"\"><span class=\"sr-only\">Media Slide 4</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"4\" class=\"\"><span class=\"sr-only\">Media Slide 5</span></button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					}
+				]
+			},
+			"bypass": {
+				"description": "Page must have means to bypass repeated blocks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/bypass?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag241"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" style=\"height: 100%;\">"
+					}
+				]
+			},
+			"color-contrast": {
+				"description": "Elements must meet minimum color contrast ratio thresholds",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag143"
+				],
+				"totalItems": 39,
+				"items": [
+					{
+						"html": "<a href=\"#main-intro\">\n\t\tSkip to Page Content <span class=\"sr-only\">(will bypass menus and search fields)</span>\n\t</a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/about-uvm-health-network\" target=\"_blank\">About UVM Health Network<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/for-network-employees\" target=\"_blank\">For Network Employees<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"/\" id=\"HomeLink\">Careers Home</a>"
+					},
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"benefits.html\" id=\"BeneLink\">Benefits</a>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"workforce-development-pathways.html\" id=\"TrainingLink\">Workforce Development Pathways</a>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<input name=\"zipcode\" type=\"text\" id=\"id_zipcode\" class=\"radius2-col1\" value=\"\" placeholder=\"Zip Code\" aria-label=\"Enter your desired Zip Code\">"
+					},
+					{
+						"html": "<select name=\"radius\" class=\"search2\" id=\"id_radius\" aria-label=\"Radius (select number of miles from your desired zipcode)\">"
+					},
+					{
+						"html": "<a href=\"/jobs/\" class=\"advanced-button\">View All Jobs</a>"
+					},
+					{
+						"html": "<h2>Featured Career Areas</h2>"
+					},
+					{
+						"html": "<span>Nursing</span>"
+					},
+					{
+						"html": "<span>Physicians</span>"
+					},
+					{
+						"html": "<span>Environmental Services</span>"
+					},
+					{
+						"html": "<span>Food &amp; Nutrition</span>"
+					},
+					{
+						"html": "<p>UVM Health Network Partner Locations</p>"
+					},
+					{
+						"html": "<h2>UVM Health Network Hospitals Recognized by U.S. News &amp; World Report</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/news/uvmhn/uvm-health-network-hospitals-recognized-us-news-world-report\" target=\"_blank\">Learn More<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<h2>The University of Vermont Health Network is proud to be #1 on Forbes Best Employers by State, for Vermont.</h2>"
+					},
+					{
+						"html": "<div>Share This Page</div>"
+					},
+					{
+						"html": "<div class=\"phone-numbers\">Connect With Us</div>"
+					},
+					{
+						"html": "<div class=\"address\">"
+					},
+					{
+						"html": "<strong><span>©</span> <script type=\"text/javascript\">date = new Date();\n              year = date.getFullYear();\n              document.write(year);//</script>2023&nbsp;The University of Vermont Health Network</strong>"
+					},
+					{
+						"html": "<div class=\"eoe\">"
+					},
+					{
+						"html": "<p>The University of Vermont Health Network is an Equal Opportunity Employer.</p>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/contact-us\" target=\"_blank\">\n\t\t\t\t\tContact Us<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/privacy-policy\" target=\"_blank\">\n\t\t\t\t\tPrivacy Policy<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\">"
+					},
+					{
+						"html": "<input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\">"
+					},
+					{
+						"html": "<input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\">"
+					},
+					{
+						"html": "<input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\">"
+					},
+					{
+						"html": "<input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\">"
+					}
+				]
+			},
+			"document-title": {
+				"description": "Documents must have <title> element to aid in navigation",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/document-title?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag242"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" style=\"height: 100%;\">"
+					}
+				]
+			},
+			"empty-heading": {
+				"description": "Headings should not be empty",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/empty-heading?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 31,
+				"items": [
+					{
+						"html": "<h2>When you care <br>\nthis much...<br>\nmake it your career</h2>"
+					},
+					{
+						"html": "<h2>Explore LPN Opportunities </h2>"
+					},
+					{
+						"html": "<h3>Alice Hyde Medical Center</h3>"
+					},
+					{
+						"html": "<h2>Our Medical Office Team is Expanding</h2>"
+					},
+					{
+						"html": "<h2>At The University of Vermont Health Network, we’re proud of the exceptional patient care provided by our compassionate caregivers. </h2>"
+					},
+					{
+						"html": "<h2>Featured Career Areas</h2>"
+					},
+					{
+						"html": "<h3>University of Vermont<br>\n Medical Center (UVMMC)</h3>"
+					},
+					{
+						"html": "<h4>Burlington, VT</h4>"
+					},
+					{
+						"html": "<h3>Alice Hyde<br>\n Medical Center (AHMC)</h3>"
+					},
+					{
+						"html": "<h4>Malone, NY</h4>"
+					},
+					{
+						"html": "<h3>Central Vermont Medical Center (CVMC)</h3>"
+					},
+					{
+						"html": "<h4>Berlin, VT</h4>"
+					},
+					{
+						"html": "<h3>Champlain Valley Physicians Hospital (CVPH)</h3>"
+					},
+					{
+						"html": "<h4>Plattsburgh, NY</h4>"
+					},
+					{
+						"html": "<h3>Porter <br>\nMedical Center (PMC)</h3>"
+					},
+					{
+						"html": "<h4>Middlebury, VT</h4>"
+					},
+					{
+						"html": "<h3>Elizabethtown Community Hospital (ECH)</h3>"
+					},
+					{
+						"html": "<h4>Elizabethtown, NY</h4>"
+					},
+					{
+						"html": "<h3>Home Health <br>\n&amp; Hospice (HHH)</h3>"
+					},
+					{
+						"html": "<h4>Colchester, VT</h4>"
+					},
+					{
+						"html": "<h3>Medical Group</h3>"
+					},
+					{
+						"html": "<h4>Doctors and Providers Employed by UVM Health Network</h4>"
+					},
+					{
+						"html": "<h2 id=\"featured-jobs-top\">Featured Jobs</h2>"
+					},
+					{
+						"html": "<h4>Case Manager III</h4>"
+					},
+					{
+						"html": "<h4>Licensed Practical Nurse - Primary Care LPN</h4>"
+					},
+					{
+						"html": "<h4>Buyer</h4>"
+					},
+					{
+						"html": "<h2>The PULSE</h2>"
+					},
+					{
+						"html": "<h3>Stories from the heart.<br>\n\t\t\t\tThe UVM Health Network Talent Acquisition Blog.</h3>"
+					},
+					{
+						"html": "<h2>UVM Health Network Hospitals Recognized by U.S. News &amp; World Report</h2>"
+					},
+					{
+						"html": "<h2>The University of Vermont Health Network is proud to be #1 on Forbes Best Employers by State, for Vermont.</h2>"
+					},
+					{
+						"html": "<h2>Join Our Talent Network</h2>"
+					}
+				]
+			},
+			"form-field-multiple-labels": {
+				"description": "Form field must not have multiple label elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/form-field-multiple-labels?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag332"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					}
+				]
+			},
+			"heading-order": {
+				"description": "Heading levels should only increase by one",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/heading-order?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 30,
+				"items": [
+					{
+						"html": "<h2>When you care <br>\nthis much...<br>\nmake it your career</h2>"
+					},
+					{
+						"html": "<h2>Explore LPN Opportunities </h2>"
+					},
+					{
+						"html": "<h3>Alice Hyde Medical Center</h3>"
+					},
+					{
+						"html": "<h2>Our Medical Office Team is Expanding</h2>"
+					},
+					{
+						"html": "<h2>At The University of Vermont Health Network, we’re proud of the exceptional patient care provided by our compassionate caregivers. </h2>"
+					},
+					{
+						"html": "<h2>Featured Career Areas</h2>"
+					},
+					{
+						"html": "<h3>University of Vermont<br>\n Medical Center (UVMMC)</h3>"
+					},
+					{
+						"html": "<h4>Burlington, VT</h4>"
+					},
+					{
+						"html": "<h3>Alice Hyde<br>\n Medical Center (AHMC)</h3>"
+					},
+					{
+						"html": "<h4>Malone, NY</h4>"
+					},
+					{
+						"html": "<h3>Central Vermont Medical Center (CVMC)</h3>"
+					},
+					{
+						"html": "<h4>Berlin, VT</h4>"
+					},
+					{
+						"html": "<h3>Champlain Valley Physicians Hospital (CVPH)</h3>"
+					},
+					{
+						"html": "<h4>Plattsburgh, NY</h4>"
+					},
+					{
+						"html": "<h3>Porter <br>\nMedical Center (PMC)</h3>"
+					},
+					{
+						"html": "<h4>Middlebury, VT</h4>"
+					},
+					{
+						"html": "<h3>Elizabethtown Community Hospital (ECH)</h3>"
+					},
+					{
+						"html": "<h4>Elizabethtown, NY</h4>"
+					},
+					{
+						"html": "<h3>Home Health <br>\n&amp; Hospice (HHH)</h3>"
+					},
+					{
+						"html": "<h4>Colchester, VT</h4>"
+					},
+					{
+						"html": "<h3>Medical Group</h3>"
+					},
+					{
+						"html": "<h4>Doctors and Providers Employed by UVM Health Network</h4>"
+					},
+					{
+						"html": "<h2 id=\"featured-jobs-top\">Featured Jobs</h2>"
+					},
+					{
+						"html": "<h4>Licensed Practical Nurse - Primary Care LPN</h4>"
+					},
+					{
+						"html": "<h4>Buyer</h4>"
+					},
+					{
+						"html": "<h2>The PULSE</h2>"
+					},
+					{
+						"html": "<h3>Stories from the heart.<br>\n\t\t\t\tThe UVM Health Network Talent Acquisition Blog.</h3>"
+					},
+					{
+						"html": "<h2>UVM Health Network Hospitals Recognized by U.S. News &amp; World Report</h2>"
+					},
+					{
+						"html": "<h2>The University of Vermont Health Network is proud to be #1 on Forbes Best Employers by State, for Vermont.</h2>"
+					},
+					{
+						"html": "<h2>Join Our Talent Network</h2>"
+					}
+				]
+			},
+			"html-has-lang": {
+				"description": "<html> element must have a lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" style=\"height: 100%;\">"
+					}
+				]
+			},
+			"html-lang-valid": {
+				"description": "<html> element must have a valid value for the lang attribute",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-lang-valid?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag311"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" style=\"height: 100%;\">"
+					}
+				]
+			},
+			"image-alt": {
+				"description": "Images must have alternate text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-alt?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag111"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/uvmmc-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"University of Vermont Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/alice-hyde-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Alice Hyde Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/cvmc-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Central Vermont Medical Center (CVMC) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/champlain-building.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Champlain Valley Physicians Hospital (CVPH) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/porter-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Porter Medical Center Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/ech-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Elizabethtown Community Hospital Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/home-hlth-hospice-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Home Health &amp; Hospice Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/doctors-providers.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Medical Group photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/6130001-HOS_Universityof_Badge-HOS-Regional_Custom_RecognizedCare_2022-23.png?1674332125\" width=\"1000\" height=\"1042\" alt=\"U.S. News &amp; World Report Best Regional Hospitals 2022-23\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/Forbes_Best-In-State-Employers_2023_Logo_Rec-Color_VERMONT.png?1697570552\" width=\"5655\" height=\"2496\" alt=\"Forbes 2023 America's Best-in-state Employers Vermont\" class=\"scalable\">"
+					}
+				]
+			},
+			"image-redundant-alt": {
+				"description": "Alternative text of images should not be repeated as text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/image-redundant-alt?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 12,
+				"items": [
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/uvmmc-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"University of Vermont Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/alice-hyde-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Alice Hyde Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/cvmc-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Central Vermont Medical Center (CVMC) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/champlain-building.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Champlain Valley Physicians Hospital (CVPH) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/porter-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Porter Medical Center Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/ech-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Elizabethtown Community Hospital Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/home-hlth-hospice-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Home Health &amp; Hospice Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/doctors-providers.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Medical Group photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/6130001-HOS_Universityof_Badge-HOS-Regional_Custom_RecognizedCare_2022-23.png?1674332125\" width=\"1000\" height=\"1042\" alt=\"U.S. News &amp; World Report Best Regional Hospitals 2022-23\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/Forbes_Best-In-State-Employers_2023_Logo_Rec-Color_VERMONT.png?1697570552\" width=\"5655\" height=\"2496\" alt=\"Forbes 2023 America's Best-in-state Employers Vermont\" class=\"scalable\">"
+					}
+				]
+			},
+			"input-button-name": {
+				"description": "Input buttons must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/input-button-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					}
+				]
+			},
+			"label-title-only": {
+				"description": "Form elements should have a visible label",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label-title-only?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					}
+				]
+			},
+			"label": {
+				"description": "Form elements must have labels",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/label?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					}
+				]
+			},
+			"landmark-banner-is-top-level": {
+				"description": "Banner landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-banner-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header>"
+					}
+				]
+			},
+			"landmark-contentinfo-is-top-level": {
+				"description": "Contentinfo landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-contentinfo-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer>"
+					}
+				]
+			},
+			"landmark-main-is-top-level": {
+				"description": "Main landmark should not be contained in another landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-main-is-top-level?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main>"
+					}
+				]
+			},
+			"landmark-no-duplicate-banner": {
+				"description": "Document should not have more than one banner landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-banner?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<header>"
+					}
+				]
+			},
+			"landmark-no-duplicate-contentinfo": {
+				"description": "Document should not have more than one contentinfo landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-contentinfo?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<footer>"
+					}
+				]
+			},
+			"landmark-no-duplicate-main": {
+				"description": "Document should not have more than one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-no-duplicate-main?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<main>"
+					}
+				]
+			},
+			"landmark-one-main": {
+				"description": "Document should have one main landmark",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-one-main?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<html lang=\"en\" style=\"height: 100%;\">"
+					}
+				]
+			},
+			"landmark-unique": {
+				"description": "Ensures landmarks are unique",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/landmark-unique?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 5,
+				"items": [
+					{
+						"html": "<header>"
+					},
+					{
+						"html": "<nav id=\"hamburger-content\" class=\"hamburger-content\">"
+					},
+					{
+						"html": "<main>"
+					},
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<footer>"
+					}
+				]
+			},
+			"link-in-text-block": {
+				"description": "Links must be distinguishable without relying on color",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag141"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/news/uvmhn/uvm-health-network-hospitals-recognized-us-news-world-report\" target=\"_blank\">Learn More<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					}
+				]
+			},
+			"link-name": {
+				"description": "Links must have discernible text",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag244",
+					"wcag412"
+				],
+				"totalItems": 43,
+				"items": [
+					{
+						"html": "<a href=\"#main-intro\">\n\t\tSkip to Page Content <span class=\"sr-only\">(will bypass menus and search fields)</span>\n\t</a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/\" target=\"_blank\" class=\"logo\" alt=\"The University of Vermont Health Network home\"><span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/about-uvm-health-network\" target=\"_blank\">About UVM Health Network<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/for-network-employees\" target=\"_blank\">For Network Employees<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"/\" id=\"HomeLink\">Careers Home</a>"
+					},
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"benefits.html\" id=\"BeneLink\">Benefits</a>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"workforce-development-pathways.html\" id=\"TrainingLink\">Workforce Development Pathways</a>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"/lpnjobs_csbanner\">Learn More</a>"
+					},
+					{
+						"html": "<a href=\"medical-office-support.html\">Explore Career Opportunities</a>"
+					},
+					{
+						"html": "<a href=\"/jobs/\" class=\"advanced-button\">View All Jobs</a>"
+					},
+					{
+						"html": "<a href=\"nursing.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Nursing</span>\n\t\t\t\t</div>\n\t\t\t</a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmprovidercareers.org/\" class=\"career-paths\" target=\"_blank\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Physicians</span>\n\t\t\t\t</div>\n\t\t\t\t<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t</a>"
+					},
+					{
+						"html": "<a href=\"environmental-services.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Environmental Services</span>\n\t\t\t\t</div>\n\t\t\t</a>"
+					},
+					{
+						"html": "<a href=\"food-and-nutrition.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Food &amp; Nutrition</span>\n\t\t\t\t</div>\n\t\t\t</a>"
+					},
+					{
+						"html": "<a href=\"uvmmc.html\">\n\t\t\t\t\t\t\t<h3>University of Vermont<br>\n Medical Center (UVMMC)</h3></a>"
+					},
+					{
+						"html": "<a href=\"alice-hyde.html\"><h3>Alice Hyde<br>\n Medical Center (AHMC)</h3></a>"
+					},
+					{
+						"html": "<a href=\"cvmc.html\"><h3>Central Vermont Medical Center (CVMC)</h3></a>"
+					},
+					{
+						"html": "<a href=\"cvph.html\"><h3>Champlain Valley Physicians Hospital (CVPH)</h3></a>"
+					},
+					{
+						"html": "<a href=\"porter-medical.html\"><h3>Porter <br>\nMedical Center (PMC)</h3></a>"
+					},
+					{
+						"html": "<a href=\"elizabethtown.html\"><h3>Elizabethtown Community Hospital (ECH)</h3></a>"
+					},
+					{
+						"html": "<a href=\"home-health-hospice.html\"><h3>Home Health <br>\n&amp; Hospice (HHH)</h3></a>"
+					},
+					{
+						"html": "<a href=\"medical-group.html\"><h3>Medical Group</h3></a>"
+					},
+					{
+						"html": "<a href=\"/job/case-manager-iii-case-management-us-vt-burlington-111-colchester-ave-r0060540-5/\"><h4>Case Manager III</h4></a>"
+					},
+					{
+						"html": "<a href=\"/job/licensed-practical-nurse-primary-care-lpn-lpn-us-ny-malone-5-clay-st-r0060539-106/\"><h4>Licensed Practical Nurse - Primary Care LPN</h4></a>"
+					},
+					{
+						"html": "<a href=\"/job/buyer-purchasing-supply-chain-us-vt-berlin-130-fisher-rd-r0060495-1/\"><h4>Buyer</h4></a>"
+					},
+					{
+						"html": "<a href=\"https://nursing.uvmmedicalcentercareers.org/blog/\" target=\"_blank\">Read Now<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/news/uvmhn/uvm-health-network-hospitals-recognized-us-news-world-report\" target=\"_blank\">Learn More<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a>"
+					},
+					{
+						"html": "<a href=\"https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&amp;solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197\" class=\"button\" aria-label=\"Join The University of Vermont Health Network's Agency Community\" target=\"_blank\">"
+					},
+					{
+						"html": "<a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.uvmhealthnetworkcareers.org/\" class=\"share-facebook\">Share on Facebook</a>"
+					},
+					{
+						"html": "<a target=\"_blank\" href=\"https://twitter.com/intent/tweet?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-twitter\">Share on Twitter</a>"
+					},
+					{
+						"html": "<a target=\"_blank\" href=\"https://www.linkedin.com/sharing/share-offsite/?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-linkedin\">Share on LinkedIn</a>"
+					},
+					{
+						"html": "<a href=\"mailto:?body=https://www.uvmhealthnetworkcareers.org/&amp;subject=\" class=\"share-email\">Share via Email</a>"
+					},
+					{
+						"html": "<a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/\" target=\"_blank\" class=\"logo\" alt=\"The University of Vermont Health Network home\"><span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/contact-us\" target=\"_blank\">\n\t\t\t\t\tContact Us<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/privacy-policy\" target=\"_blank\">\n\t\t\t\t\tPrivacy Policy<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>"
+					}
+				]
+			},
+			"list": {
+				"description": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 8,
+				"items": [
+					{
+						"html": "<ul class=\"nav-top\">"
+					},
+					{
+						"html": "<ul class=\"lower-nav\">"
+					},
+					{
+						"html": "<ul class=\"search-content\" id=\"search-content\">"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<ul class=\"footer-nav\">"
+					}
+				]
+			},
+			"listitem": {
+				"description": "<li> elements must be contained in a <ul> or <ol>",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag131"
+				],
+				"totalItems": 42,
+				"items": [
+					{
+						"html": "<li>\n\t\t\t\t\t<a href=\"https://www.uvmhealth.org/about-uvm-health-network\" target=\"_blank\">About UVM Health Network<span class=\"sr-only\"> (link opens in a new window)</span></a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t\t<a href=\"https://www.uvmhealth.org/for-network-employees\" target=\"_blank\">For Network Employees<span class=\"sr-only\"> (link opens in a new window)</span></a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"/\" id=\"HomeLink\">Careers Home</a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"benefits.html\" id=\"BeneLink\">Benefits</a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"workforce-development-pathways.html\" id=\"TrainingLink\">Workforce Development Pathways</a>\n\t\t\t  </li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li><button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button></li>"
+					},
+					{
+						"html": "<li><button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button></li>"
+					},
+					{
+						"html": "<li><button data-action=\"stop\" class=\"stop-button\"><span class=\"sr-only\">Stop Animation</span></button></li>"
+					},
+					{
+						"html": "<li><button class=\"current\" data-slide=\"0\"><span class=\"sr-only\">Media Slide 1 (Current Item)</span></button></li>"
+					},
+					{
+						"html": "<li><button data-slide=\"1\" class=\"\"><span class=\"sr-only\">Media Slide 2</span></button></li>"
+					},
+					{
+						"html": "<li><button data-slide=\"2\" class=\"\"><span class=\"sr-only\">Media Slide 3</span></button></li>"
+					},
+					{
+						"html": "<li><button data-slide=\"3\" class=\"\"><span class=\"sr-only\">Media Slide 4</span></button></li>"
+					},
+					{
+						"html": "<li><button data-slide=\"4\" class=\"\"><span class=\"sr-only\">Media Slide 5</span></button></li>"
+					},
+					{
+						"html": "<li>\n            <input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">\n            <input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">\n        </li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<li>\n            <a href=\"/jobs/\" class=\"advanced-button\">View All Jobs</a>\n        </li>"
+					},
+					{
+						"html": "<li class=\"career-path-nursing\">\n\t\t\t<a href=\"nursing.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Nursing</span>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<li class=\"career-path-physician\">\n\t\t\t<a href=\"https://www.uvmprovidercareers.org/\" class=\"career-paths\" target=\"_blank\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Physicians</span>\n\t\t\t\t</div>\n\t\t\t\t<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<li class=\"career-path-environment\">\n\t\t\t<a href=\"environmental-services.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Environmental Services</span>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<li class=\"career-path-nutrition\">\n\t\t\t<a href=\"food-and-nutrition.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Food &amp; Nutrition</span>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<li>\n       <a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.uvmhealthnetworkcareers.org/\" class=\"share-facebook\">Share on Facebook</a>\n    </li>"
+					},
+					{
+						"html": "<li>\n      <a target=\"_blank\" href=\"https://twitter.com/intent/tweet?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-twitter\">Share on Twitter</a>\n    </li>"
+					},
+					{
+						"html": "<li>\n      <a target=\"_blank\" href=\"https://www.linkedin.com/sharing/share-offsite/?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-linkedin\">Share on LinkedIn</a>\n    </li>"
+					},
+					{
+						"html": "<li><a href=\"mailto:?body=https://www.uvmhealthnetworkcareers.org/&amp;subject=\" class=\"share-email\">Share via Email</a></li>"
+					},
+					{
+						"html": "<li><a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a></li>"
+					},
+					{
+						"html": "<li><a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a></li>"
+					},
+					{
+						"html": "<li><a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a></li>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"https://www.uvmhealth.org/contact-us\" target=\"_blank\">\n\t\t\t\t\tContact Us<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"https://www.uvmhealth.org/privacy-policy\" target=\"_blank\">\n\t\t\t\t\tPrivacy Policy<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					}
+				]
+			},
+			"meta-viewport-large": {
+				"description": "Users should be able to zoom and scale the text up to 500%",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport-large?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta id=\"testViewport\" name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+					}
+				]
+			},
+			"meta-viewport": {
+				"description": "Zooming and scaling must not be disabled",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=purple-hats",
+				"conformance": [
+					"wcag2aa",
+					"wcag144"
+				],
+				"totalItems": 1,
+				"items": [
+					{
+						"html": "<meta id=\"testViewport\" name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+					}
+				]
+			},
+			"nested-interactive": {
+				"description": "Interactive controls must not be nested",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/nested-interactive?application=purple-hats",
+				"conformance": [
+					"wcag2a",
+					"wcag412"
+				],
+				"totalItems": 23,
+				"items": [
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\">"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\">"
+					},
+					{
+						"html": "<button data-action=\"stop\" class=\"stop-button\"><span class=\"sr-only\">Stop Animation</span></button>"
+					},
+					{
+						"html": "<button class=\"current\" data-slide=\"0\"><span class=\"sr-only\">Media Slide 1 (Current Item)</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"1\" class=\"\"><span class=\"sr-only\">Media Slide 2</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"2\" class=\"\"><span class=\"sr-only\">Media Slide 3</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"3\" class=\"\"><span class=\"sr-only\">Media Slide 4</span></button>"
+					},
+					{
+						"html": "<button data-slide=\"4\" class=\"\"><span class=\"sr-only\">Media Slide 5</span></button>"
+					},
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/uvmmc-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"University of Vermont Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/alice-hyde-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Alice Hyde Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/cvmc-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Central Vermont Medical Center (CVMC) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/champlain-building.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Champlain Valley Physicians Hospital (CVPH) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/porter-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Porter Medical Center Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/ech-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Elizabethtown Community Hospital Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/home-hlth-hospice-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Home Health &amp; Hospice Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/doctors-providers.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Medical Group photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/6130001-HOS_Universityof_Badge-HOS-Regional_Custom_RecognizedCare_2022-23.png?1674332125\" width=\"1000\" height=\"1042\" alt=\"U.S. News &amp; World Report Best Regional Hospitals 2022-23\" class=\"scalable\">"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/Forbes_Best-In-State-Employers_2023_Logo_Rec-Color_VERMONT.png?1697570552\" width=\"5655\" height=\"2496\" alt=\"Forbes 2023 America's Best-in-state Employers Vermont\" class=\"scalable\">"
+					}
+				]
+			},
+			"region": {
+				"description": "All page content should be contained by landmarks",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.8/region?application=purple-hats",
+				"conformance": [
+					"best-practice"
+				],
+				"totalItems": 288,
+				"items": [
+					{
+						"html": "<div id=\"google_translate_element\">"
+					},
+					{
+						"html": "<a href=\"#main-intro\">\n\t\tSkip to Page Content <span class=\"sr-only\">(will bypass menus and search fields)</span>\n\t</a>"
+					},
+					{
+						"html": "<span class=\"sr-only\">(will bypass menus and search fields)</span>"
+					},
+					{
+						"html": "<header>"
+					},
+					{
+						"html": "<div class=\"header-inside\">"
+					},
+					{
+						"html": "<div class=\"header-logo\">\n\t\t\t<a href=\"https://www.uvmhealth.org/\" target=\"_blank\" class=\"logo\" alt=\"The University of Vermont Health Network home\"><span class=\"sr-only\"> (link opens in a new window)</span></a>\n\t\t</div>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/\" target=\"_blank\" class=\"logo\" alt=\"The University of Vermont Health Network home\"><span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<nav id=\"hamburger-content\" class=\"hamburger-content\">"
+					},
+					{
+						"html": "<ul class=\"nav-top\">"
+					},
+					{
+						"html": "<li>\n\t\t\t\t\t<a href=\"https://www.uvmhealth.org/about-uvm-health-network\" target=\"_blank\">About UVM Health Network<span class=\"sr-only\"> (link opens in a new window)</span></a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/about-uvm-health-network\" target=\"_blank\">About UVM Health Network<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t\t<a href=\"https://www.uvmhealth.org/for-network-employees\" target=\"_blank\">For Network Employees<span class=\"sr-only\"> (link opens in a new window)</span></a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/for-network-employees\" target=\"_blank\">For Network Employees<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<ul class=\"lower-nav\">"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"/\" id=\"HomeLink\">Careers Home</a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<a href=\"/\" id=\"HomeLink\">Careers Home</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"#talent\" aria-controls=\"#talent\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Talent Areas<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"benefits.html\" id=\"BeneLink\">Benefits</a>\n\t\t\t\t</li>"
+					},
+					{
+						"html": "<a href=\"benefits.html\" id=\"BeneLink\">Benefits</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"#hiring\" aria-controls=\"#hiring\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Hiring Process<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"workforce-development-pathways.html\" id=\"TrainingLink\">Workforce Development Pathways</a>\n\t\t\t  </li>"
+					},
+					{
+						"html": "<a href=\"workforce-development-pathways.html\" id=\"TrainingLink\">Workforce Development Pathways</a>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"#life\" aria-controls=\"#life\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Culture<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<a href=\"#intern\" aria-controls=\"#intern\" aria-expanded=\"false\" target=\"_blank\" class=\"hamburger-title-2\">Our Partner Locations<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<main>"
+					},
+					{
+						"html": "<section id=\"banner-area\" class=\"front-page\">"
+					},
+					{
+						"html": "<ul id=\"top-slider\" class=\"active carousel with-slidenav\" role=\"region\" aria-label=\"hero banner carousel\">"
+					},
+					{
+						"html": "<p class=\"sr-only\">This is a carousel with auto-rotating slides. Activate any of the buttons, or press the Stop button to disable rotation. Use Next and Previous buttons to navigate, or jump to a slide with the numbered slide dots.</p>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide1\" class=\"current slide\" aria-label=\"slide 1 of 5\">\n               <div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>\n              </li>"
+					},
+					{
+						"html": "<div class=\"inner\">\n              <div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>\n              </div>"
+					},
+					{
+						"html": "<div class=\"copy\">\n                 <h2>When you care <br>\nthis much...<br>\nmake it your career</h2>\n                </div>"
+					},
+					{
+						"html": "<h2>When you care <br>\nthis much...<br>\nmake it your career</h2>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide3\" class=\"slide\" aria-label=\"slide 3 of 5\">"
+					},
+					{
+						"html": "<div class=\"inner\">\n              <div class=\"copy\">\n                <h2>Explore LPN Opportunities </h2>\n<h3>Alice Hyde Medical Center</h3>\n\t\t\t  <a href=\"/lpnjobs_csbanner\">Learn More</a>\n                </div>\n              </div>"
+					},
+					{
+						"html": "<div class=\"copy\">\n                <h2>Explore LPN Opportunities </h2>\n<h3>Alice Hyde Medical Center</h3>\n\t\t\t  <a href=\"/lpnjobs_csbanner\">Learn More</a>\n                </div>"
+					},
+					{
+						"html": "<h2>Explore LPN Opportunities </h2>"
+					},
+					{
+						"html": "<h3>Alice Hyde Medical Center</h3>"
+					},
+					{
+						"html": "<a href=\"/lpnjobs_csbanner\">Learn More</a>"
+					},
+					{
+						"html": "<li role=\"group\" id=\"slide4\" class=\"slide\" aria-label=\"slide 4 of 5\">"
+					},
+					{
+						"html": "<div class=\"inner\">\n              <div class=\"copy\">\n                <h2>Our Medical Office Team is Expanding</h2>\n\t\t\t  <a href=\"medical-office-support.html\">Explore Career Opportunities</a>\n                </div>\n              </div>"
+					},
+					{
+						"html": "<div class=\"copy\">\n                <h2>Our Medical Office Team is Expanding</h2>\n\t\t\t  <a href=\"medical-office-support.html\">Explore Career Opportunities</a>\n                </div>"
+					},
+					{
+						"html": "<h2>Our Medical Office Team is Expanding</h2>"
+					},
+					{
+						"html": "<a href=\"medical-office-support.html\">Explore Career Opportunities</a>"
+					},
+					{
+						"html": "<ul class=\"controls\" aria-label=\"carousel controls\" role=\"presentation\">"
+					},
+					{
+						"html": "<li><button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button></li>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"previous\" class=\"slider-button\" aria-label=\"previous\"><img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\"></button>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/left-arrow.png?1674332124\" class=\"scalable\" alt=\"previous slide\">"
+					},
+					{
+						"html": "<li><button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button></li>"
+					},
+					{
+						"html": "<button type=\"button\" id=\"next\" class=\"slider-button\" aria-label=\"next\"><img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\"></button>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/right-arrow.png?1674332125\" class=\"scalable\" alt=\"next slide\">"
+					},
+					{
+						"html": "<ul aria-label=\"slide selector\" role=\"presentation\" class=\"slidenav\">"
+					},
+					{
+						"html": "<li><button data-action=\"stop\" class=\"stop-button\"><span class=\"sr-only\">Stop Animation</span></button></li>"
+					},
+					{
+						"html": "<button data-action=\"stop\" class=\"stop-button\"><span class=\"sr-only\">Stop Animation</span></button>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Stop Animation</span>"
+					},
+					{
+						"html": "<li><button class=\"current\" data-slide=\"0\"><span class=\"sr-only\">Media Slide 1 (Current Item)</span></button></li>"
+					},
+					{
+						"html": "<button class=\"current\" data-slide=\"0\"><span class=\"sr-only\">Media Slide 1 (Current Item)</span></button>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Media Slide 1 (Current Item)</span>"
+					},
+					{
+						"html": "<li><button data-slide=\"1\" class=\"\"><span class=\"sr-only\">Media Slide 2</span></button></li>"
+					},
+					{
+						"html": "<button data-slide=\"1\" class=\"\"><span class=\"sr-only\">Media Slide 2</span></button>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Media Slide 2</span>"
+					},
+					{
+						"html": "<li><button data-slide=\"2\" class=\"\"><span class=\"sr-only\">Media Slide 3</span></button></li>"
+					},
+					{
+						"html": "<button data-slide=\"2\" class=\"\"><span class=\"sr-only\">Media Slide 3</span></button>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Media Slide 3</span>"
+					},
+					{
+						"html": "<li><button data-slide=\"3\" class=\"\"><span class=\"sr-only\">Media Slide 4</span></button></li>"
+					},
+					{
+						"html": "<button data-slide=\"3\" class=\"\"><span class=\"sr-only\">Media Slide 4</span></button>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Media Slide 4</span>"
+					},
+					{
+						"html": "<li><button data-slide=\"4\" class=\"\"><span class=\"sr-only\">Media Slide 5</span></button></li>"
+					},
+					{
+						"html": "<button data-slide=\"4\" class=\"\"><span class=\"sr-only\">Media Slide 5</span></button>"
+					},
+					{
+						"html": "<span class=\"sr-only\">Media Slide 5</span>"
+					},
+					{
+						"html": "<div aria-live=\"polite\" aria-atomic=\"true\" class=\"liveregion sr-only\"></div>"
+					},
+					{
+						"html": "<section class=\"horizontal-search-bar search front-page-search\">"
+					},
+					{
+						"html": "<div class=\"inner\">"
+					},
+					{
+						"html": "<form id=\"search-form\" method=\"get\" action=\"/jobs/\">"
+					},
+					{
+						"html": "<ul class=\"search-content\" id=\"search-content\">"
+					},
+					{
+						"html": "<li>\n            <input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">\n            <input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">\n        </li>"
+					},
+					{
+						"html": "<input name=\"search_term\" type=\"text\" id=\"search_term\" placeholder=\"Search Jobs by Keyword\" value=\"\" aria-label=\"keyword search\">"
+					},
+					{
+						"html": "<input type=\"submit\" class=\"search-button\" id=\"search_term_btn\" value=\"\" aria-label=\"submit keyword search\">"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#search-content4\" aria-controls=\"#search-content4\" aria-expanded=\"false\">\n                Search Jobs by Category\n            </button>"
+					},
+					{
+						"html": "<li>"
+					},
+					{
+						"html": "<button class=\"search-accordion-button\" href=\"#hospital-search\" aria-controls=\"#hospital-search\" aria-expanded=\"false\">\n                Search Jobs by Partner\n            </button>"
+					},
+					{
+						"html": "<li>\n            <a href=\"/jobs/\" class=\"advanced-button\">View All Jobs</a>\n        </li>"
+					},
+					{
+						"html": "<a href=\"/jobs/\" class=\"advanced-button\">View All Jobs</a>"
+					},
+					{
+						"html": "<section class=\"callout-global-03\" id=\"mainpgvideo\">"
+					},
+					{
+						"html": "<div class=\"inner2\">"
+					},
+					{
+						"html": "<div class=\"video-title\">"
+					},
+					{
+						"html": "<h2>At The University of Vermont Health Network, we’re proud of the exceptional patient care provided by our compassionate caregivers. </h2>"
+					},
+					{
+						"html": "<p>Our shared commitment to supporting the wellbeing of each other and giving back to our local community brings us together as a family. And the boundless opportunities to launch and nurture your career throughout our network of affiliates truly sets us apart.</p>"
+					},
+					{
+						"html": "<p>Join us as we innovate healthcare and care for our patients and each other in one of the most beautiful places to call home.</p>"
+					},
+					{
+						"html": "<div class=\"video-holder\" id=\"PSSvideo\">"
+					},
+					{
+						"html": "<div class=\"video-responsive\">"
+					},
+					{
+						"html": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/822120290?h=1b33d536f6\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen=\"\"></iframe></div>"
+					},
+					{
+						"html": "<iframe src=\"https://player.vimeo.com/video/822120290?h=1b33d536f6\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+					},
+					{
+						"html": "<section class=\"featured-career-areas\">"
+					},
+					{
+						"html": "<h2>Featured Career Areas</h2>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li class=\"career-path-nursing\">\n\t\t\t<a href=\"nursing.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Nursing</span>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<a href=\"nursing.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Nursing</span>\n\t\t\t\t</div>\n\t\t\t</a>"
+					},
+					{
+						"html": "<div class=\"career-path-label\">\n\t\t\t\t\t<span>Nursing</span>\n\t\t\t\t</div>"
+					},
+					{
+						"html": "<span>Nursing</span>"
+					},
+					{
+						"html": "<li class=\"career-path-physician\">\n\t\t\t<a href=\"https://www.uvmprovidercareers.org/\" class=\"career-paths\" target=\"_blank\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Physicians</span>\n\t\t\t\t</div>\n\t\t\t\t<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmprovidercareers.org/\" class=\"career-paths\" target=\"_blank\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Physicians</span>\n\t\t\t\t</div>\n\t\t\t\t<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t</a>"
+					},
+					{
+						"html": "<div class=\"career-path-label\">\n\t\t\t\t\t<span>Physicians</span>\n\t\t\t\t</div>"
+					},
+					{
+						"html": "<span>Physicians</span>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<li class=\"career-path-environment\">\n\t\t\t<a href=\"environmental-services.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Environmental Services</span>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<a href=\"environmental-services.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Environmental Services</span>\n\t\t\t\t</div>\n\t\t\t</a>"
+					},
+					{
+						"html": "<div class=\"career-path-label\">\n\t\t\t\t\t<span>Environmental Services</span>\n\t\t\t\t</div>"
+					},
+					{
+						"html": "<span>Environmental Services</span>"
+					},
+					{
+						"html": "<li class=\"career-path-nutrition\">\n\t\t\t<a href=\"food-and-nutrition.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Food &amp; Nutrition</span>\n\t\t\t\t</div>\n\t\t\t</a>\n\t\t</li>"
+					},
+					{
+						"html": "<a href=\"food-and-nutrition.html\" class=\"career-paths\">\n\t\t\t\t<div class=\"career-path-label\">\n\t\t\t\t\t<span>Food &amp; Nutrition</span>\n\t\t\t\t</div>\n\t\t\t</a>"
+					},
+					{
+						"html": "<div class=\"career-path-label\">\n\t\t\t\t\t<span>Food &amp; Nutrition</span>\n\t\t\t\t</div>"
+					},
+					{
+						"html": "<span>Food &amp; Nutrition</span>"
+					},
+					{
+						"html": "<section class=\"affiliates\">"
+					},
+					{
+						"html": "<div class=\"inner\">"
+					},
+					{
+						"html": "<p>UVM Health Network Partner Locations</p>"
+					},
+					{
+						"html": "<div class=\"intro-txt\">"
+					},
+					{
+						"html": "<div class=\"intro-txt\">At UVM Health Network, we do not consider ourselves merely a healthcare system—we are your friends and neighbors. Our communities count on UVMHN and our Partner Locations to provide equitable, affordable, and compassionate healthcare.</div>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/uvmmc-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"University of Vermont Medical Center facilities photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/uvmmc-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"University of Vermont Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"uvmmc.html\">\n\t\t\t\t\t\t\t<h3>University of Vermont<br>\n Medical Center (UVMMC)</h3></a>"
+					},
+					{
+						"html": "<h3>University of Vermont<br>\n Medical Center (UVMMC)</h3>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<h4>Burlington, VT</h4>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/alice-hyde-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Alice Hyde Medical Center facilities photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/alice-hyde-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Alice Hyde Medical Center facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"alice-hyde.html\"><h3>Alice Hyde<br>\n Medical Center (AHMC)</h3></a>"
+					},
+					{
+						"html": "<h3>Alice Hyde<br>\n Medical Center (AHMC)</h3>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<h4>Malone, NY</h4>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/cvmc-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Central Vermont Medical Center (CVMC) facilities photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/cvmc-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Central Vermont Medical Center (CVMC) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"cvmc.html\"><h3>Central Vermont Medical Center (CVMC)</h3></a>"
+					},
+					{
+						"html": "<h3>Central Vermont Medical Center (CVMC)</h3>"
+					},
+					{
+						"html": "<h4>Berlin, VT</h4>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/champlain-building.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Champlain Valley Physicians Hospital (CVPH) facilities photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/champlain-building.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Champlain Valley Physicians Hospital (CVPH) facilities photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"cvph.html\"><h3>Champlain Valley Physicians Hospital (CVPH)</h3></a>"
+					},
+					{
+						"html": "<h3>Champlain Valley Physicians Hospital (CVPH)</h3>"
+					},
+					{
+						"html": "<h4>Plattsburgh, NY</h4>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/porter-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Porter Medical Center Building photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/porter-bldg.webp?1674332148\" width=\"1140\" height=\"600\" alt=\"Porter Medical Center Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"porter-medical.html\"><h3>Porter <br>\nMedical Center (PMC)</h3></a>"
+					},
+					{
+						"html": "<h3>Porter <br>\nMedical Center (PMC)</h3>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<h4>Middlebury, VT</h4>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/ech-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Elizabethtown Community Hospital Building photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/ech-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Elizabethtown Community Hospital Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"elizabethtown.html\"><h3>Elizabethtown Community Hospital (ECH)</h3></a>"
+					},
+					{
+						"html": "<h3>Elizabethtown Community Hospital (ECH)</h3>"
+					},
+					{
+						"html": "<h4>Elizabethtown, NY</h4>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/home-hlth-hospice-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Home Health &amp; Hospice Building photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/home-hlth-hospice-bldg.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Home Health &amp; Hospice Building photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"home-health-hospice.html\"><h3>Home Health <br>\n&amp; Hospice (HHH)</h3></a>"
+					},
+					{
+						"html": "<h3>Home Health <br>\n&amp; Hospice (HHH)</h3>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<h4>Colchester, VT</h4>"
+					},
+					{
+						"html": "<li class=\"affiliates-main\">"
+					},
+					{
+						"html": "<div class=\"affiliates-photo\"><img src=\"/static/sites/www/files/images/main/bldgs/doctors-providers.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Medical Group photo\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/main/bldgs/doctors-providers.webp?1674332149\" width=\"1140\" height=\"600\" alt=\"Medical Group photo\" class=\"scalable\">"
+					},
+					{
+						"html": "<a href=\"medical-group.html\"><h3>Medical Group</h3></a>"
+					},
+					{
+						"html": "<h3>Medical Group</h3>"
+					},
+					{
+						"html": "<h4>Doctors and Providers Employed by UVM Health Network</h4>"
+					},
+					{
+						"html": "<section class=\"featured-jobs-front\" id=\"featured-front\">"
+					},
+					{
+						"html": "<h2 id=\"featured-jobs-top\">Featured Jobs</h2>"
+					},
+					{
+						"html": "<div class=\"featured-jobs-bottom\">"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<a href=\"/job/case-manager-iii-case-management-us-vt-burlington-111-colchester-ave-r0060540-5/\"><h4>Case Manager III</h4></a>"
+					},
+					{
+						"html": "<h4>Case Manager III</h4>"
+					},
+					{
+						"html": "<span>Burlington, \nVT\n</span>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<a href=\"/job/licensed-practical-nurse-primary-care-lpn-lpn-us-ny-malone-5-clay-st-r0060539-106/\"><h4>Licensed Practical Nurse - Primary Care LPN</h4></a>"
+					},
+					{
+						"html": "<h4>Licensed Practical Nurse - Primary Care LPN</h4>"
+					},
+					{
+						"html": "<span>Malone, \nNY\n</span>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<div>"
+					},
+					{
+						"html": "<a href=\"/job/buyer-purchasing-supply-chain-us-vt-berlin-130-fisher-rd-r0060495-1/\"><h4>Buyer</h4></a>"
+					},
+					{
+						"html": "<h4>Buyer</h4>"
+					},
+					{
+						"html": "<span>Berlin, \nVT\n</span>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<section id=\"blog-mainpg\" class=\"blog-announce\">"
+					},
+					{
+						"html": "<div class=\"inner\">"
+					},
+					{
+						"html": "<div class=\"copy\">\n\t\t\t<h2>The PULSE</h2>\n\t\t\t<h3>Stories from the heart.<br>\n\t\t\t\tThe UVM Health Network Talent Acquisition Blog.</h3>\n\t\t\t<a href=\"https://nursing.uvmmedicalcentercareers.org/blog/\" target=\"_blank\">Read Now<span class=\"sr-only\"> (link opens in a new window)</span></a></div>"
+					},
+					{
+						"html": "<h2>The PULSE</h2>"
+					},
+					{
+						"html": "<h3>Stories from the heart.<br>\n\t\t\t\tThe UVM Health Network Talent Acquisition Blog.</h3>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<a href=\"https://nursing.uvmmedicalcentercareers.org/blog/\" target=\"_blank\">Read Now<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<div class=\"background-image\"></div>"
+					},
+					{
+						"html": "<section class=\"awards\">"
+					},
+					{
+						"html": "<div class=\"inner\">"
+					},
+					{
+						"html": "<div class=\"awards-logo\">\n        <img src=\"/static/sites/www/files/images/global/6130001-HOS_Universityof_Badge-HOS-Regional_Custom_RecognizedCare_2022-23.png?1674332125\" width=\"1000\" height=\"1042\" alt=\"U.S. News &amp; World Report Best Regional Hospitals 2022-23\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/6130001-HOS_Universityof_Badge-HOS-Regional_Custom_RecognizedCare_2022-23.png?1674332125\" width=\"1000\" height=\"1042\" alt=\"U.S. News &amp; World Report Best Regional Hospitals 2022-23\" class=\"scalable\">"
+					},
+					{
+						"html": "<div class=\"awards-details\">"
+					},
+					{
+						"html": "<h2>UVM Health Network Hospitals Recognized by U.S. News &amp; World Report</h2>"
+					},
+					{
+						"html": "<p>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/news/uvmhn/uvm-health-network-hospitals-recognized-us-news-world-report\" target=\"_blank\">Learn More<span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<section class=\"awards\" id=\"forbesaward\">"
+					},
+					{
+						"html": "<div class=\"inner\">"
+					},
+					{
+						"html": "<div class=\"awards-logo\">\n        <img src=\"/static/sites/www/files/images/global/Forbes_Best-In-State-Employers_2023_Logo_Rec-Color_VERMONT.png?1697570552\" width=\"5655\" height=\"2496\" alt=\"Forbes 2023 America's Best-in-state Employers Vermont\" class=\"scalable\"></div>"
+					},
+					{
+						"html": "<img src=\"/static/sites/www/files/images/global/Forbes_Best-In-State-Employers_2023_Logo_Rec-Color_VERMONT.png?1697570552\" width=\"5655\" height=\"2496\" alt=\"Forbes 2023 America's Best-in-state Employers Vermont\" class=\"scalable\">"
+					},
+					{
+						"html": "<div class=\"awards-details\">\n\t\t<h2>The University of Vermont Health Network is proud to be #1 on Forbes Best Employers by State, for Vermont.</h2>\n\t    </div>"
+					},
+					{
+						"html": "<h2>The University of Vermont Health Network is proud to be #1 on Forbes Best Employers by State, for Vermont.</h2>"
+					},
+					{
+						"html": "<section class=\"talent-main\">"
+					},
+					{
+						"html": "<div class=\"inner table\">"
+					},
+					{
+						"html": "<div class=\"row\">"
+					},
+					{
+						"html": "<div class=\"cell table-text\">"
+					},
+					{
+						"html": "<h2>Join Our Talent Network</h2>"
+					},
+					{
+						"html": "<p>Stay connected with The University of Vermont Health Network and receive alerts with new job opportunities and news relative to your interests</p>"
+					},
+					{
+						"html": "<div id=\"talentbtn\"><a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a></div>"
+					},
+					{
+						"html": "<a href=\"/talentnetwork/\" class=\"button\" id=\"viewjobsbtns\" aria-label=\"Join The University of Vermont Health Network's Talent Community\">Sign Up Now</a>"
+					},
+					{
+						"html": "<div class=\"cell image\"></div>"
+					},
+					{
+						"html": "<section class=\"isolated\" id=\"recruiter-message\">"
+					},
+					{
+						"html": "<p>Are you an agency Recruiter? The University of Vermont Health Network’s Talent Acquisition team has partnered with Recruitifi for all salaried, non-executive level candidate submissions. To be a part of our agency community, please apply here:</p>"
+					},
+					{
+						"html": "<div id=\"recruitbtn\">"
+					},
+					{
+						"html": "<a href=\"https://my.recruitifi.com/app/public/agency-registration?solicited_employer=e89eebfb-0833-4775-a560-e607f2e5deb7&amp;solicited_employer_profile=fc63eee5-bb51-49e1-b68a-dacf542c4197\" class=\"button\" aria-label=\"Join The University of Vermont Health Network's Agency Community\" target=\"_blank\">"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<div class=\"shareThis-holder-main-pg\">"
+					},
+					{
+						"html": "<div class=\"share-this-icons\">"
+					},
+					{
+						"html": "<div>Share This Page</div>"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li>\n       <a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.uvmhealthnetworkcareers.org/\" class=\"share-facebook\">Share on Facebook</a>\n    </li>"
+					},
+					{
+						"html": "<a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://www.uvmhealthnetworkcareers.org/\" class=\"share-facebook\">Share on Facebook</a>"
+					},
+					{
+						"html": "<li>\n      <a target=\"_blank\" href=\"https://twitter.com/intent/tweet?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-twitter\">Share on Twitter</a>\n    </li>"
+					},
+					{
+						"html": "<a target=\"_blank\" href=\"https://twitter.com/intent/tweet?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-twitter\">Share on Twitter</a>"
+					},
+					{
+						"html": "<li>\n      <a target=\"_blank\" href=\"https://www.linkedin.com/sharing/share-offsite/?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-linkedin\">Share on LinkedIn</a>\n    </li>"
+					},
+					{
+						"html": "<a target=\"_blank\" href=\"https://www.linkedin.com/sharing/share-offsite/?url=https://www.uvmhealthnetworkcareers.org/\" class=\"share-linkedin\">Share on LinkedIn</a>"
+					},
+					{
+						"html": "<li><a href=\"mailto:?body=https://www.uvmhealthnetworkcareers.org/&amp;subject=\" class=\"share-email\">Share via Email</a></li>"
+					},
+					{
+						"html": "<a href=\"mailto:?body=https://www.uvmhealthnetworkcareers.org/&amp;subject=\" class=\"share-email\">Share via Email</a>"
+					},
+					{
+						"html": "<div class=\"contact-row\">"
+					},
+					{
+						"html": "<div class=\"inner\">"
+					},
+					{
+						"html": "<div class=\"phone-numbers\">Connect With Us</div>"
+					},
+					{
+						"html": "<div class=\"social-icons\">"
+					},
+					{
+						"html": "<ul>"
+					},
+					{
+						"html": "<li><a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a></li>"
+					},
+					{
+						"html": "<a class=\"twitter\" href=\"https://twitter.com/uvmhealth\" target=\"_blank\" aria-label=\"Follow Us On Twitter (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<li><a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a></li>"
+					},
+					{
+						"html": "<a class=\"youtube\" href=\"https://www.youtube.com/channel/UCXenKlAK5l7lEr8hrH6pmZQ\" target=\"_blank\" aria-label=\"Follow Us On YouTube (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<li><a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a></li>"
+					},
+					{
+						"html": "<a class=\"linked\" href=\"https://www.linkedin.com/company/8821879\" target=\"_blank\" aria-label=\"Follow Us On LinkedIn (opens in a new window)\"></a>"
+					},
+					{
+						"html": "<footer>"
+					},
+					{
+						"html": "<div class=\"inner\">"
+					},
+					{
+						"html": "<div class=\"footer-top\">"
+					},
+					{
+						"html": "<div class=\"address\">"
+					},
+					{
+						"html": "<strong><span>©</span> <script type=\"text/javascript\">date = new Date();\n              year = date.getFullYear();\n              document.write(year);//</script>2023&nbsp;The University of Vermont Health Network</strong>"
+					},
+					{
+						"html": "<span>©</span>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<br>"
+					},
+					{
+						"html": "<div class=\"eoe\">"
+					},
+					{
+						"html": "<p>The University of Vermont Health Network is an Equal Opportunity Employer.</p>"
+					},
+					{
+						"html": "<div class=\"footer-bottom\">"
+					},
+					{
+						"html": "<div class=\"footer-logo\">\n\t\t\t<a href=\"https://www.uvmhealth.org/\" target=\"_blank\" class=\"logo\" alt=\"The University of Vermont Health Network home\"><span class=\"sr-only\"> (link opens in a new window)</span></a>\n\t\t</div>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/\" target=\"_blank\" class=\"logo\" alt=\"The University of Vermont Health Network home\"><span class=\"sr-only\"> (link opens in a new window)</span></a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<ul class=\"footer-nav\">"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"https://www.uvmhealth.org/contact-us\" target=\"_blank\">\n\t\t\t\t\tContact Us<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/contact-us\" target=\"_blank\">\n\t\t\t\t\tContact Us<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<li>\n\t\t\t\t<a href=\"https://www.uvmhealth.org/privacy-policy\" target=\"_blank\">\n\t\t\t\t\tPrivacy Policy<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>\n\t\t\t</li>"
+					},
+					{
+						"html": "<a href=\"https://www.uvmhealth.org/privacy-policy\" target=\"_blank\">\n\t\t\t\t\tPrivacy Policy<span class=\"sr-only\"> (link opens in a new window)</span>\n\t\t\t\t</a>"
+					},
+					{
+						"html": "<span class=\"sr-only\"> (link opens in a new window)</span>"
+					},
+					{
+						"html": "<div class=\"VIpgJd-ZVi9od-aZ2wEe-wOHMyf\">"
+					},
+					{
+						"html": "<div class=\"VIpgJd-ZVi9od-aZ2wEe-OiiCO\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"VIpgJd-ZVi9od-aZ2wEe\" width=\"96px\" height=\"96px\" viewBox=\"0 0 66 66\"><circle class=\"VIpgJd-ZVi9od-aZ2wEe-Jt5cK\" fill=\"none\" stroke-width=\"6\" stroke-linecap=\"round\" cx=\"33\" cy=\"33\" r=\"30\"></circle></svg></div>"
+					},
+					{
+						"html": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"VIpgJd-ZVi9od-aZ2wEe\" width=\"96px\" height=\"96px\" viewBox=\"0 0 66 66\"><circle class=\"VIpgJd-ZVi9od-aZ2wEe-Jt5cK\" fill=\"none\" stroke-width=\"6\" stroke-linecap=\"round\" cx=\"33\" cy=\"33\" r=\"30\"></circle></svg>"
+					},
+					{
+						"html": "<circle class=\"VIpgJd-ZVi9od-aZ2wEe-Jt5cK\" fill=\"none\" stroke-width=\"6\" stroke-linecap=\"round\" cx=\"33\" cy=\"33\" r=\"30\"></circle>"
+					}
+				]
+			}
+		}
+	},
+	"actualUrl": "https://www.uvmhealthnetworkcareers.org/"
+}
